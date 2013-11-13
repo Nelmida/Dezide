@@ -268,13 +268,13 @@ fjernkontrollen. Sjekk at den står registrert i kundens utstyr.</div>
 </div>
 <div align="left" dir="ltr">Slett fjernkontrollen fra alarminnstruks. Huk av feltet <i>Slett rad</i> hvor den 
 gjeldende fjernkontrollen er. Klikk på <i>Lagre alarminstruks</i>.</div>
-<div align="left" dir="ltr"><img src="$PICTURE_PATH\slette-alarminstruks.jpg" width="627" height="96" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><img src="C:\Users\oyvindr\Dropbox\Guider\Dezide\PILOT\Alarm\Alarm - Overkategorier\Alarm - Aktivering\slette-alarminstruks.jpg" width="693" height="106" border="0" alt="graphic"/></div>
 <div align="left" dir="ltr"><br />
 </div>
 <div align="left" dir="ltr">Legg så til fjernkontrollen på ny. Trykk på Ny sone og velg Fjernkontroll i felt 
 to. La alle andre felt være tomme, legg til hardware ID i nest siste felt. Trykk 
 på <i>Lagre alarminstruks</i>.</div>
-<div align="left" dir="ltr"><img src="$PICTURE_PATH\legg-til-fjernkontroll.jpg" width="691" height="68" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><img src="C:\Users\oyvindr\Dropbox\Guider\Dezide\PILOT\Alarm\Alarm - Overkategorier\Alarm - Aktivering\legg-til-fjernkontroll.jpg" width="691" height="68" border="0" alt="graphic"/></div>
 ]]>
         </explanation>
         <causes_solved size="1">
@@ -729,11 +729,11 @@ Informer kunden om montørgebyr ved brukerfeil.</div>
             <probs value="1.0000000000"/>
             <probs value="1.0000000000"/>
           </prob_dist>
-          <prob_dist c_id="10102">
+          <prob_dist c_id="10014">
             <probs value="0.0000000000"/>
             <probs value="1.0000000000"/>
           </prob_dist>
-          <prob_dist c_id="10014">
+          <prob_dist c_id="10102">
             <probs value="0.0000000000"/>
             <probs value="1.0000000000"/>
           </prob_dist>
@@ -846,11 +846,11 @@ Informer kunden om montørgebyr ved brukerfeil.</div>
         <not_after_questions size="0"/>
         <fix_questions size="0"/>
         <prob_dists size="4">
-          <prob_dist c_id="10102">
+          <prob_dist c_id="10014">
             <probs value="0.0000000000"/>
             <probs value="1.0000000000"/>
           </prob_dist>
-          <prob_dist c_id="10014">
+          <prob_dist c_id="10102">
             <probs value="0.0000000000"/>
             <probs value="1.0000000000"/>
           </prob_dist>
@@ -990,7 +990,7 @@ Informer kunden om montørgebyr ved brukerfeil.</div>
     </endTextFailure>
   </messages>
 
-  <extraFields guid="460870142-32164-16664-95E7D8FED19FA8A" keywords="" modelPicturePath="C:\Users\oyvindr\Dropbox\Guider\PILOT\Alarm\Alarm - Overkategorier\Alarm - Aktivering" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="188">
+  <extraFields guid="460870142-32164-16664-95E7D8FED19FA8A" keywords="" modelPicturePath="C:\Users\oyvindr\Dropbox\Guider\PILOT\Alarm\Alarm - Overkategorier\Alarm - Lavt batteri" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="188">
     <tstepcategories size="6">
       <stepcategory id="10089" setTStepIDs="2" szCatName="Defekt strømforsyner">
         <TStepID value="10017"/>
