@@ -729,11 +729,11 @@ Informer kunden om montørgebyr ved brukerfeil.</div>
             <probs value="1.0000000000"/>
             <probs value="1.0000000000"/>
           </prob_dist>
-          <prob_dist c_id="10014">
+          <prob_dist c_id="10102">
             <probs value="0.0000000000"/>
             <probs value="1.0000000000"/>
           </prob_dist>
-          <prob_dist c_id="10102">
+          <prob_dist c_id="10014">
             <probs value="0.0000000000"/>
             <probs value="1.0000000000"/>
           </prob_dist>
@@ -846,11 +846,11 @@ Informer kunden om montørgebyr ved brukerfeil.</div>
         <not_after_questions size="0"/>
         <fix_questions size="0"/>
         <prob_dists size="4">
-          <prob_dist c_id="10014">
+          <prob_dist c_id="10102">
             <probs value="0.0000000000"/>
             <probs value="1.0000000000"/>
           </prob_dist>
-          <prob_dist c_id="10102">
+          <prob_dist c_id="10014">
             <probs value="0.0000000000"/>
             <probs value="1.0000000000"/>
           </prob_dist>
