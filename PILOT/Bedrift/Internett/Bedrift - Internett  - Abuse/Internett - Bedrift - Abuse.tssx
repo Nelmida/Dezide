@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[Internett - Bedrift - Abuse]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="7">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3149174196-17910-20291-8EF3677DEFBE8E8" id="10042" match_level="0" not_customer_use="0" phoneCodeID="41" prob="0.4659999945" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Botnet]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3700000463-58318-17495-886CB7C462B8E1A7" id="10045" match_level="0" not_customer_use="0" phoneCodeID="44" prob="0.0839999979" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[DOS-angrep]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3857645472-15779-19637-B9DED0C57C6DE6E" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0080000003" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1976123745-14-17881-B5E219859968B1C6" id="10048" match_level="0" not_customer_use="0" phoneCodeID="47" prob="0.0569999993" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Phising]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1777955592-35119-18031-B8C44808FD57FAE" id="10044" match_level="0" not_customer_use="0" phoneCodeID="43" prob="0.0350000007" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Portscanning]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3196275347-2669-18193-BB3BE3617889D626" id="10043" match_level="0" not_customer_use="0" phoneCodeID="42" prob="0.1150000024" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Spam]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3642815854-46644-17225-866B88B5D76AE9FB" id="10046" match_level="0" not_customer_use="0" phoneCodeID="45" prob="0.2350000049" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Virus]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="7">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="5" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2284812439-51876-20258-9F62967B637EE74E" id="10032" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="31" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="35" type="0" workaround="0">
+        <name>
+          <![CDATA[Henvis til PC-support]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">PC-Support:<br />
+<br />
+TLF: </div>
+]]>
+        </explanation>
+        <causes_solved size="6">
+          <cause_solved id="10042" prob="1.0000000000"/>
+          <cause_solved id="10043" prob="1.0000000000"/>
+          <cause_solved id="10044" prob="1.0000000000"/>
+          <cause_solved id="10045" prob="1.0000000000"/>
+          <cause_solved id="10046" prob="1.0000000000"/>
+          <cause_solved id="10048" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="4" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2557062994-14098-19484-AD6E1EB9AC2A8385" id="10049" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="48" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Informasjon om Botnet]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b>TREKK UT NETTVERKSKABEL eller SKRU AV WIFI på PC.</b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Når vi så har trukket ut kabelen kan kunden i fred og ro vurdere våre 
+anbefalinger.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Definisjon av Botnet fra Wikipedia:</b></div>
+<div align="left" dir="ltr">Et botnett er et nettverk av datamaskiner infisert av datavirus eller 
+trojanske hester. Disse maskinene kobler seg til en eller flere sentrale 
+styrende noder der de får tildelt oppgaver. Oppgavene kan være å søke 
+gjennom web-sider etter e-postadresser, sende ut uønsket søppelpost 
+(spam) eller å utføre tjenestenektangrep mot utvalgte mål på internett. Et 
+botnett kan bestå av tusentalls datamaskiner, ofte kalt zombier, spredd 
+over hele verden og med eiere som ikke vet at maskinene er infiserte.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">De siste årene har ulovlige botnett blitt kommersielle. Den som ønsker å 
+sende ut uønsket reklame i stor skala eller angripe en nettressurs kan leie 
+et allerede eksisterende botnett på det svarte markedet, på time- eller 
+døgnbasis.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Hvorfor informerer/stenger vi kunden?</b> </div>
+<div align="left" dir="ltr">Botnet stresser nettet og er en fare for den jevne driften når aktiviteten blir 
+høy. Vi kan ikke si noe om hvordan kunden har blitt infisert, og vi kan i 
+utgangspunktet ikke hjelpe kunden med å rette opp feilen da denne finnes 
+på kundens PC. Vi kan gi et par tips, og vi kan informere om alle detaljer vi 
+har fått fra NorCert og NOC.  </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Vi anbefaler generelt at kunden benytter oppdateret antivirus programvare 
+og i tillegg <b>Malwarebytes Anti-Malware Free 
+</b><a href="http://www.malwarebytes.org/products/malwarebytes_free"><u>http://www.malwarebytes.org/products/malwarebytes_free</u></a> for å 
+undersøke om maskinen er infisert av virus eller trojaner som benyttes av 
+andre til utilbørlig trafikk.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Spybot search and destroy</b></div>
+<div align="left" dir="ltr"><a href="http://www.safer-networking.org/dl/"><u>http://www.safer-networking.org/dl/</u></a></div>
+<div align="left" dir="ltr">Spybot er også veldig god på å oppdage botnet.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom vi har stengt nettet for kunden så kan det bli en utfordring for 
+ham/henne å laste ned korrekt sw, MEN vi må samtidig huske på at vi skal 
+ivareta mange kunder. Så vi kan ikke bare åpne nettet for en infisert kunde. 
+Konsekvensen av at vi lar en kunde få ha åpent nett når maskinene er 
+infisert er at våre ip-adresser blir blacklisted, noe som igjen gjør at veldig 
+MANGE av våre kunder blir blokkert rundt om på nett. Det har vi som 
+tilbyder IKKE råd til!<b> </b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Angrep</b></div>
+<div align="left" dir="ltr">Dersom kunden blir aktivt angrepet kan han/hun vurdere politianmeldelse. 
+Videre bør kunden ta kontakt med kyndig PC- support.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom kunden har blitt infisert anbefaler vi å kjøre sw som nevnt ovenfor, 
+eller kontakte kyndig PC-support for å bli kvitt problemet. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Det finnes ting kunden kan gjøre, og det finnes folk som er gode på å 
+hjelpe til med slikt. Be kunden gå frem med omhu når de velger pc-
+support.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Når kunden har rensket sine maskiner, evt koblet fra 
+risikabelt utstyr, sender vi sak til Service og Support 
+for å åpne nettet igjen.</b></div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10042" prob="1.0000000000"/>
+          <cause_solved id="0" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="5">
+          <mutex_action id="10050"/>
+          <mutex_action id="10051"/>
+          <mutex_action id="10052"/>
+          <mutex_action id="10053"/>
+          <mutex_action id="10054"/>
+        </mutex_actions>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="6" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2430481277-11654-20474-AEE8BB5AB37A2C19" id="10050" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="49" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Informasjon om DOS-angrep]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Tjenestenekt (Denial-of-Service, DoS) eller distribuert tjenestenekt 
+(Distributed Denial-of-Service, DDoS) brukes innen Informasjons- og IT- 
+sikkerhet for å beskrive et angrep hvor man hindrer at noen eller noe (f. eks. 
+en person eller et system) får tilgang til informasjon eller ressurser de skal ha 
+tilgang til. Et vellykket tjenestenektsangrep vil således føre til et brudd på 
+tilgjengeligheten til informasjonen/ressursen.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Tjenestenektangrep har vokst til å bli et problem på Internett, særlig 
+distribuerte varianter (Distributed DoS, DDoS), hvor flere «slave»-maskiner 
+brukes til å angripe en eller flere maskiner via nettverket. Alle disse 
+maskinene samlet vil ha større båndbredde enn offeret, noe som utnyttes til å 
+sende så mye data til offeret at legitim trafikk ikke vil komme igjennom.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Et tjenestenektangrep må ikke nødvendigvis utføres via et nettverk. Det er 
+mulig å lage programmer som ikke gjør annet enn å kopiere seg selv. Etter 
+kort tid vil prosessoren bli overarbeidet og systemet vil stoppe.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">For hele artikkelen på Wikipedia, klikk <a href="https://no.wikipedia.org/wiki/DOS-angrep" target="_blank"><u>her</u></a>.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Hva mer kan vi skrive her?</div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10045" prob="1.0000000000"/>
+          <cause_solved id="0" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="5">
+          <mutex_action id="10051"/>
+          <mutex_action id="10052"/>
+          <mutex_action id="10053"/>
+          <mutex_action id="10054"/>
+          <mutex_action id="10049"/>
+        </mutex_actions>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="7" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2207323489-59617-19395-991863314F20ACA1" id="10051" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="50" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Informasjon om Phising]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Phishing, nettfiske eller phiske er en betegnelse på digital snoking eller fisking etter sensitiv informasjon, som passord eller 
+kredittkortnummer. Uttrykket kommer fra engelsk «fishing», der f-en er erstattet med «ph» (vanlig hackersjargong).</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Denne formen for datakriminalitet er i rask utvikling. De som står bak utvikler stadig nye metoder og phiskeredskaper, som 
+ikke nødvendigvis er beskrevet nedenfor eller på anti-phishing-nettsteder.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Våre kunder har blitt utsatt for phishing hvor noen har utgitt seg for Altibox f.eks. og bedt om brukernavn og passord til 
+epostadresser i forbindelse med vedlikehold på serveren. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Her er det bare å informere om at <b>INGEN </b>seriøse aktører spør om passord og brukerinformasjon <b>NOENSINNE</b>.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Kunden er helt trygg sålenge han ikke oppgir noe informasjon.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">HVIS kunden har oppgitt informasjon går vi <b>øyeblikkelig </b>inn og endrer passord til den tjenesten kunden har gitt informasjon 
+om. F.eks. epost, selfcare...</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Slik tilgang til epost kan føre til spam, som igjen kan belaste systemet vårt.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">For hele artikkelen på Wikipedia klikk <a href="https://en.wikipedia.org/wiki/Phising" target="_blank"><u>her.</u></a>  </div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10048" prob="1.0000000000"/>
+          <cause_solved id="0" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="5">
+          <mutex_action id="10050"/>
+          <mutex_action id="10052"/>
+          <mutex_action id="10053"/>
+          <mutex_action id="10054"/>
+          <mutex_action id="10049"/>
+        </mutex_actions>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="8" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2634940585-33965-18596-AF419171C8EB3C79" id="10052" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="51" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Informasjon om Portscanning]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><br />
+</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><br />
+</p>
+<div align="left" dir="ltr"><b>TREKK UT NETTVERKSKABEL eller SKRU AV WIFI på PC.</b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Når vi så har trukket ut kabelen kan kunden i fred og ro vurdere våre 
+anbefalinger.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Definisjon av datavirus fra Wikipedia:</b></div>
+<div align="left" dir="ltr">En port scanner er et program utviklet for å sondere en server eller vert for 
+åpne porter. Dette er ofte brukt av <b>administratorer</b> å verifisere 
+sikkerhetspolicyer av sine nettverk og av <b>angripere</b> til å identifisere 
+tjenester som kjører på en vert med sikte på å kompromittere den.<br />
+<br />
+Portscan kan defineres som et angrep som sender klientforespørsler til en 
+rekke server portadresser på en vert, med mål om å finne en aktiv port og 
+utnytte en kjent sårbarhet i denne tjenesten. Likevel er de fleste bruk av en 
+port scan ikke angrep, de er enkle prober for å avgjøre tilgjengelig 
+tjenester på en ekstern maskin.<br />
+<br />
+Å portsweep er å skanne flere verter for en bestemt lyttende port. 
+Sistnevnte brukes vanligvis for å søke etter en bestemt tjeneste, for 
+eksempel kan en SQL-basert dataorm kan portsweepe på jakt etter verter 
+som lytter på TCP port 1433.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">For hele artikkelen, klikk <a href="https://no.wikipedia.org/wiki/Datavirus"><u>her</u></a>.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Hvorfor informerer/stenger vi kunden?</b> </div>
+<div align="left" dir="ltr">Her vil jeg gjerne ha hjelp av deg Mats</div>
+<div align="left" dir="ltr">Virus er bærere av bl.a. Botnet og Spam som stresser nettet og er en fare 
+for den jevne driften når aktiviteten blir høy. Vi kan ikke si noe om hvordan 
+kunden har blitt infisert, og vi kan i utgangspunktet ikke hjelpe kunden med 
+å rette opp feilen da denne finnes på kundens PC. Vi kan gi et par tips, og 
+vi kan informere om alle detaljer vi har fått fra NorCert og NOC.  </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Vi anbefaler generelt at kunden benytter oppdateret antivirus programvare 
+og i tillegg <b>Malwarebytes Anti-Malware Free 
+</b><a href="http://www.malwarebytes.org/products/malwarebytes_free"><u>http://www.malwarebytes.org/products/malwarebytes_free</u></a> for å 
+undersøke om maskinen er infisert av virus eller trojaner som benyttes av 
+andre til utilbørlig trafikk.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Spybot search and destroy</b></div>
+<div align="left" dir="ltr"><a href="http://www.safer-networking.org/dl/"><u>http://www.safer-networking.org/dl/</u></a></div>
+<div align="left" dir="ltr">Spybot er også veldig god på å oppdage botnet.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom vi har stengt nettet for kunden så kan det bli en utfordring for 
+ham/henne å laste ned korrekt sw, MEN vi må samtidig huske på at vi skal 
+ivareta mange kunder. Så vi kan ikke bare åpne nettet for en infisert kunde. 
+Konsekvensen av at vi lar en kunde få ha åpent nett når maskinene er 
+infisert er at våre ip-adresser blir blacklisted, noe som igjen gjør at veldig 
+MANGE av våre kunder blir blokkert rundt om på nett. Det har vi som 
+tilbyder IKKE råd til!<b> </b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Angrep</b></div>
+<div align="left" dir="ltr">Dersom kunden blir aktivt angrepet kan han/hun vurdere politianmeldelse. 
+Videre bør kunden ta kontakt med kyndig PC- support.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom kunden har blitt infisert anbefaler vi å kjøre sw som nevnt ovenfor, 
+eller kontakte kyndig PC-support for å bli kvitt problemet. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Det finnes ting kunden kan gjøre, og det finnes folk som er gode på å 
+hjelpe til med slikt. Be kunden gå frem med omhu når de velger pc- 
+support.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Når kunden har rensket sine maskiner, evt koblet fra risikabelt 
+utstyr, sender vi sak til Service og Support for å åpne nettet 
+igjen.</b></div>
+<div align="left" dir="ltr">  </div>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;">&nbsp;</p>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10044" prob="1.0000000000"/>
+          <cause_solved id="0" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="5">
+          <mutex_action id="10050"/>
+          <mutex_action id="10051"/>
+          <mutex_action id="10053"/>
+          <mutex_action id="10054"/>
+          <mutex_action id="10049"/>
+        </mutex_actions>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="9" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2477833518-64753-19707-B8A279406AD3E9A8" id="10053" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="52" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Informasjon om Spam]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>TREKK UT NETTVERKSKABEL eller SKRU AV WIFI på PC.</b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Når vi så har trukket ut kabelen kan kunden i fred og ro vurdere våre 
+anbefalinger.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Definisjon av datavirus fra Wikipedia:</b></div>
+<div align="left" dir="ltr">Søppelpost brukes som betegnelse på uønsket reklame og annen 
+masseutsendt informasjon som ikke er godkjent av mottakeren. Selv om 
+begrepet hovedsakelig brukes om uønsket masseutsendt e-post, omfatter 
+det også masseutsendelser på diskusjonsfora (USENET, webforum, 
+blogger, wiki), lynmeldingstjenester (IRC, jabber, MSN) og SMS.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">For hele artikkelen, klikk <a href="https://no.wikipedia.org/wiki/Spam" target="_blank"><u>her</u></a>.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Hvorfor informerer/stenger vi kunden?</b> </div>
+<div align="left" dir="ltr">Spam stresser nettet og er en fare for den jevne driften når aktiviteten blir 
+høy. Vi kan ikke si noe om hvordan kunden har blitt infisert, og vi kan i 
+utgangspunktet ikke hjelpe kunden med å rette opp feilen da denne finnes 
+på kundens PC. Vi kan gi et par tips, og vi kan informere om alle detaljer vi 
+har fått fra NorCert og NOC.  </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Vi anbefaler generelt at kunden benytter oppdateret antivirus programvare 
+og i tillegg <b>Malwarebytes Anti-Malware Free 
+</b><a href="http://www.malwarebytes.org/products/malwarebytes_free"><u>http://www.malwarebytes.org/products/malwarebytes_free</u></a> for å 
+undersøke om maskinen er infisert av virus eller trojaner som benyttes av 
+andre til utilbørlig trafikk.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Spybot search and destroy</b></div>
+<div align="left" dir="ltr"><a href="http://www.safer-networking.org/dl/"><u>http://www.safer-networking.org/dl/</u></a></div>
+<div align="left" dir="ltr">Spybot er også veldig god på å oppdage botnet.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom vi har stengt nettet for kunden så kan det bli en utfordring for 
+ham/henne å laste ned korrekt sw, MEN vi må samtidig huske på at vi skal 
+ivareta mange kunder. Så vi kan ikke bare åpne nettet for en infisert kunde. 
+Konsekvensen av at vi lar en kunde få ha åpent nett når maskinene er 
+infisert er at våre ip-adresser blir blacklisted, noe som igjen gjør at veldig 
+MANGE av våre kunder blir blokkert rundt om på nett. Det har vi som 
+tilbyder IKKE råd til!<b> </b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Angrep</b></div>
+<div align="left" dir="ltr">Dersom kunden blir aktivt angrepet kan han/hun vurdere politianmeldelse. 
+Videre bør kunden ta kontakt med kyndig PC- support.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom kunden har blitt infisert anbefaler vi å kjøre sw som nevnt ovenfor, 
+eller kontakte kyndig PC-support for å bli kvitt problemet. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Det finnes ting kunden kan gjøre, og det finnes folk som er gode på å 
+hjelpe til med slikt. Be kunden gå frem med omhu når de velger pc- 
+support.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Når kunden har rensket sine maskiner, evt koblet fra risikabelt 
+utstyr, sender vi sak til Service og Support for å åpne nettet 
+igjen.</b></div>
+<div align="left" dir="ltr">  </div>
+<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10043" prob="1.0000000000"/>
+          <cause_solved id="0" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="5">
+          <mutex_action id="10050"/>
+          <mutex_action id="10051"/>
+          <mutex_action id="10052"/>
+          <mutex_action id="10054"/>
+          <mutex_action id="10049"/>
+        </mutex_actions>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="10" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3595889681-31135-19428-89D4F3D4FCF6389" id="10054" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="53" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Informasjon om Virus]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b>TREKK UT NETTVERKSKABEL eller SKRU AV WIFI på PC.</b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Når vi så har trukket ut kabelen kan kunden i fred og ro vurdere våre 
+anbefalinger.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Definisjon av datavirus fra Wikipedia:</b></div>
+<div align="left" dir="ltr">Datavirus eller virus er et type program som har en evne til å reprodusere 
+seg selv. Virus kan ikke spre seg uten at den bringes med en vert. Den 
+sprer seg ved å kopiere programkoden inn i eksekverbare filer, &quot;boot&quot; 
+sektorer på disketter og harddisker og i dokumentmakroer. Datavirus sprer 
+seg typisk over flere faser. Merk at det er variasjon i mønsteret fra 
+datavirus til datavirus:</div>
+<div align="left" dir="ltr">  </div>
+<ul style="margin-top: 0mm; margin-bottom: 0mm; list-style-type: disk; ">
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">    En infisert datafil blir kopiert til en infisert eller uinfisert maskin. </li>
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">   Datafilen eksekveres </li>
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">   Viruset aktiveres og kopierer seg inn i nye vertsfiler. </li>
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">   Denne vertsfilen kopieres til en ny maskin osv </li>
+</ul>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">For hele artikkelen, klikk <a href="https://no.wikipedia.org/wiki/Datavirus" target="_blank"><u>her</u></a>.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Hvorfor informerer/stenger vi kunden?</b> </div>
+<div align="left" dir="ltr">Virus er bærere av bl.a. Botnet og Spam som stresser nettet og er en fare 
+for den jevne driften når aktiviteten blir høy. Vi kan ikke si noe om hvordan 
+kunden har blitt infisert, og vi kan i utgangspunktet ikke hjelpe kunden med 
+å rette opp feilen da denne finnes på kundens PC. Vi kan gi et par tips, og 
+vi kan informere om alle detaljer vi har fått fra NorCert og NOC.  </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Vi anbefaler generelt at kunden benytter oppdateret antivirus programvare 
+og i tillegg <b>Malwarebytes Anti-Malware Free 
+</b><a href="http://www.malwarebytes.org/products/malwarebytes_free"><u>http://www.malwarebytes.org/products/malwarebytes_free</u></a> for å 
+undersøke om maskinen er infisert av virus eller trojaner som benyttes av 
+andre til utilbørlig trafikk.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Spybot search and destroy</b></div>
+<div align="left" dir="ltr"><a href="http://www.safer-networking.org/dl/"><u>http://www.safer-networking.org/dl/</u></a></div>
+<div align="left" dir="ltr">Spybot er også veldig god på å oppdage botnet.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom vi har stengt nettet for kunden så kan det bli en utfordring for 
+ham/henne å laste ned korrekt sw, MEN vi må samtidig huske på at vi skal 
+ivareta mange kunder. Så vi kan ikke bare åpne nettet for en infisert kunde. 
+Konsekvensen av at vi lar en kunde få ha åpent nett når maskinene er 
+infisert er at våre ip-adresser blir blacklisted, noe som igjen gjør at veldig 
+MANGE av våre kunder blir blokkert rundt om på nett. Det har vi som 
+tilbyder IKKE råd til!<b> </b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Angrep</b></div>
+<div align="left" dir="ltr">Dersom kunden blir aktivt angrepet kan han/hun vurdere politianmeldelse. 
+Videre bør kunden ta kontakt med kyndig PC- support.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom kunden har blitt infisert anbefaler vi å kjøre sw som nevnt ovenfor, 
+eller kontakte kyndig PC-support for å bli kvitt problemet. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Det finnes ting kunden kan gjøre, og det finnes folk som er gode på å 
+hjelpe til med slikt. Be kunden gå frem med omhu når de velger pc- 
+support.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Når kunden har rensket sine maskiner, evt koblet fra risikabelt 
+utstyr, sender vi sak til Service og Support for å åpne nettet 
+igjen.</b></div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10046" prob="1.0000000000"/>
+          <cause_solved id="0" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="5">
+          <mutex_action id="10050"/>
+          <mutex_action id="10051"/>
+          <mutex_action id="10052"/>
+          <mutex_action id="10053"/>
+          <mutex_action id="10049"/>
+        </mutex_actions>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="1">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="0" downtime="0" end_question="0" evidenceStep="0" first="1" guid="627500633-32089-17027-B5E384ECB4A12E46" id="10026" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="26" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="7" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilken informasjon ligger om trusselen i Siebel]]>
+        </name>
+        <state_names size="7">
+          <state_name name="Botnet"/>
+          <state_name name="DOS-angrep"/>
+          <state_name name="Innbrudd"/>
+          <state_name name="Phising"/>
+          <state_name name="Portscanning"/>
+          <state_name name="Spam"/>
+          <state_name name="Virus"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Når en kunde får en slik sak på seg lagres det en henvendelse eller feilhåndtering i Siebel som gir deg informasjon 
+om type trussel.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="6">
+          <prob_dist c_id="10042">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10043">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10044">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10045">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10046">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10048">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.1428571429"/>
+          <prob value="0.1428571429"/>
+          <prob value="0.1428571429"/>
+          <prob value="0.1428571429"/>
+          <prob value="0.1428571429"/>
+          <prob value="0.1428571429"/>
+          <prob value="0.1428571429"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="1908785608-35161-17190-A5206AAA7E13C141" keywords="" modelPicturePath="F:\Teamlederforum\Dezide\Bedrift - Bredband - Tilkobling\Bilder" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="60">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

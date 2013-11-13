@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[TV - IR Problemer]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="12">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1609688466-22859-20255-80D510B7FDB059FA" id="10004" match_level="0" not_customer_use="0" parent_id="10010" phoneCodeID="3" prob="0.1250000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt IR-Dekoder]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2632578439-63029-17628-8D97FF5551AD2068" id="10005" match_level="0" not_customer_use="0" parent_id="10010" phoneCodeID="4" prob="0.3139999962" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt IR-Fjernkontroll]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4283447937-52038-20342-AFCEE5EFB2D66F40" id="10006" match_level="0" not_customer_use="0" parent_id="10010" phoneCodeID="5" prob="0.2310000038" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt IR-dongle]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1002636894-21992-17303-9FBAC5C4C6DA4155" id="10008" match_level="0" not_customer_use="0" parent_id="10009" phoneCodeID="7" prob="0.1260000062" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Dekoderen har hengt seg opp]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="857441738-42011-17255-9C93C50E3F4F89C" id="10011" match_level="0" not_customer_use="0" parent_id="10009" phoneCodeID="10" prob="0.4009999924" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil frekvens]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4247444132-14023-19022-872C722C41752B5E" id="10007" match_level="0" not_customer_use="0" parent_id="10009" phoneCodeID="6" prob="0.2690000013" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil kildevalg på fjernkontroll]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1495234684-54078-19224-84A38CE2E8638D10" id="10026" match_level="0" not_customer_use="0" parent_id="10009" phoneCodeID="25" prob="0.2040000001" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Fjernkontrollen har hengt seg opp]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1008864426-59393-17965-9FF33FF91AA3DD67" id="10012" match_level="0" not_customer_use="0" parent_id="10010" phoneCodeID="11" prob="0.2039999962" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[HDMI og SCART tilkoblet]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1194315845-19621-17208-941A50FE77A36CA2" id="10010" match_level="0" not_customer_use="0" phoneCodeID="9" prob="0.3000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Hardware relatert]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="937303008-57891-18186-AF181AC49A8C2497" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0100000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="609644823-15779-18736-B524F5AE4D46858" id="10009" match_level="0" not_customer_use="0" phoneCodeID="8" prob="0.6900000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Software relatert]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="908628729-60574-19572-B926336BA28D5A6" id="10032" match_level="0" not_customer_use="0" parent_id="10010" phoneCodeID="31" prob="0.1260000038" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Svakt/tomt batteri på fjernkontroll]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="10">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="13" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1131101239-50309-16807-B2282DD5B793C483" id="10033" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="32" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt batterier i fjernkontroll.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Alle våre fjernkontroller har AAA-batterier </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">UNNTATT den flate Ruwido fjernkontrollen som bruker CR2025. Disse får man 
+kjøpt på Clas Ohlson.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10032" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="9" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3364234244-16550-19892-9790328B16C1487" id="10022" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="21" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="20" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt dekoder.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Bytt dekoder etter gjeldende rutiner.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10004" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="8" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3369317833-63407-17423-AF1D959FE9E4476" id="10021" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="20" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="9" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt fjernkontroll.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Bytt fjernkontrollen etter gjeldende rutiner. </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10005" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="5" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3011114701-56025-16535-86E455DC344849D9" id="10017" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="16" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="9" type="0" workaround="0">
+        <name>
+          <![CDATA[Koble til med kun en signal kabel]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dersom kunde har koblet dekoderen til med mer en kun en signalkabel kan 
+dette medføre uforutsigbare problemer med dekoderens programvare.</div>
+<div align="left" dir="ltr">Dette bidrar til problemer som kan være relaterte til at fjernkontrollen ikke 
+fungerer optimalt.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">De fleste dekodere oppdager HDMI/SCART automatisk (unntaket er 1910 og 
+1960), og det er mulig kunden kan ha både SCART og HDMI koblet inn ETTER 
+oppstart, men under oppstarten må kunden ha den primære signalkabelen 
+koblet inn.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10012" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="3" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3018895440-37443-19898-9AAAA25642AE6599" id="10015" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="14" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Koble vekk IR-dongle]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Fungerer det uten IR-dongle?</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Legg merke til at kunden kan ha koblet til IR-dongle som løsning på tidligere 
+feilsøk, og da nærmer vi oss &quot;Bytt dekoder&quot;</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10006" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="16" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3100289753-36017-17416-A5422E73A28E33DD" id="10087" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="86" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Noter i fritekstfelt mac adresse på problemdekoder]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Service og Support behøver mac adresse på dekoder slik at de kan feilsøke 
+enklest mulig.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="0" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="7" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="145785328-18145-17936-A3396A4C36C939D" id="10019" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="18" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Restart dekoderen]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunden må trekke ut strømkabel fra dekoderen i 20 sekunder, og sette den inn 
+igjen. Dette fordi en omstart av dekoderen ofte løser mindre interne feil.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10008" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="1" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="488510449-14442-16452-B61BEDBF080A2FB" id="10028" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="27" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Sett riktig innvalg på fjernkontrollen]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.62mm; margin-bottom:1.62mm;">Grå fjernkontroll - Har ikke denne funksjonen.<br />
+Svart tykk firkantet fjernkontroll - hold inne &quot;STB&quot; knapp.<br />
+Svart flat fjernkontroll - hold inne &quot;Decoder&quot; knapp.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.62mm; margin-bottom:1.62mm;">Ruwido Slim Line - Har ikke denne funskjonen.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.62mm; margin-bottom:1.62mm;"><br />
+</p>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10007" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1248961318-61036-16948-8B67FBF10B6856B" id="10014" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="13" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="2" type="0" workaround="0">
+        <name>
+          <![CDATA[Skifte frekvens på fjernkontrollen]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;">Endre frekvens på fjernkontroll.<br />
+<br />
+Programmering av bekreftes ved at standby-tast &quot;Decoder&quot; øverst til venstre 
+blinker to ganger. Merk at programmeringen kun kan gjøres fra fjernkontroller 
+og tastatur med merking. Mangler det hvit merking kan ofte allikevel 
+fjernkontrollen programmeres med OK+1 eller OK+4, men det er ingen måte å 
+vite dette annet enn å prøve. Blinker da fjernkontroll ikke på &quot;Decoder&quot; støtter 
+den ikke 36 Khz frekvensen som alle ADB dekodere og noen Motorola 
+dekodere benytter.</p>
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none">
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>Dekoder</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>Uten pil</b></div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>Merket med pil</b></div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>Pil med strek under</b></div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>501</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+2</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+2</div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+2</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1510</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1710</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1910/1960 56Khz</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 </div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 </div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1910/1960 36Khz</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1003/1963</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>2810/5812</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4 </div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4 </div>
+    </td></tr>
+</table>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;"><br />
+</p>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10011" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="11" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3854167656-55822-17848-9D479A9B2E318B77" id="10024" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="23" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Utfør factory reset på fjernkontrollen.]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Det kan tyde på at kundens fjernkontroll har feil innstillinger. 
+Resett kundens fjernkontroll: <br />
+<br />
+Ruwido Slim Line</b><br />
+Trykk OK + 1 til det røde lyset blinker to gange.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.30mm; margin-bottom:4.68mm;">Eventuelt OK + 4 dersom kunden har endret IR-frekvens i firmwaremeny.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Reset av den flate Ruwido fjernkontrollen</b><br />
+Trykk på knappen merket TV, DVD eller Audio på fjernkontrollen i ca. 2 
+sekunder<br />
+Det grønne lyset blinker 2 ganger.<br />
+Trykk tallet 0 tre ganger.<br />
+Det grønne lyset blinker 2 ganger<br />
+(dette bekrefter at resettingen var vellykket).</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Ruwido ADB<br />
+<br />
+Denne fjernkontrollen har en hvit pil på toppen, ellers synlig lik</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;">OK + 1 --> MOTO 56 kHz</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;">OK + 2 --> MOTO 56 kHz Command Table 2</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;">OK + 6 --> MOTO 36 kHz (Fungerer da mot ADB 2810, 5812 og eventuelle 
+36 kHz Motorola dekodere som har endret frekvens) </p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;"><img src="$PICTURE_PATH\ruwidostandard.bmp" width="50" height="227" border="0" alt="graphic"/><br />
+<br />
+</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Sort fjernkontroll (gammel firkantet type)</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;">Hold inne knappene STB + SET i 5 sekunder, taste 901, og så trykke STB.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Reprogrammert fjernkontroll?</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;">Programmering av fjernkontrollen bekreftes ved at standby-tast &quot;Decoder&quot; 
+øverst til venstre blinker to ganger. Merk at programmeringen kun kan 
+gjøres fra fjernkontroller og tastatur med merking. Mangler det hvit 
+merking kan ofte allikevel fjernkontrollen programmeres med OK+1 eller 
+OK+4, men det er ingen måte å vite dette annet enn å prøve. Blinker da 
+fjernkontroll ikke på &quot;Decoder&quot; støtter den ikke 36 Khz frekvensen som alle 
+ADB dekodere og noen Motorola dekodere benytter.</p>
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none">
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>Dekoder</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>Uten pil</b></div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>Merket med pil</b></div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>Pil med strek under</b></div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>501</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+2</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+2</div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+2</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1510</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1710</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1910/1960 56Khz</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 </div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 </div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1910/1960 36Khz</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1003/1963</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="26%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>2810/5812</b></div>
+    </td>
+    <td valign="middle" width="16%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4 </div>
+    </td>
+    <td valign="middle" width="33%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4 </div>
+    </td></tr>
+</table>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;"><img src="$PICTURE_PATH\SkiftFrekvens.bmp" width="620" height="349" border="0" alt="graphic"/></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.13mm; margin-bottom:4.50mm;">  </p>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10026" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="6">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="4" downtime="0" end_question="0" evidenceStep="0" first="0" guid="3220942328-8585-19815-8C6269B8F3E17E28" id="10025" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="24" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Benytter kunden seg av IR-dongle?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Yes"/>
+          <state_name name="No"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Dersom kunde benytter seg av IR-dongle kan det ofte hende at denne ikke er 
+koblet til eller defekt.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Be kunde kontrollere IR-donglen og prøve uten denne tilkoblet.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="2">
+          <prob_dist c_id="10006">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10008">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.0000000000"/>
+          <prob value="1.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="14" downtime="0" end_question="0" evidenceStep="0" first="0" guid="1647857178-40746-17641-AE5AB8CAFBC953" id="10078" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="77" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Dersom kunden har flere dekodere, fungerer det med fjernkontrollen som tilhører dekoder nr.2?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Dette må være dekodere av samme type. Ellers må kunde sette ny frekvens 
+på fjernkontrol. Se tabell.</div>
+<div align="left" dir="ltr">  </div>
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none">
+    <tr>
+    <td valign="middle" width="29%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>Dekoder</b></div>
+    </td>
+    <td valign="middle" width="18%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>Uten pil</b></div>
+    </td>
+    <td valign="middle" width="28%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>Merket med pil</b></div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>Pil med strek 
+    under</b></div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="29%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>501</b></div>
+    </td>
+    <td valign="middle" width="18%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+2</div>
+    </td>
+    <td valign="middle" width="28%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+2</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+2</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="29%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1510</b></div>
+    </td>
+    <td valign="middle" width="18%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td>
+    <td valign="middle" width="28%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="29%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1710</b></div>
+    </td>
+    <td valign="middle" width="18%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td>
+    <td valign="middle" width="28%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 OK+2</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="29%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1910/1960 56Khz</b></div>
+    </td>
+    <td valign="middle" width="18%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1</div>
+    </td>
+    <td valign="middle" width="28%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 </div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+1 </div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="29%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1910/1960 36Khz</b></div>
+    </td>
+    <td valign="middle" width="18%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="28%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="29%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>1003/1963</b></div>
+    </td>
+    <td valign="middle" width="18%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="28%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="29%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr"><b>2810/5812</b></div>
+    </td>
+    <td valign="middle" width="18%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4</div>
+    </td>
+    <td valign="middle" width="28%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4 </div>
+    </td>
+    <td valign="middle" width="25%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;" dir="ltr">OK+4 </div>
+    </td></tr>
+</table>
+<div align="left" style="margin-left:2mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:0.00mm;" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="3">
+          <prob_dist c_id="10004">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10005">
+            <probs value="0.6999999881"/>
+            <probs value="0.3000000119"/>
+          </prob_dist>
+          <prob_dist c_id="10026">
+            <probs value="0.1000000037"/>
+            <probs value="0.8999999963"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="15" downtime="0" end_question="0" evidenceStep="0" first="0" guid="223927240-59780-19114-B054F09D98702749" id="10077" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="76" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Dersom kunden har flere dekodere, fungerer fjernkontrollen på en annen dekoder?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="3">
+          <prob_dist c_id="10004">
+            <probs value="0.3000000119"/>
+            <probs value="0.6999999881"/>
+          </prob_dist>
+          <prob_dist c_id="10005">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10026">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="6" downtime="0" end_question="0" evidenceStep="0" first="0" guid="1249143177-28561-20293-86BC794AC62C8BA" id="10018" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="17" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Har kunde både HDMI og SCART tilkoblet dekoderen?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Kun SCART/HDMI tilkoblet"/>
+          <state_name name="Både SCART og HDMI tilkoblet"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Dersom kunden har to bildekabler koblet til dekoderen kan dekoderen få 
+problemer med å velge video-utgang på tv. Be kunden ta ut SCART eller HDMI 
+dersom begge står koblet i.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="2">
+          <prob_dist c_id="10012">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10008">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="10" downtime="0" end_question="0" evidenceStep="0" first="1" guid="920563613-62474-17446-8EEF371BF41C811B" id="10023" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="28" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilken fjernkontroll har kunden?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="STB"/>
+          <state_name name="Ruwido slim line"/>
+          <state_name name="Ruwido R97"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Grå fjernkontroll til Kreatel 1510 og 1710 (nesten ikke i bruk)</div>
+<div align="left" dir="ltr">Sort firkantet fjernkontroll (STB) </div>
+<div align="left" dir="ltr">Ruwido flat fjernkontroll</div>
+<div align="left" dir="ltr">Ruwido slimline som er rund under</div>
+<div align="left" dir="ltr">  </div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\Hvilkenfjernkontroller_001.JPG" width="156" height="566" border="0" alt="graphic"/><img src="$PICTURE_PATH\Hvilkenfjernkontroller_002.JPG" width="154" height="566" border="0" alt="graphic"/><img 
+src="$PICTURE_PATH\Hvilkenfjernkontroller_007.JPG" width="188" height="566" border="0" alt="graphic"/><img src="$PICTURE_PATH\Hvilkenfjernkontroller_008.JPG" width="127" height="566" border="0" alt="graphic"/></div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="9">
+          <prob_dist c_id="10004">
+            <probs value="0.3333000000"/>
+            <probs value="0.3333000000"/>
+            <probs value="0.3333000000"/>
+          </prob_dist>
+          <prob_dist c_id="10012">
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10005">
+            <probs value="0.3333333333"/>
+            <probs value="0.3333333333"/>
+            <probs value="0.3333333333"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.3333333333"/>
+            <probs value="0.3333333333"/>
+            <probs value="0.3333333333"/>
+          </prob_dist>
+          <prob_dist c_id="10007">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10032">
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10008">
+            <probs value="0.3333000000"/>
+            <probs value="0.3333000000"/>
+            <probs value="0.3333000000"/>
+          </prob_dist>
+          <prob_dist c_id="10026">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10011">
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="12" downtime="0" end_question="0" evidenceStep="0" first="0" guid="19436164-37636-17602-924BF72AAD32B9D5" id="10016" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="15" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Når kunde trykker på fjernkontrollen, blinker det i front av dekoderen?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Blinker det på fjernkontrollen når kunden trykker på knapper? Hvor lyser det? 
+Hvis det lyser svakt er det batteriet som må skiftes.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">På den gamle firkantede fjernkontrollen skal det lyse i dioden over STB- 
+knappen.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">OBS:<br />
+<br />
+</div>
+<div align="left" dir="ltr">1910 Blinker det rødt i front av dekoderen.</div>
+<div align="left" dir="ltr">1960 Blinker det oransje i fronten av dekoderen.</div>
+<div align="left" dir="ltr">1963 Blinker det oransje i fronten av dekoderen.</div>
+<div align="left" dir="ltr">1853 Lyser knappen oppe på dekoderen rødt ved mottak av IR-signaler.</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="9">
+          <prob_dist c_id="10004">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10012">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10005">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10007">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10008">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10032">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10026">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10011">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="3034647020-40037-19665-ABC6796464B82B6" keywords="" modelPicturePath="C:\Users\mata\Desktop\dezide\Fritekst-prosjekt\TV\IR Problemer" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="87">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

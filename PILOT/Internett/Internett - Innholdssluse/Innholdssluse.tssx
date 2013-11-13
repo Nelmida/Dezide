@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[Innholdssluse]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="5">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2501533174-44175-18129-A2CDB78B34A16" id="10013" match_level="0" not_customer_use="0" phoneCodeID="12" prob="0.1249999962" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil config på port]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="499131878-32068-19488-8129F0055ABD71" id="10015" match_level="0" not_customer_use="0" phoneCodeID="14" prob="0.0539999993" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil sider filtreres bort]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3850097874-1417-18882-8CD6E05DFB9AEE7B" id="10004" match_level="0" not_customer_use="0" phoneCodeID="3" prob="0.1959999978" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Innholdsfilter er ikke aktivert]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="88953824-19943-17409-82F4A0899A1317C" id="10005" match_level="0" not_customer_use="0" phoneCodeID="4" prob="0.6120000076" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kunde er på annet nett]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunde befinner seg på et annet nett og innholdsfilter vil da ikke fungere.</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1648081122-54422-18489-B9C4DBFB1D2749B" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0129999991" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="5">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="1" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2239362794-19406-17559-BB903F4929F19A3F" id="10003" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="2" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="2" type="0" workaround="0">
+        <name>
+          <![CDATA[Aktiver innholdsfilter]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Sjekk at innholdsfilter er aktivert i prov. under ISP innstillinger.</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\Aktiver_innholdsfilter.JPG" width="567" height="384" border="0" alt="graphic"/></div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10004" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="3" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3599267761-53705-19407-A110CAB01EFFFC38" id="10016" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="15" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="10" type="0" workaround="0">
+        <name>
+          <![CDATA[Eskaler sak]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">I noen tilfeller kan man opplever at enkelte sider som IKKE skal filtreres bort, 
+blir det. I motsatt fall kan det også gjelde sider som bør legges til i filter. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Noter ned hvilke sider som det gjelder og meld videre.  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10015" prob="0.9000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="5" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="4104602710-19004-19282-A1709BE5F4512237" id="10030" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="29" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Noter i fritekstfelt hvilke(n) side(r) som ikke filtreres.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Her må Altibox få greie på hvilke nettsider som kunde mener innholdsluse ikke 
+filtrerer.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">skriv hele adressen;  f.eks www.vg.no</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10015" prob="0.1000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3395496525-35132-19010-AE7D477FB2860CB" id="10006" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="5" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Sjekk at man er tilknyttet Altibox sitt nett]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Be kunde sjekke hvilken IP han har (www.minip.no). Dersom kunde er på feil 
+nett, vil det ikke fungere. </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10005" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="4" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="527787926-41951-16633-B35C67F28721AAD1" id="10012" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="11" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Sjekk om policy maps er riktig]]>
+        </name>
+        <explanation>
+          <![CDATA[<ul style="margin-top: 0mm; margin-bottom: 0mm; list-style-type: disk; ">
+<li style="margin-left: 5pt; margin-right: 0pt; padding-left: 0pt; font-size: 11pt;  ">Sjekk om policy maps har &quot;cf&quot;, eks: service-policy input res-m2- in- 
+p21-cf </li>
+</ul>
+<div align="left" dir="ltr">Se fig:</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\Sjekk_om_policy_maps_er_riktig.JPG" width="267" height="236" border="0" alt="graphic"/></div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10013" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="1">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="6" downtime="0" end_question="0" evidenceStep="0" first="1" guid="774327914-2813-17095-A18BB547304EA3FF" id="10017" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="26" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva er kundens problem?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Enkelte websider vises ikke"/>
+          <state_name name="Alle websider vises"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Be kunde beskrive hva han/hun opplever som problem her.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <prob_dists size="4">
+          <prob_dist c_id="10004">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10013">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10005">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10015">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="1318257195-599-20409-B22B8B127217EF66" keywords="" modelPicturePath="C:\Users\mata\Desktop\dezide\Fritekst-prosjekt\Internett - Innholdssluse" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="31">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

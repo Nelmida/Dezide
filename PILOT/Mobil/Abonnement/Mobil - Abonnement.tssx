@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[Mobil - Abonnement]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="11">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4258802906-42150-19567-B426FD32CB5976" id="10008" match_level="0" not_customer_use="0" phoneCodeID="7" prob="0.1729999941" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Får ikke ladet via SMS]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3136594385-32789-18504-846CAE12604BE9D4" id="10044" match_level="0" not_customer_use="0" phoneCodeID="43" prob="0.1850000019" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Får ikke ladet via selfcare]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3834022878-18021-16395-8D6F892A8FAC61CD" id="10010" match_level="0" not_customer_use="0" phoneCodeID="9" prob="0.1660000055" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Får ikke lagt til nummer i smart familie]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3111695163-2622-19226-9276EB6CCC965630" id="10011" match_level="0" not_customer_use="0" phoneCodeID="10" prob="0.0569999987" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kan ikke bruke innholdstjenester]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1012370867-3803-19439-BEADFA95EECCEBFF" id="10005" match_level="0" not_customer_use="0" phoneCodeID="4" prob="0.0300000003" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kun nødanrop tilgjengelig]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="602490278-31549-16869-ADBEF494897EE" id="10016" match_level="0" not_customer_use="0" phoneCodeID="15" prob="0.1469999996" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kunde har sprengt datapakker grensen]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2723230197-18525-18010-A71BB5BB97857BB" id="10012" match_level="0" not_customer_use="0" phoneCodeID="11" prob="0.0590000016" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Manglende WAP/MMS innstillinger]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3599265810-17812-16531-8ACAC19F7F394B7" id="10009" match_level="0" not_customer_use="0" phoneCodeID="8" prob="0.0559999996" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Mottar duplikate SMS-varsel ifm nye personsvarmeldinger]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3437253975-22887-17456-B2C6452B7F8C6E2D" id="10015" match_level="0" not_customer_use="0" phoneCodeID="14" prob="0.0329999999" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Mottar ikke SMS-varsel for nye personsvarmeldinger]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2361436553-16052-16803-A1966194F5557C4" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0070000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1796595167-9648-19479-BA8EF36686D68AB" id="10022" match_level="0" not_customer_use="0" phoneCodeID="21" prob="0.0869999990" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Smart familie karantene aktiv selv etter 30 dagers perioden]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="9">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="7" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1517434488-42695-19082-99A1A63073879D21" id="10025" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="24" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="2" type="0" workaround="0">
+        <name>
+          <![CDATA[Deaktiver sperren i prov dersom karantene er opphørt]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dersom kunden endrer på Smart familie via web, så blir det satt opp en 
+karantene på 30 dager, som gjør at kunden ikke kan endre på noe av 
+avtalen før karantenen går ut, selv om kunden skulle ha gjort noe feil.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Vi kan slette karantenen via prov, under smart familie. Denne 
+karantenenkan henge seg opp noe som gjør at den ikke alltid forsvinner 
+etter 30 dager.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">I Prov klikker du på &quot;SmartFamilie&quot; under Innstillinger, så &quot;Nullstill dato&quot;</div>
+<div align="left" dir="ltr"><img src="$Picture_Path\deaktiver_sperren_i_prov_dersom_karantene_opphort.jpg" width="900" height="511" border="0" alt="graphic"/></div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10022" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="1" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1567282782-43246-20199-AF18D81419E7C1B" id="10018" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="17" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Forsøk med en annen nettleser]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kontroller om kunde får samme feil i en annen nettleser.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Forslag:</div>
+<div align="left" dir="ltr">- Firefox (http://www.mozilla.com)</div>
+<div align="left" dir="ltr">- Opera (http://www.opera.com)</div>
+<div align="left" dir="ltr">- Chrome (http://www.google.com/chrome)</div>
+<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10044" prob="1.0000000000"/>
+          <cause_solved id="10010" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="12" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1272572576-2731-19471-AF3252BA31D01174" id="10035" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="34" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Fungerer det dersom kunde tester simkort i en annen telefon?]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Viktig å kunne avdekke om feilen ligger i kundens telefon.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10005" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="4" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="334472798-59077-19088-A250A497512F06C" id="10021" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="20" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Kontroller 3G aktivert på mobiltelefonen]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunde vil ikke kunne benytte seg av disse tjenestene uten 3G/Wifi aktivert og 
+tilkoblet.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Her må kunden selv bruke manualen til telefonen for å finne ut hvordan 
+3G/Wifi skal aktiveres. </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10011" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="13" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3206486083-48246-17267-AFA5C4206C1ED9FD" id="10038" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="37" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="2" type="0" workaround="0">
+        <name>
+          <![CDATA[Kontroller at kunde utfører lading via SMS korrekt]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.29mm; margin-bottom:4.66mm;">Verifiser med kunden at han/hun skriver riktig i sin SMS</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.29mm; margin-bottom:4.66mm;">Det må være minimum kr 1,- i saldo på abonnementet for å kunne sende 
+lade-sms.Ved helt tom saldo kan man ikke lade via sms.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.29mm; margin-bottom:4.66mm;"><img src="$PICTURE_PATH\Kontroller_at_kunde_utforer_lading_via_SMS_korrekt.jpg" width="320" height="480" border="0" alt="graphic"/></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Kunden kan lade på 4 måter.</b></p>
+<br />
+1. Via Mine Sider (selfcare) 
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.65mm; margin-bottom:1.65mm;">2. Via SMS, Send &quot;LAD (beløp) PIN1 (xxxx) (ditt telefonnummer)&quot; til 26032. 
+Hvis kunden ikke har Pin1 kan han/hun få den oppgitt via SMS fra oss. </p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.65mm; margin-bottom:1.65mm;">3. Via alle Sparebank 1 minibanker over hele landet.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.65mm; margin-bottom:1.65mm;">4. Kontakte kundesenter og be om påfyll av kort. NB; Max 500kr</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.29mm; margin-bottom:4.66mm;">  </p>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10008" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="9" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3240964157-5601-16746-97CE8CAAB43A7F59" id="10027" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="26" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Kontroller om karantene på Smart familie aktivert]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">På Smart familie må det være minst 2 og maks 6 abonnement, hvor 1 av 
+disse MÅ være SMS eller Tale.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Du kan ha maks 6 nummer i denne avtalen. 4 interne + 2 eksterne. 5 interne 
++ 1 eksterne eller 6 interne + 0 eksterne.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Endrer kunden på dette via web, så blir det satt opp en karantene på 30 
+dager, som gjør at kunden ikke kan endre på noe av avtalen før karantenen 
+går ut, selv om kunden skulle ha gjort noe feil.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Vi kan slette karantenen via prov, under smart familie. Denne karantenen har 
+vist seg å være noe buggy, for den forsvinner ikke alltid etter 30 dager. Så 
+kunder ringer ofte inn og sier at de ikke får endret på Smart familie, så ser vi i 
+prov at sist de gjorde endringer var i 2011.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Endringer du gjør for kunden i prov/publish skal ikke bli berørt av karantene.</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10010" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="5" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2927604040-55432-19990-972E43695C9F05D" id="10023" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="22" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Kunde må bestille økning i grensen for datapakker]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;">-Kunden kan nå velge å betale maksimalt 10,-pr. dag, eller knytte opp en 
+datapakke til abonnementet for å få det enda billigere</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;">&bull;Gjelder kun postpaid </p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;">&bull;Hvis ikke datapakke legges til, reduseres hastigheten til 120 kbit/s når 200 
+MB er benyttet</p>
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none">
+    <tr>
+    <td align="center" valign="middle" width="10%" style="border: solid #010101 0px;">
+    <div align="center" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"><b>Produkt</b></div>
+    </td>
+    <td align="center" valign="middle" width="6%" style="border: solid #010101 0px;">
+    <div align="center" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"><b>Kode</b></div>
+    </td>
+    <td align="center" valign="middle" width="13%" style="border: solid #010101 0px;">
+    <div align="center" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"><b>Inkludert</b></div>
+    </td>
+    <td align="center" valign="middle" width="42%" style="border: solid #010101 0px;">
+    <div align="center" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"><b>Hastighet</b></div>
+    </td>
+    <td align="center" valign="middle" width="15%" style="border: solid #010101 0px;">
+    <div align="center" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"><b>Pris / 
+    mnd</b></div>
+    </td>
+    <td align="center" valign="middle" width="13%" style="border: solid #010101 0px;">
+    <div align="center" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"><b>Pris / 
+    MB</b></div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="10%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">Small</div>
+    </td>
+    <td valign="middle" width="6%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">5006</div>
+    </td>
+    <td valign="middle" width="13%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">1GB</div>
+    </td>
+    <td valign="middle" width="42%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">1GB data 2G/3G (1-14Mbit)</div>
+    </td>
+    <td valign="middle" width="15%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">89,-</div>
+    </td>
+    <td valign="middle" width="13%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">8,9 øre</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="10%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">Medium</div>
+    </td>
+    <td valign="middle" width="6%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">5007</div>
+    </td>
+    <td valign="middle" width="13%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">8GB</div>
+    </td>
+    <td valign="middle" width="42%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">8GB data 2G/3G (1-14Mbit)</div>
+    </td>
+    <td valign="middle" width="15%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">199,-</div>
+    </td>
+    <td valign="middle" width="13%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">2,9 øre</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="10%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">Large</div>
+    </td>
+    <td valign="middle" width="6%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">5012</div>
+    </td>
+    <td valign="middle" width="13%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">15GB</div>
+    </td>
+    <td valign="middle" width="42%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">15GB data 2G/3G/4G (1-20Mbit)</div>
+    </td>
+    <td valign="middle" width="15%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">329,-</div>
+    </td>
+    <td valign="middle" width="13%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">2,3 øre</div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="10%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">X- 
+    Large</div>
+    </td>
+    <td valign="middle" width="6%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">5013</div>
+    </td>
+    <td valign="middle" width="13%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">30GB</div>
+    </td>
+    <td valign="middle" width="42%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">30GB data 2G/3G/4G (1-80Mbit)</div>
+    </td>
+    <td valign="middle" width="15%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">489,-</div>
+    </td>
+    <td valign="middle" width="13%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">1,6 øre</div>
+    </td></tr>
+</table>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;">&bull;Etter inkludert datamengde er brukt opp vil hastighet reduseres ned til 120 
+kbit/s, men kunden kan fortsette å bruke abonnementet</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;">&bull;Ønskes høyere hastighet igjen, kan kunden fylle opp datakontoen 
+ytterligere</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;">-Send SMS med  til 1989</p>
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none">
+    <tr>
+    <td align="center" valign="middle" width="46%" style="border: solid #010101 0px;">
+    <div align="center" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"><b>Kvote/Kodeord</b></div>
+    </td>
+    <td align="center" valign="middle" width="18%" style="border: solid #010101 0px;">
+    <div align="center" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"><b>0,5GB</b></div>
+    </td>
+    <td align="center" valign="middle" width="11%" style="border: solid #010101 0px;">
+    <div align="center" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"><b>1GB</b></div>
+    </td>
+    <td align="center" valign="middle" width="11%" style="border: solid #010101 0px;">
+    <div align="center" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"><b>2GB</b></div>
+    </td>
+    <td align="center" valign="middle" width="14%" style="border: solid #010101 0px;">
+    <div align="center" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"><b>10GB</b></div>
+    </td></tr>
+    <tr>
+    <td valign="middle" width="46%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr">Pris</div>
+    </td>
+    <td valign="middle" width="18%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"> </div>
+    </td>
+    <td valign="middle" width="11%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"> </div>
+    </td>
+    <td valign="middle" width="11%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"> </div>
+    </td>
+    <td valign="middle" width="14%" style="border: solid #010101 0px;">
+    <div align="left" style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;" dir="ltr"> </div>
+    </td></tr>
+</table>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;"><br />
+</p>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10016" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="6" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1455473548-58246-19274-B99A21CCEA9CDF21" id="10024" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="23" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Last ned innstillinger for oppsett]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Henvis kunde til Altibox.no og veiled kunde:</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">1. Velg Mobil fanen på nettsiden.</div>
+<div align="left" dir="ltr">2. Velg linken &quot;Oppsett av mobil&quot; under menylinja.</div>
+<div align="left" dir="ltr">3. Klikk på linken nederst i høyre marg &quot;Trykk her for konfigurering av din 
+mobil&quot;</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10012" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="657985707-39566-19451-AD62347DEF98A9BB" id="10019" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="18" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Skru av og på mobiltelefonen]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10005" prob="1.0000000000"/>
+          <cause_solved id="10011" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="2">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="11" downtime="0" end_question="0" evidenceStep="0" first="1" guid="3628098167-11858-19418-80B1F9E6453E1D52" id="10031" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="33" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="6" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilke problem opplever kunden med abonnementet?]]>
+        </name>
+        <state_names size="6">
+          <state_name name="Lading av abonnement"/>
+          <state_name name="Smart familie"/>
+          <state_name name="Datatrafikk"/>
+          <state_name name="WAP/MMS Innstillinger"/>
+          <state_name name="Personsvar"/>
+          <state_name name="Kun nødanrop tilgjengelig"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"> Sjekk Siebel for å se hvilke tjenester kunden har aktive.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="10">
+          <prob_dist c_id="10012">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10005">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10022">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10015">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10016">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10008">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10009">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10044">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10010">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10011">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.1667000000"/>
+          <prob value="0.1667000000"/>
+          <prob value="0.1667000000"/>
+          <prob value="0.1667000000"/>
+          <prob value="0.1667000000"/>
+          <prob value="0.1667000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="3" downtime="0" end_question="0" evidenceStep="0" first="0" guid="297533300-13281-17259-804A469574F1479F" id="10043" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="2" phoneCodeID="42" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvordan prøver kunden å lade abonnementet?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="SMS"/>
+          <state_name name="Selfcare"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="2">
+          <prob_dist c_id="10008">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10044">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="1200185951-56504-19920-B34836B623BFD9E" keywords="" modelPicturePath="C:\Users\pettere\Documents\Dropbox\Guider\PILOT\Mobil\Abonnement" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="60">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

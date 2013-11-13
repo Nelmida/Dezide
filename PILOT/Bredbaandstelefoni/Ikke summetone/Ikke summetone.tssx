@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[Ikke summetone]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="13">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1279877180-60578-17053-BCFB8F279BA4E14" id="10037" match_level="0" not_customer_use="0" phoneCodeID="36" prob="0.1039999951" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt nettverkskabel.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="768728532-22077-19780-BF71E592D9B886BB" id="10007" match_level="0" not_customer_use="0" phoneCodeID="6" prob="0.0609999984" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt port på hjemmesentral]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2765914382-28365-17038-B5B2C63DE767CF37" id="10035" match_level="0" not_customer_use="0" phoneCodeID="34" prob="0.1310000024" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil config i hjemmesentral.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2057097545-60454-17764-9E571771F0B7C225" id="10006" match_level="0" not_customer_use="0" phoneCodeID="5" prob="0.1210000025" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil på kundens telefon.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2727778902-53797-17573-B4339A4726D8A29A" id="10036" match_level="0" not_customer_use="0" phoneCodeID="35" prob="0.0810000029" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil på overgangen til telefonen.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3892924870-47676-19242-82B91992BB522972" id="10038" match_level="0" not_customer_use="0" phoneCodeID="37" prob="0.1019999970" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil på splitteren til telefonen.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="87347173-47524-18309-B2CDBA19A935B7D" id="10040" match_level="0" not_customer_use="0" phoneCodeID="39" prob="0.0499999995" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Koblet til feil port]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1455703867-38710-17181-A7D492127440DAD0" id="10114" match_level="0" not_customer_use="0" phoneCodeID="113" prob="0.1360000024" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kunde benytter feil type telefon]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1190733554-27956-18163-9774A5D0EC3D9C5" id="10003" match_level="0" not_customer_use="0" phoneCodeID="2" prob="0.0949999990" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kunden har ikke aktive tjenester.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunden har avvik. Sjekk Provisioning og kontrakt.</div>]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3032312504-23488-16695-B5D5F96D4A839F46" id="10094" match_level="0" not_customer_use="0" phoneCodeID="93" prob="0.0580000013" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kunden har ikke fått tildelt nummer.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1860091763-51611-16719-928798DDCA558EDC" id="10099" match_level="0" not_customer_use="0" phoneCodeID="98" prob="0.0179999993" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Lokalitetsfeil]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1625890203-26952-19981-9C677745E1A339" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0089999997" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">&#160;&#160;</div>]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3050714560-62212-18802-82D7402BE3EF59C6" id="10073" match_level="0" not_customer_use="0" phoneCodeID="72" prob="0.0340000006" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Wait on hook.]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:6mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:3.52mm;line-height: 115%; ">Hvis det er flere telefoner tilkoblet, og det er opptatt signal når man prøver å ringe inn, kan det være 1 av flere 
+apparter som har hengt seg opp så tlf status er &quot;WAITONHOOK&quot;. <br />
+<br />
+Man må da prøve å koble bort 1 eller flere telefoner og se om statusen endrer seg.</p>
+<div align="left" dir="ltr">&#160;&#160;</div>]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="15">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="19" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="4098485988-27607-19419-B457B32CC243650" id="10112" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="111" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Aktiver tjeneste for kunde]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10003" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="9" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2346860879-54518-20014-9B912DA77613809F" id="10115" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="114" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde bruke riktig type telefon]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunde må benytte telefonapparat som er beregnet på analogt telefoninett.</div>]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10114" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3810842654-3565-18939-BB34722453D1E4F" id="10011" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="10" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="15" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunden teste med en annen telefon.]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:3.52mm;line-height: 115%; "><b>Prøv en annen telefon:<br />
+</b><br />
+Dette må utføres for å utelukke at feilen ligger på kundesn eget utstyr. Dersom dette ikke lar seg gjøre må kunden 
+informeres om ett evt. gebyr ved utsendelse av montør.</p>
+<div align="left" dir="ltr">&#160;&#160;</div>]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10006" prob="1.0000000000"/>
+          <cause_solved id="10007" prob="0.7490000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="3" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="479592948-2710-16710-B32BC5B7E3ADE778" id="10012" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="11" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="15" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt nettverkskabel]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:3.52mm;line-height: 115%; "><b>Bytte nettverkskabel:</b><br />
+<br />
+Kunden er nødt til å prøve en annen nettverkskabel mellom telefon/base og hjemmesentralen. Dette for å identifisere 
+om problemet ligger i kablingen. Dette må utføres for å kunne utelukke at feilen ligger på kundens utstyr. <br />
+<br />
+Ofte er det problemer i kablingen som forårsaker &quot;Dette&quot; problemet, kunden må prøve med en annen kabel. Dersom 
+kunden ikke har mulighet til dette må kunden informeres om ett evt. gebyr ved utesendelse av montør.</p>
+<div align="left" dir="ltr">&#160;&#160;</div>]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10037" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="5" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1425600031-36082-17733-B4E7915CDBA7D9E6" id="10014" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="13" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="13" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt overgang]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Overgang:<br />
+</b><br />
+Om telefonkabel er koblet til hjemmesentral via overgang ( RJ-45 ), be kunde teste med en annen om mulig. Dette for å 
+identifisere om problemet ligger på eksternt utstyr eller om feilen oppstår internt i hjemmesentralen. Dersom kunden ikke har 
+muligheten til å bytte/koble ut overgangen må kunden informeres om gebyr ved utsendelse av montør, dersom det viser seg at 
+feilen ligger på kundens eget utstyr. Kunden kan anskaffe en ny overgang hos en elektroforhandler.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.34mm; margin-bottom:4.71mm;">  </p>]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10036" prob="0.5000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="12" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1396728400-39239-18872-814CEB2AE482FAB9" id="10093" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="92" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="30" type="0" workaround="0">
+        <name>
+          <![CDATA[Eskaler til SoS]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Saken kan ikke løses av kundeveileder og må eskaleres til Service &amp; Support.</div>]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10099" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="13" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="31927374-10083-19029-9582E86AAF215A79" id="10095" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="94" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="30" type="0" workaround="0">
+        <name>
+          <![CDATA[Eskaler til leveranse]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Bredbåndstelefoni er ikke registrert på korrekt måte. Vennligst eskaler saken til leveranse.</div>]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10094" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="4" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2802282810-29036-19248-B7187BC013638CD" id="10013" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="12" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="13" type="0" workaround="0">
+        <name>
+          <![CDATA[Fjern splitter]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Om kundens telefonapparat er tilkoblet via en splitter:  Be kunde fjerne denne og koble direkte. Splitter er ikke nødvendig for IP- 
+telefoni.</div>]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10038" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="6" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2752088247-19126-18064-BFAC21348CDEEE39" id="10086" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="85" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="11" type="0" workaround="0">
+        <name>
+          <![CDATA[Koble telefonen direkte til hjemmesentralen.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Be kunden koble telefonen direkte til hjemmesentralen.<br />
+<br />
+Det vil si at kunden må koble ut eventuelle RJ overganger og ikke kan benytte seg av veggpunkter.</div>]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10036" prob="0.5000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="10" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3639053887-43277-18630-B04784D6694CDF5A" id="10041" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="40" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Koble til rett port]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Sjekk at telefonapparat er tilkoblet riktig port og eventuelt om dette gjelder primær / sekundær nr eller begge.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><a href="http://bbfaq.lyse.net/hjelp.php?oppslagID=25&amp;spmID=6" target="_blank"><u>Beskrivelse av hjemmesentraler</u></a></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">(Her må vi se på en løsning der man kan linke til en FAQ / intranettsider e.l dersom det blir nødvendig med mye forklaring) </div>]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10040" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="7" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2361716123-31141-19544-82F6C137457311C4" id="10107" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="106" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Koble vekk telefon fra Hjemmesentral, og forsøk å ringe kunde på nytt]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dersom du får vanlig ringesignal mot kundes telefonnummer etter at kunde 
+har koblet vekk telefon fra sentralen, er det høyst sannsynlig at kundes 
+telefonapparat og/eller kabling er defekt/feilkoblet.</div>]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10073" prob="0.9000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="1" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1647083330-2490-18533-8FE1F1A8DD1FAA7E" id="10098" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="97" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Noter i fritekstfelt hva slags merke & modell på telefon kunde har]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="0" prob="0.1210000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="11" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="456544552-36939-17396-92543E3D2DD8CD64" id="10051" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="50" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Restart hjemmesentralen.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b>Restart hjemmesentralen:</b><br />
+<br />
+Kunden er nødt til å restarte hjemmesentralen før feilsøket kan fortsette. 
+Dersom problemet oppstår internt i hjemmesentralen vil en omstart ofte 
+kunne løse problemet. Be kunden trekke ut strømkabelen i 30 sekunder, og 
+sette den tilbake igjen. <br />
+<br />
+Dersom hjemmesentralen har stått på alt for lenge kan dette resultere i at den 
+ikke har fått siste oppdatering, og ikke fungerer optimalt pga dette.</div>
+<div align="left" dir="ltr"><br />
+<br />
+Kontroller også i &quot;status&quot; i Provisioning at portstatus på hjemmesentralen går 
+&quot;down/down not connected&quot; når kunden tar ut strømkabelen.  Dersom kunde 
+har Zyxel Hjemmesentral med passiv mediaconverter (Pingcom), vil ikke status 
+gå down/down.</div>]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10035" prob="0.9510000000"/>
+          <cause_solved id="10073" prob="0.0500000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="14" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="606540813-59081-18117-A7C4DA5135BC35DB" id="10077" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="76" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Restart telefon og base.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Be kunden slå av telefonen og base-enhet. Telefonen kan slås av med en av-og-på knapp, mens basen må gjøres strømløs i 30 
+sekunder.</div>]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10006" prob="0.3720000000"/>
+          <cause_solved id="10073" prob="0.0500000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="15" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="662240683-1818-17980-B5AAB22CAE3904" id="10096" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="95" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="19" type="0" workaround="0">
+        <name>
+          <![CDATA[Send montør.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Feilen kan ikke rettes pr. telefon. Kunden trenger montør. Informer kunden om gebyr ved brukerfeil og send ut montør.</div>]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10007" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="5">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="20" downtime="0" end_question="0" evidenceStep="0" first="1" guid="833042411-4958-16501-B5A0C63A851C658D" id="10116" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="4" phoneCodeID="115" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Benytter kunde riktig type telefon?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Det er viktig at kunde bruker analog type telefon, som ikke er for 'gammel'.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Ofte har kunde en ISDN-type telefon, disse kan ikke benyttes.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10114">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="18" downtime="0" end_question="0" evidenceStep="0" first="1" guid="1232059223-21883-17328-923AA45E60D87F21" id="10108" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="3" phoneCodeID="108" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Er det avvik i Siebel eller Provisioning?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="Nei"/>
+          <state_name name="Ja, Prov"/>
+          <state_name name="Ja, Siebel og Prov"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Åpne kundeforholdet i Provisioning og Siebel og se om det finnes årsaker til at kundens telefoni ikke lenger 
+fungerer.<br />
+<br />
+Siebel: Sjekk at bredbåndstelefoni står aktivt i kontrakt.<br />
+<br />
+Provisioning: Sjekk at bredbådstelefoni står aktivt under tjenester.<br />
+<br />
+Trykk inn på telefonnummer i prov og se at status er IN_SERVICE på både subscription og clients. Dersom status er 
+SUSPENDED så betyr det at telefoni </div>
+<div align="left" dir="ltr">  <img src="$PICTURE_PATH\Sjekk_kundeforholdet_i_Siebel_og_provisioning.jpg" width="1010" height="80" border="0" alt="graphic"/></div>]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="2">
+          <prob_dist c_id="10094">
+            <probs value="0.0000000000"/>
+            <probs value="0.3860000000"/>
+            <probs value="0.6140000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="16" downtime="0" end_question="0" evidenceStep="0" first="1" guid="2876209873-54172-19766-AC31F2ED6D19EA84" id="10060" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="1" phoneCodeID="59" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="1">
+        <name>
+          <![CDATA[Har tjenesten fungert tidligere?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Yes"/>
+          <state_name name="No"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Har kunden tidligere benyttet seg av IP-telefoni, eller gjelder dette førstegangsbruk?</div>]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10101" nstates="0" state="1"/>
+        </not_after_questions>
+        <fix_questions size="0"/>
+        <prob_dists size="4">
+          <prob_dist c_id="10040">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10036">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10038">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="8" downtime="0" end_question="0" evidenceStep="0" first="1" guid="905381209-63291-18831-A958ACDC9D43F1AC" id="10071" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="5" phoneCodeID="71" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva hører du når du ringer kundens telefon?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="Normal ringetone"/>
+          <state_name name="Anrop kommer ikke frem"/>
+          <state_name name="Opptatt signal"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10101" nstates="0" state="1"/>
+        </not_after_questions>
+        <fix_questions size="0"/>
+        <prob_dists size="9">
+          <prob_dist c_id="10006">
+            <probs value="0.4000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.4000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10007">
+            <probs value="0.8000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10040">
+            <probs value="0.4000000000"/>
+            <probs value="0.4000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10035">
+            <probs value="0.8000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10036">
+            <probs value="0.6000000015"/>
+            <probs value="0.3000000007"/>
+            <probs value="0.0999999978"/>
+          </prob_dist>
+          <prob_dist c_id="10037">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10038">
+            <probs value="0.6000000015"/>
+            <probs value="0.3000000007"/>
+            <probs value="0.0999999978"/>
+          </prob_dist>
+          <prob_dist c_id="10073">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="17" downtime="0" end_question="0" evidenceStep="0" first="1" guid="629158869-58032-17279-A13034A3F9A78A27" id="10101" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="1" phoneCodeID="100" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Stemmer Hjemmesentral MAC med mac adresse under vlan 90 i portstatus?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Sjekk at det er samme MAC adresse i statusbilde i prov som det er på provoisjonert hjemmesentral. <br />
+<br />
+Dersom status på hjemmesentralen ikke går &quot;down/down not connected&quot; når kunden trekker ut strømkabelen tyder 
+dette på lokasjonsfeil.  </div>]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10099">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="3180981283-48368-20469-894A6759135A527E" keywords="" modelPicturePath="C:\Users\mata\Desktop\dezide\Testdezide\Bredbaandstelefoni\Ikke summetone" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="135">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

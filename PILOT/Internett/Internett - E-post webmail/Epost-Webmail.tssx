@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[Epost-Webmail]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="12">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="212306291-34062-17518-BFD9ADB96C34B648" id="10099" match_level="0" not_customer_use="0" phoneCodeID="98" prob="0.0240000007" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Epost er ikke opprettet]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="668605316-46843-17943-BE6BC1CE3750AC58" id="10005" match_level="0" not_customer_use="0" phoneCodeID="4" prob="0.0270000002" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Epostkonto deaktivert]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="401769176-62670-17477-A214DA482091859A" id="10104" match_level="0" not_customer_use="0" phoneCodeID="103" prob="0.0220000003" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil Epostadresse registrert i Prov]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2679651432-5050-19732-9A3C4812165FF176" id="10003" match_level="0" not_customer_use="0" phoneCodeID="2" prob="0.3120000046" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil brukernavn/passord]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2499173530-2120-19415-ABA588BF5913F596" id="10018" match_level="0" not_customer_use="0" phoneCodeID="17" prob="0.0149999999" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil på epost server]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="944076063-42316-16726-925E49729E1028B1" id="10007" match_level="0" not_customer_use="0" phoneCodeID="6" prob="0.0590000004" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil på nettleser]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2633549074-28162-18441-A85C81CE11280AD" id="10006" match_level="0" not_customer_use="0" phoneCodeID="5" prob="0.0209999988" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Ikke på nett]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b>Generelt<br />
+</b>Forutsetning for feilsøking på vår webmail er at internett fungerer, og at 
+kundens epost er aktiv.<br />
+<br />
+NB! Vi må ha kundens samtykke for å logge inn på vedkommendes epost- 
+konto, samt sjekke logger. Vi må ha denne muligheten for å feilsøke epost- 
+saker. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Linkes til child - Internett - kommer ikke på nett kabel/trådløst - må legges inn 
+et diagnosespørsmål imellom.</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="893484712-41416-19363-982644A4E559A6F9" id="10010" match_level="0" not_customer_use="0" phoneCodeID="9" prob="0.1979999905" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Lagringsplassen er full]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2048004095-21166-19698-BDF264AFCD32198A" id="10064" match_level="0" not_customer_use="0" phoneCodeID="63" prob="0.0299999997" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Mistet epost]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Etter datatilsynets krav om lagring av personlig data har ikke vi logger som går lengre bak enn 21 dager. </div>
+<div align="left" dir="ltr">Dersom det er mer enn 21 dager siden kunden opplevde problemet og det ikke kan gjenskapes nå, har vi ingen muligheter for å 
+se hva som har skjedd. Epost som kunden eventuelt har mistet før denne datoen kan heller ikke hentes tilbake.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom kunden selv har slettet mail eller POPet epost fra serveren (brukt lokal klient - MS Outlook e.l), å dermed mistet epost, 
+har vi desverre ikke anledning til å hente disse tilbake.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Det er derfor ikke hensiktsmessig i å eskalere slike saker.</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3454617303-35825-20046-87203B8495C8D431" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0100000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4173025817-29063-16721-AA41316922A4A97D" id="10009" match_level="0" not_customer_use="0" phoneCodeID="8" prob="0.1860000020" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Sender for store vedlegg]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Det er en begrensning på 50MB for vedlegg pr. epostsending. Sjekk og at 
+kunde ikke sender store vedlegg gruppevis, da dette kan forårsake at 
+epostsending stopper opp.</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="200361725-50497-16421-879A986C14D7BF46" id="10008" match_level="0" not_customer_use="0" phoneCodeID="7" prob="0.0960000029" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Skriver til feil epostadresse]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Om kunde har mottatt melding &quot;Returpost: Kan ikke leveres&quot; e.l vil det være til stor hjelp om kunde kan videresende melding til 
+kundebehandler. Dette gir oss info om hva som er galt.</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="13">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="19" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="724675074-50858-18990-8F268252B08F6F17" id="10132" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="131" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde koble seg på Internett]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunde er muligens ikke koblet til Internett, veiled kunde til å komme på nett.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10006" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="3" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1081166895-45935-16664-9B6E33FD909A22EE" id="10014" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="13" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Bekreft med kunde at de bruker korrekt brukernavn og passord]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kontroller at kunde ikke benyttet mellomrom i innloggingsinformasjon, 
+brukernavn/passord.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Bytt gjerne passord for kunden og logg på mens du har kunden på tråden. NB 
+få kundens samtykke før du gjør dette!</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10003" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="9" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="4275407760-61727-18820-80F06AC3BD94ACBB" id="10069" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="68" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Gjennopprett epost]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Etter datatilsynets krav om lagring av personlig data har ikke vi logger som går 
+lengre bak enn 21 dager. </div>
+<div align="left" dir="ltr">Dersom det er mer enn 21 dager siden kunden opplevde problemet og det 
+ikke kan gjenskapes nå, har vi ingen muligheter for å se hva som har skjedd. 
+Epost som kunden eventuelt har mistet før denne datoen kan heller ikke 
+hentes tilbake.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom kunden selv har slettet mail eller benyttet seg av POP-klient som har 
+lastet ned epost fra serveren (brukt lokal klient - MS Outlook e.l), å dermed 
+mistet epost, har vi desverre ikke anledning til å hente disse tilbake.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Det er derfor ikke hensiktsmessig i å eskalere slike saker.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10064" prob="0.9000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="5" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="64199313-1394-17578-B67416C5B29A922" id="10048" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="47" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Kontroller epostadressen kunde sender til]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b><u>Info</u></b></div>
+<div align="left" dir="ltr">Om kunde har mottatt melding &quot;Returpost: Kan ikke leveres&quot; e.l vil det være til 
+stor hjelp om kunde kan videresende melding til kundebehandler. Dette gir oss 
+info om hva som er galt.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Be gjerne kunden teste ved å svare på en annen mail han/hun har i 
+innboksen. Dersom dette fungerer er det liten sannsynlighet for at det er noe 
+problem med webmail.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10008" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="15" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3319428267-57772-17774-81BFD8D7C2ADE652" id="10114" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="113" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Noter i fritekstfelt hvilken epostadresse kunde sender til, i tillegg til dato/kl.slett]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Noter ned hvilk(e) adresse(r) som kunde forsøker å sende til, men som feiler. 
+Få med dato og klokkeslett det forsøkes å sende.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="0" prob="0.4840000153"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="11" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3348274062-53446-17211-86772C7DE3B744DD" id="10113" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="112" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Noter i fritekstfelt hvilken epostadresse kunde skal få mail fra, i tillegg til dato/kl.slett]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Noter ned hvilk(e) adresse(r) som kunde skal få mail fra, men som feiler.  Få 
+med dato og klokkeslett det forsøkes å sende til kunde og eventuelle 
+feilmeldinger som avsender får.</div>
+<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="0" prob="0.4840000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="18" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1500042901-8785-18175-9754493E766EC5C" id="10124" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="123" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Noter i fritekstfelt når kunde mistet epost, og hvilke som mangler]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Her må vi ha hvilken epostadresse de sendes til, og ca tidspunkt disse forsvant.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10064" prob="0.1000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1401426595-24192-20006-911F1118C2433079" id="10013" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="12" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="10" type="0" workaround="0">
+        <name>
+          <![CDATA[Prøv annen nettleser]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Det finns mange ulike nettlesere i dag som kan lastes ned gratis.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Vi skal være forsiktig med å anbefale en spesifikk, men man kan trygt tipse 
+om disse:</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Mozilla Firefox:            </div>
+<div align="left" dir="ltr">Google Chrome            </div>
+<div align="left" dir="ltr">Internett Explorer           </div>
+<div align="left" dir="ltr">Safari</div>
+<div align="left" dir="ltr">Opera</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10007" prob="1.0000000000"/>
+          <cause_solved id="10018" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="1" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="915682017-54851-17125-88A9EA361876BDBD" id="10012" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="11" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Sjekk at epost adressen er aktiv]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dette gjør du i provisioning. Se bildet.</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\Sjekk_at_epostadressen_er_aktiv.png" width="1107" height="139" border="0" alt="graphic"/></div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10005" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="7" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3706073453-55907-16655-AFFFA97E22C8019" id="10020" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="19" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Sjekk om kunde har ledig plass på serveren [id=10020]]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Sjekk at kunde har ledig plass på sin web - konto. Se fig.</div>
+<div align="left" dir="ltr">Om det er fullt, må kunde slette unna epost for å kunne mottat ny epost.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\Sjekk_om_kunden_har_ledig_plass_paa_serveren_(1).JPG" width="478" height="233" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">  <b><u>Vidersending.</u></b></div>
+<div align="left" dir="ltr">Kontroller at kunde ikke har aktivert automatisk videresending av epost.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\Sjekk_om_kunden_har_ledig_plass_paa_serveren_(2).JPG" width="640" height="384" border="0" alt="graphic"/></div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10010" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="8" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3037557120-15812-20188-B763839FAA78C536" id="10022" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="21" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Sjekk størrelsen på vedlegg]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Størrelse på vedlegg er begrenset inntil 50mb.</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\Sjekk_stoerrelse_paa_vedlegg.png" width="812" height="103" border="0" alt="graphic"/></div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10009" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="12" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2938227361-64937-19504-8C5E2F348B23C26F" id="10100" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="99" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="6" type="0" workaround="0">
+        <name>
+          <![CDATA[Veiled kunde til å opprette riktig epost]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kontroller om epost er opprettet i selfcare.</div>
+<div align="left" dir="ltr">Dersom epost ikke er opprettet må du som kundebehandler veilede kunde i 
+hvordan kunde oppretter dette.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10099" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="13" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3864412471-12427-18823-8024F3B064C06BC9" id="10106" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="105" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="6" type="0" workaround="0">
+        <name>
+          <![CDATA[Veiled kunde til å rette opp i epostadressen på Selfcare]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Be kunde logge seg inn på Mine Sider, og velg EPOST under Internett lenken 
+på Mine Sider.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Sørg for at kunde oppretter en ny og riktig epostadresse, legger inn passord 
+og trykker LAGRE.   Epostadressen kunde oppretter skal dukke opp i 
+Provisioning med en gang.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom kunde har en epostadresse med feil i, så må denne adressen 
+deaktiveres på samme siden som en oppretter ny adresse.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10104" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="6">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="10" downtime="0" end_question="0" evidenceStep="0" first="1" guid="3429627398-22684-19831-BF49BB44C59E792" id="10090" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="2" phoneCodeID="126" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Dersom kunde har mistet epost(er), gjelder det:]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Enkelte"/>
+          <state_name name="Alle eposter"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Viktig!  Dette gjelder kun eposter kunde allerede har mottatt, det gjelder ikke 
+eposter som kunde venter på.  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10064">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="6" downtime="0" end_question="0" evidenceStep="0" first="0" guid="2085891119-17614-16490-A1A988C6368CA2E4" id="10098" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="97" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Får kunde sendt epost til seg selv?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Be kunde sende epost til seg selv fra samme konto som han har problemer 
+med.  Det kan ta opptil 5 minutter før mail mottas.   Får kunde sendt mail til 
+seg selv er det gjerne ikke noe problem fra vår side.  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="5">
+          <prob_dist c_id="10005">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10008">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10018">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="0">
+            <probs value="0.1520000000"/>
+            <probs value="0.8480000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="4" downtime="0" end_question="0" evidenceStep="0" first="1" guid="3218854760-56512-16968-9DBEFCDE7B15075" id="10073" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="72" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Har KS tillatelse fra kunde til å logge seg inn på hans epostkonto og gjøre endringer/bytte passord?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Vi må ha kundens samtykke for å logge inn på vedkommendes epost- konto, samt sjekke logger og endre eller 
+slette e- post. <br />
+<br />
+Passord kan endres under feilsøk og epostkonto dermed ikke være tilgjengelig for kunde under vårt feilsøk. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Om kunde ikke tillater dette vil vi kunne fortsette et begrenset feilsøk, men vi vil ikke kunne reprodusere feil som 
+kunde melder.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <prob_dists size="11">
+          <prob_dist c_id="10005">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10007">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10104">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10008">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10009">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10018">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10064">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10099">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10010">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="16" downtime="0" end_question="0" evidenceStep="0" first="1" guid="2352935750-53377-17353-BAD398EF66CE6EB2" id="10118" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="5" phoneCodeID="118" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="5" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Har det fungert før?   Hvis ja, ca når hadde kunden epostene sist?]]>
+        </name>
+        <state_names size="5">
+          <state_name name="Nei"/>
+          <state_name name="Ja, tidligere idag"/>
+          <state_name name="Ja, igår"/>
+          <state_name name="Ja, tidligere i uken"/>
+          <state_name name="Ja, men husker ikke når"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Forsøk å få ned så nøyaktig tidsrom kunde vet han hadde epostene sist.  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="0">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="14" downtime="0" end_question="0" evidenceStep="0" first="1" guid="4131103000-56721-16582-91B2A5D11246DB70" id="10023" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="107" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="6" time="2" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilke webmailproblemer opplever kunde?]]>
+        </name>
+        <state_names size="6">
+          <state_name name="Får ikke logget inn"/>
+          <state_name name="Mottar ikke mail"/>
+          <state_name name="Kan ikke sende"/>
+          <state_name name="Får ikke sendt vedlegg"/>
+          <state_name name="Mistet epost"/>
+          <state_name name="Feil navn i epostadresse"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b>Generelt<br />
+</b><br />
+Forutsetning for feilsøking på vår webmail er at internett fungerer, og at kundens epost er aktiv.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Webmail eller lokal klient</b><br />
+<br />
+</div>
+<div align="left" dir="ltr">Dersom kunde bruker lokal klient (Outlook, Windows mail e.l) har vi ikke support for oppsett  / bruk av programmet. 
+For informasjon om innstillinger etc - se eksempel <a href="http://www.altibox.no/c/document_library/get_file?uuid=73f1acb5-6cb2-4857-bd39-69f55b16a7c6&amp;groupId=10327" target="_blank"><u>her.</u></a> Ellers skal kunden henvises til sin dataleverandør / internett 
+for ytterligere info om bruk av programvaren.<br />
+<br />
+</div>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.86mm; margin-bottom:4.24mm;">  </p>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="10">
+          <prob_dist c_id="10005">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10007">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10008">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10104">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10009">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10018">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10064">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10010">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="17" downtime="0" end_question="0" evidenceStep="0" first="1" guid="1454777657-1098-19196-B92CC585BCA12F3" id="10121" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="6" phoneCodeID="121" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="6" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilken nettleser benytter kunde?]]>
+        </name>
+        <state_names size="6">
+          <state_name name="Internet Explorer"/>
+          <state_name name="Mozilla Firefox"/>
+          <state_name name="Google Chrome"/>
+          <state_name name="Opera"/>
+          <state_name name="Safari"/>
+          <state_name name="Annet"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  De fleste kunder bruker Internet Explorer eller Safari(dersom mac-bruker), men dersom de benytter en annen epostleser ønsker vi å vite dette.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="2">
+          <prob_dist c_id="10007">
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+          </prob_dist>
+          <prob_dist c_id="0">
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="1668272195-7865-20152-BB11483B8D8A199F" keywords="" modelPicturePath="C:\Users\mata\Desktop\dezide\Fritekst-prosjekt\Internett\Internett - E-post webmail" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="135">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

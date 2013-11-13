@@ -1,0 +1,3462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[Alarm-BRL]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="99">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1793634678-63758-17344-B45F9D7BE1E5AB9" id="10005" match_level="0" not_customer_use="0" phoneCodeID="4" prob="0.1412976594" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[ Alarm - Feil på sensor uten lys]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1960901544-49699-19979-9DC59E565852A19" id="10008" match_level="0" not_customer_use="0" phoneCodeID="7" prob="0.1412976594" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[ Alarm - Lavt batteri]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="781272818-51149-17277-B3254645834A070" id="10006" match_level="0" not_customer_use="0" phoneCodeID="5" prob="0.1412976594" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[ Alarm - Systemfeil med gult lys]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4233566177-51353-19581-94A99786B9436AB2" id="10010" match_level="0" not_customer_use="0" phoneCodeID="9" prob="0.1412976594" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm - Aktivering]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="407378897-61603-19950-86FEF26A572EEA6" id="10009" match_level="0" not_customer_use="0" phoneCodeID="8" prob="0.1412976594" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm - Alarmpanel]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4212904210-14268-20107-84DF483F1956A5C5" id="10018" match_level="0" not_customer_use="0" parent_id="10010" phoneCodeID="17" prob="0.3359999976" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Aktivering-Defekt fjernkontroll]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1130844766-13661-19563-8082C1FA4E7648F" id="10017" match_level="0" not_customer_use="0" parent_id="10010" phoneCodeID="16" prob="0.3280000049" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Aktivering-Glemt/Feil PIN]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="784752682-8964-18466-A4A3F784EB4A1CC4" id="10019" match_level="0" not_customer_use="0" parent_id="10010" phoneCodeID="18" prob="0.3359999976" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Aktivering-Problemer med kode]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1441614956-35619-18078-A96F53F319FFFCB" id="10021" match_level="0" not_customer_use="0" parent_id="10009" phoneCodeID="20" prob="0.1839999962" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Alarmpanel-Batteri frakoblet ]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3616931048-30927-17771-8F2E4F8DC1D8F37" id="10020" match_level="0" not_customer_use="0" parent_id="10009" phoneCodeID="19" prob="0.1800000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Alarmpanel-Endre innstillinger]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2083503408-11365-17642-A9DB6F1529FB1E83" id="10022" match_level="0" not_customer_use="0" parent_id="10009" phoneCodeID="21" prob="0.2020000076" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Alarmpanel-Manglende kontakt ]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2911872400-18787-17462-B0E2CD183911D66" id="10023" match_level="0" not_customer_use="0" parent_id="10009" phoneCodeID="22" prob="0.2060000038" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Alarmpanel-Problem med tastatur]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3635376608-14624-16711-A53C914790589287" id="10054" match_level="0" not_customer_use="0" phoneCodeID="53" prob="0.1412976594" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Falsk alarm]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3100314672-49331-19245-AADB89C1EA2239D" id="10033" match_level="0" not_customer_use="0" parent_id="10005" phoneCodeID="32" prob="0.2019230752" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Feil på sensor uten lys-Bevegelsesdetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3485369677-20887-20168-A523277483A756CF" id="10036" match_level="0" not_customer_use="0" parent_id="10005" phoneCodeID="35" prob="0.2019230752" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Feil på sensor uten lys-Magnetkontakt]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1260321671-57729-19348-BE12366B9D7DDB87" id="10035" match_level="0" not_customer_use="0" parent_id="10005" phoneCodeID="34" prob="0.2019230752" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Feil på sensor uten lys-Røykdetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2409580720-26571-16746-987398CDCFE8D43B" id="10092" match_level="0" not_customer_use="0" parent_id="10005" phoneCodeID="91" prob="0.2019230752" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Feil på sensor uten lys-Sirener]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1077023564-58982-16838-BDEB4EF11472DAC" id="10034" match_level="0" not_customer_use="0" parent_id="10005" phoneCodeID="33" prob="0.1923076993" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Feil på sensor uten lys-Vanndetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2198044503-62817-19473-BEDAA2DAEA98D6D6" id="10040" match_level="0" not_customer_use="0" parent_id="10008" phoneCodeID="39" prob="0.2019999999" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Lavt batteri-Bevegelsesdetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3177936161-64993-18315-894A7E69E95960E2" id="10038" match_level="0" not_customer_use="0" parent_id="10008" phoneCodeID="37" prob="0.2019999999" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Lavt batteri-Ekstern/intern sirene ]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4155155587-25236-19974-8BFF5257B9D38758" id="10041" match_level="0" not_customer_use="0" parent_id="10008" phoneCodeID="40" prob="0.2019999999" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Lavt batteri-Magnetkontakt]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="720969956-56682-16398-BA12DE9D2E37CFF8" id="10037" match_level="0" not_customer_use="0" parent_id="10008" phoneCodeID="36" prob="0.1920000003" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Lavt batteri-Røykdetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1770422723-6473-17778-9B1D141653EB8632" id="10039" match_level="0" not_customer_use="0" parent_id="10008" phoneCodeID="38" prob="0.2019999999" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Lavt batteri-Vanndetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="749999107-3320-18041-B0D1A31FD793E22" id="10044" match_level="0" not_customer_use="0" parent_id="10006" phoneCodeID="43" prob="0.1679999988" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Systemfeil med gult lys-220v feil]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1397310425-48901-19854-AC1365D8DB5AD2C2" id="10045" match_level="0" not_customer_use="0" parent_id="10006" phoneCodeID="44" prob="0.1679999988" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Systemfeil med gult lys-GSM feil]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="660711040-38049-18009-A199CF34596FEED0" id="10042" match_level="0" not_customer_use="0" parent_id="10006" phoneCodeID="41" prob="0.1600000061" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Systemfeil med gult lys-Lavt batteri fjernkontroll ]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="492716943-18056-16555-A0834D98BAFA1E8E" id="10043" match_level="0" not_customer_use="0" parent_id="10006" phoneCodeID="42" prob="0.1679999988" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Systemfeil med gult lys-Lavt batterinivå kontrollenhet]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3369886586-27123-18485-85B150E4F38932DE" id="10046" match_level="0" not_customer_use="0" parent_id="10006" phoneCodeID="45" prob="0.1679999988" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Systemfeil med gult lys-Sabotasje]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1648397244-47090-17607-B4D61978293344E" id="10047" match_level="0" not_customer_use="0" parent_id="10006" phoneCodeID="46" prob="0.1679999988" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Systemfeil med gult lys-Sensor Overvåkningsfeil]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1829274997-6136-20142-9584F5669CCB5D7D" id="10048" match_level="0" not_customer_use="0" phoneCodeID="47" prob="0.1412976594" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Utfordringer med batteribytte]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1823523952-51303-17042-94A310A25E9AE628" id="10075" match_level="0" not_customer_use="0" parent_id="10048" phoneCodeID="74" prob="0.2490000009" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Utfordringer med batteribytte - Røykdetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4015004314-6681-16614-8AD4288449A5F17" id="10049" match_level="0" not_customer_use="0" parent_id="10048" phoneCodeID="48" prob="0.2550000049" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Utfordringer med batteribytte-Bevegelsesdetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4072050026-61506-17465-8C687883D05EF113" id="10051" match_level="0" not_customer_use="0" parent_id="10048" phoneCodeID="50" prob="0.2479999971" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Utfordringer med batteribytte-Magnetkontakt]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3114922172-15392-18548-92E1D3CA908EAFF" id="10050" match_level="0" not_customer_use="0" parent_id="10048" phoneCodeID="49" prob="0.2479999971" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Utfordringer med batteribytte-Vanndetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3653751601-55-19222-B7FA7A29AA587629" id="10053" match_level="0" not_customer_use="0" parent_id="10054" phoneCodeID="52" prob="0.0597856512" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Utløst alarm]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1252511309-52726-19019-9896CC67F3AE6C3C" id="10052" match_level="0" not_customer_use="0" parent_id="10054" phoneCodeID="51" prob="0.3621781005" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Utløst alarm-Ikke varslet]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2587455099-35522-17921-9347E46E6D9DFE6B" id="10055" match_level="0" not_customer_use="0" parent_id="10053" phoneCodeID="54" prob="1.0000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Alarm-Utløst alarm-Ingen lyd]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1738023704-50939-16577-ADDA2BFC8BD5138E" id="10177" match_level="0" not_customer_use="0" parent_id="10052" phoneCodeID="176" prob="0.1250000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Avslått alarm]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2870443825-44054-17889-9FAD3D2C7CAD7E3" id="10157" match_level="0" not_customer_use="0" parent_id="10020" phoneCodeID="153" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Avvik i kundeforhold.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="209727032-30991-19578-99C614357AED829" id="10025" match_level="0" not_customer_use="0" parent_id="10054" phoneCodeID="24" prob="0.1463199525" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Bevegelsesdetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1952772940-30156-17296-BE207A916A1BBC3" id="10080" match_level="0" not_customer_use="0" parent_id="10033" phoneCodeID="79" prob="0.3280000049" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Bevegelsesdetektor er ikke festet på rett måte.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4208815452-25383-18813-944ACF1E1FF136B" id="10081" match_level="0" not_customer_use="0" parent_id="10033" phoneCodeID="80" prob="0.3359999976" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Bevegelsessensor er ikke registrert på panel.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2589733113-55321-16430-8DA25B96A5A368D5" id="10122" match_level="0" not_customer_use="0" parent_id="10045" phoneCodeID="118" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt GSM panel.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3896964524-36561-16986-BA25D4B8F9A592DD" id="10118" match_level="0" not_customer_use="0" parent_id="10044" phoneCodeID="114" prob="0.3519999942" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt PSU]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3740794954-63483-17430-8342B5FF68B69B3A" id="10119" match_level="0" not_customer_use="0" parent_id="10044" phoneCodeID="115" prob="0.3240000029" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt alarmpanel]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="130893332-49353-17596-B34B5BF1C81736C9" id="10140" match_level="0" not_customer_use="0" parent_id="10018" phoneCodeID="136" prob="0.3333334923" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt fjernkontroll]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1712889475-10681-17626-AB5921387C9D931C" id="10362" match_level="0" not_customer_use="0" parent_id="10042" phoneCodeID="361" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt fjernkontroll.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3242124403-22740-17636-894CE56B3FE35419" id="10153" match_level="0" not_customer_use="0" parent_id="10021" phoneCodeID="149" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt nødstrømsbatteri]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4072198479-48526-18418-B3923483B728BD" id="10082" match_level="0" not_customer_use="0" parent_id="10033" phoneCodeID="81" prob="0.3359999976" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt sensor på bevegelsesdetektor.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="677512847-33870-18031-ABD93D1F65B3F897" id="10085" match_level="0" not_customer_use="0" parent_id="10036" phoneCodeID="84" prob="0.3359999976" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt sensor på magnetkontakt.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3502955198-19398-19792-92CEE21A8F79F627" id="10088" match_level="0" not_customer_use="0" parent_id="10035" phoneCodeID="87" prob="0.3300000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt sensor på røykdetektor.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1331850972-26561-17886-93BB96F56C4C2D3A" id="10156" match_level="0" not_customer_use="0" parent_id="10020" phoneCodeID="152" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Endringer trer ikke kraft]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3345847390-39930-18563-B28BD5D380619D4F" id="10435" match_level="0" not_customer_use="0" parent_id="10052" phoneCodeID="434" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Falsk alarm]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1795078890-6539-18208-824233D7C71C55C3" id="10339" match_level="0" not_customer_use="0" parent_id="10052" phoneCodeID="338" prob="0.1250000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil i varslingsliste.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1309803347-7705-20119-AE917C10CD53405E" id="10180" match_level="0" not_customer_use="0" parent_id="10055" phoneCodeID="179" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil på panel.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1703325821-64808-17530-A5FB2183D340D371" id="10179" match_level="0" not_customer_use="0" parent_id="10055" phoneCodeID="178" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil på sirene]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="351135242-4414-18468-98EDE85A857FF6A5" id="10345" match_level="0" not_customer_use="0" parent_id="10052" phoneCodeID="344" prob="0.1250000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feilmelding i M2M]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3881171863-32863-18697-B1A3B23397665B2" id="10138" match_level="0" not_customer_use="0" parent_id="10018" phoneCodeID="135" prob="0.3333334923" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Fjernkontrollen er ikke aktivert i M2M]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2705961115-44644-16899-A1D6B6D7A7B3C24C" id="10154" match_level="0" not_customer_use="0" parent_id="10021" phoneCodeID="150" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Fysisk kabling.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2075413772-9619-18372-B931F0911FD09470" id="10178" match_level="0" not_customer_use="0" parent_id="10052" phoneCodeID="177" prob="0.1250000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[GSM feil]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3096076081-6517-17622-BFD55EF03A39185D" id="10200" match_level="0" not_customer_use="0" parent_id="10009" phoneCodeID="198" prob="0.2279999924" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[HS er down down not connected]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1658060547-44087-17449-B197AE61EE34E196" id="10121" match_level="0" not_customer_use="0" parent_id="10045" phoneCodeID="117" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Ingen dekning]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3059449758-37701-16840-952D8449A54119C" id="10126" match_level="0" not_customer_use="0" parent_id="10043" phoneCodeID="122" prob="1.0000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kabel er defekt eller står ikke tilkoblet riktig.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="298026679-57883-19407-B97BDB115C9191E9" id="10151" match_level="0" not_customer_use="0" parent_id="10019" phoneCodeID="147" prob="1.0000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kode fungerer ikke.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3123604214-10787-16421-96A5E584AF70F9C2" id="10149" match_level="0" not_customer_use="0" parent_id="10017" phoneCodeID="145" prob="1.0000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kunden har glemt pin kode.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3761412200-37372-17282-9DA15B4544F7EC44" id="10028" match_level="0" not_customer_use="0" parent_id="10054" phoneCodeID="27" prob="0.1463199525" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Magnetkontakt]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1528873554-59336-17347-83126CC999B1FE6" id="10083" match_level="0" not_customer_use="0" parent_id="10036" phoneCodeID="82" prob="0.3280000049" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Magnetkontakt er ikke festet på rett måte.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3523629764-35940-20028-8E3FD7CCDB1924A5" id="10084" match_level="0" not_customer_use="0" parent_id="10036" phoneCodeID="83" prob="0.3359999976" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Magnetkontakt sensor er ikke registrert på panelet.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3621976482-9098-18078-A136F8424949597A" id="10160" match_level="0" not_customer_use="0" parent_id="10022" phoneCodeID="157" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Manglende kontakt med alarmpanelet.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="848191913-6470-17719-BD4BC2C866B6376B" id="10120" match_level="0" not_customer_use="0" parent_id="10044" phoneCodeID="116" prob="0.3240000029" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Mangler strøm i stikkontakt.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3504300163-17371-19956-ACCCADA44D30FC51" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0109163841" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="368015953-16221-18765-88E090C0D4C55FAF" id="10024" match_level="0" not_customer_use="0" parent_id="10054" phoneCodeID="23" prob="0.1390763908" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Røykdetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4200421237-20822-20090-BF8DF81F5C7D56D" id="10086" match_level="0" not_customer_use="0" parent_id="10035" phoneCodeID="85" prob="0.3400000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Røykdetektor er ikke festet på korrekt måte.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2908574300-54829-19779-B8B05A965BB5105" id="10087" match_level="0" not_customer_use="0" parent_id="10035" phoneCodeID="86" prob="0.3300000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Røykdetektor sensor er ikke registrert på panel.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2650292937-50743-18284-9CDFA9D6E87F2E93" id="10310" match_level="0" not_customer_use="0" parent_id="10047" phoneCodeID="309" prob="0.2500000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Sensor overvåkningsfeil på bevegelsesdetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1366947358-20539-20200-9E2471E768337B95" id="10312" match_level="0" not_customer_use="0" parent_id="10047" phoneCodeID="311" prob="0.2500000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Sensor overvåkningsfeil på magnetkontakt]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1675026863-37617-18957-B85B92EE879E8BC7" id="10311" match_level="0" not_customer_use="0" parent_id="10047" phoneCodeID="310" prob="0.2500000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Sensor overvåkningsfeil på røykdetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3671855824-37614-19014-88A11CD65EE1176" id="10315" match_level="0" not_customer_use="0" parent_id="10047" phoneCodeID="314" prob="0.2500000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Sensor overvåkningsfeil på vanndetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="992928932-469-19406-80DAD5B51933344B" id="10302" match_level="0" not_customer_use="0" parent_id="10046" phoneCodeID="301" prob="0.2500000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Sensorsabotasje på bevegelsesdetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2370394104-13506-16709-825D6712BDA6C1A9" id="10305" match_level="0" not_customer_use="0" parent_id="10046" phoneCodeID="304" prob="0.2500000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Sensorsabotasje på magnetkontakt]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4172371464-43255-19569-B14CAC234E4093D4" id="10307" match_level="0" not_customer_use="0" parent_id="10046" phoneCodeID="306" prob="0.2500000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Sensorsabotasje på røykdetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1926624165-18614-20063-95A3BACF555E412D" id="10306" match_level="0" not_customer_use="0" parent_id="10046" phoneCodeID="305" prob="0.2500000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Sensorsabotasje på vanndetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3163957332-48827-20186-862E4D561DAFDBC" id="10095" match_level="0" not_customer_use="0" parent_id="10092" phoneCodeID="94" prob="1.0000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Sirenens sensor er defekt.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1069249852-5855-18933-99892B2EE7D7DD89" id="10171" match_level="0" not_customer_use="0" parent_id="10049" phoneCodeID="170" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Spenning er ikke ladet ut av bevegelsesdetektor.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4030638521-5978-16995-876DC58C9F227A7C" id="10173" match_level="0" not_customer_use="0" parent_id="10051" phoneCodeID="172" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Spenning er ikke ladet ut av magnetkontakt]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3431848639-34867-18297-A4F01576F8A366B" id="10169" match_level="0" not_customer_use="0" parent_id="10075" phoneCodeID="168" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Spenning er ikke ladet ut av røykdetektor.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1792923335-17799-19470-9CFE53D85D737B43" id="10175" match_level="0" not_customer_use="0" parent_id="10050" phoneCodeID="174" prob="0.4890000153" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Spenningen er ikke ladet ut av vanndetektor.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2276579737-24157-17265-A8E4F0E8922BF0" id="10161" match_level="0" not_customer_use="0" parent_id="10022" phoneCodeID="160" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Svak skjerm på panel.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3504359172-22538-17020-975A6CD95261954" id="10162" match_level="0" not_customer_use="0" parent_id="10023" phoneCodeID="161" prob="1.0000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Tastatur virker ikke.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1802969792-24692-19890-877A7A18D295692" id="10172" match_level="0" not_customer_use="0" parent_id="10049" phoneCodeID="171" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Tomt batteri i bevegelsesdetektor.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1107013174-29310-16509-B8809E1BE83CA1A8" id="10363" match_level="0" not_customer_use="0" parent_id="10042" phoneCodeID="362" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Tomt batteri i fjernkontroll]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3838655456-37476-18503-A250368CB3292635" id="10142" match_level="0" not_customer_use="0" parent_id="10018" phoneCodeID="138" prob="0.3333330154" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Tomt batteri i fjernkontrollen.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3163133656-13565-18674-835B86F2EF67F14F" id="10174" match_level="0" not_customer_use="0" parent_id="10051" phoneCodeID="173" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Tomt batteri i magnetkontakt.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2431625657-36493-17639-BF48EB3F98D88890" id="10170" match_level="0" not_customer_use="0" parent_id="10075" phoneCodeID="169" prob="0.5000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Tomt batteri i røykdetektor.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1803188026-47868-20122-9D37482B1D532C8" id="10176" match_level="0" not_customer_use="0" parent_id="10050" phoneCodeID="175" prob="0.5109999847" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Tomt batteri i vanndetektor.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1154049852-32735-19029-8841A83D7FBCA3F4" id="10026" match_level="0" not_customer_use="0" parent_id="10054" phoneCodeID="25" prob="0.1463199525" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Vanndetektor]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="888426270-23579-20412-B9A6E6A5E7E16985" id="10091" match_level="0" not_customer_use="0" parent_id="10034" phoneCodeID="90" prob="0.3300000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Vanndetektor sensor er defekt.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2427165319-27647-16641-9AA6686B582C9F1C" id="10090" match_level="0" not_customer_use="0" parent_id="10034" phoneCodeID="89" prob="0.3300000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Vanndetektor sensor er ikke registrert på panel.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2183659215-52872-16547-B0E0ED5F51129F2F" id="10089" match_level="0" not_customer_use="0" parent_id="10034" phoneCodeID="88" prob="0.3400000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Vanndetektorer ikke festet på korrekt måte.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="24">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="27" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3307763267-62052-18579-8738C3A8EC9697AA" id="10152" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="148" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="4" type="0" workaround="0">
+        <name>
+          <![CDATA[Aktiver fjernkontroll i M2M]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Aktiver kundens fjernkontroll i M2M og oppdater config.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10138" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="1">
+          <only_after_question id="10281" nstates="0" state="1"/>
+        </only_after_questions>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="22" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2752477299-48642-16415-9C10A541CD148F" id="10134" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="131" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="16" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunden komme til kundemottak for å motta ny fjernkontroll.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Fjernkontrollen er defekt, og kunden må få utlevert ny. Henvis kunden til lokalt kundesenter.</div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10140" prob="1.0000000000"/>
+          <cause_solved id="10362" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="18" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3347245844-39761-18284-A0AA94BA29427B9D" id="10123" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="119" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunden kontrollere strøm i stikkontakt.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kundens panel får ikke strøm. Be kunden kontroller kablingen.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10120" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="4" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2810616052-57044-19744-85FE68EFC4A433D4" id="10059" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="58" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt batterier i bevegelsesdetektor.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">1.<br />
+<br />
+</div>
+<div align="left" dir="ltr"><u>Batteribytte i bevegelsessensoren:<br />
+</u><br />
+</div>
+<div align="left" dir="ltr">Sjekk at alarmen er avslått.</div>
+<div align="left" dir="ltr"><br />
+Ta ned bevegelsessensoren ved å ta tak i toppen av sensor og vipp den ut fra festet.</div>
+<div align="left" dir="ltr"><br />
+Skru opp skruen i bunnen av sensor og ta ut gammelt batteri.</div>
+<div align="left" dir="ltr"><br />
+Hold inne bryter\ledlys til det slutter å lyse.</div>
+<div align="left" dir="ltr"><br />
+Ta av plastomslag i toppen av det nye batteriet og pass på å sette inn batteriet</div>
+<div align="left" dir="ltr">riktig(+\-).</div>
+<div align="left" dir="ltr"><br />
+Trykk 5 ganger på bryter\ledlys med 2 sekunders mellomrom etter at batteriet er montert - dette må gjøres for å få det nye</div>
+<div align="left" dir="ltr">batteriet i drift. Lyser ikke Led-lyset har ikke sensor kontakt med batteriet. Prøv evt. å justere batteriet.</div>
+<div align="left" dir="ltr"><br />
+Skru på plass skruen i bunn av sensor, og sett den tilbake på festet. Har gult</div>
+<div align="left" dir="ltr">varsellys på alarmpanel sluttet å lyse er</div>
+<div align="left" dir="ltr">sensor satt riktig på plass. NB: Fjæren på</div>
+<div align="left" dir="ltr">baksiden av bevegelsessensoren må stå</div>
+<div align="left" dir="ltr">i klem mot festet.<br />
+<br />
+</div>
+<div align="left" dir="ltr">2.<br />
+<br />
+</div>
+<div align="left" dir="ltr"><u>Slett feilmelding i alarmpanelet:</u><br />
+<br />
+<br />
+</div>
+<div align="left" dir="ltr">Tast kode og trykk ok på alarmpanelet</div>
+<div align="left" dir="ltr"><br />
+Trykk ok på systemfeil<br />
+<br />
+</div>
+<div align="left" dir="ltr">Trykk pil ned til det står slutt</div>
+<div align="left" dir="ltr"><br />
+Trykk på rund pil</div>
+<div align="left" dir="ltr"><br />
+Trykk ok</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="3">
+          <cause_solved id="10040" prob="1.0000000000"/>
+          <cause_solved id="10302" prob="0.6590000000"/>
+          <cause_solved id="10172" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="24" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="852883575-3337-19342-9DDC29BCA0404AA1" id="10143" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="139" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="9" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt batterier i fjernkontroll.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunden må bytte batterier i fjernkontrollen. Vennligst utlever batterier etter interne rutiner.</div>
+]]>
+        </explanation>
+        <causes_solved size="3">
+          <cause_solved id="10042" prob="1.0000000000"/>
+          <cause_solved id="10142" prob="1.0000000000"/>
+          <cause_solved id="10363" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="6" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="4210487638-21654-19365-AA22297EFE5237AE" id="10061" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="60" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt batterier i magnetkontakt.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Batteribytte magnetkontakt</div>
+<div align="left" dir="ltr">DC- 9</div>
+<div align="left" dir="ltr">Batteritype:ER 14250 1/2AA 1.2AH 3.6V LITHIUM.<br />
+<br />
+<br />
+</div>
+<div align="left" dir="ltr">1.</div>
+<div align="left" dir="ltr">For å skifte batteri i magnetkontakt må den demonteres</div>
+<div align="left" dir="ltr">.</div>
+<div align="left" dir="ltr">Skru løs skruen på siden. Det er ikke mulig å skru den helt ut.</div>
+<div align="left" dir="ltr">Ta ned sensor.</div>
+<div align="left" dir="ltr">Ta ut det gamle batteriet, trykk på brun mikrobryter i 5 sekunder. <br />
+<br />
+Dette gjør vi for å lade ut eventuelle spenninger i magnetkontaktens elektronikk.</div>
+<div align="left" dir="ltr"><br />
+Ta av plastomslag og sett inn det nye batteriet riktig (+\-). <br />
+<br />
+Trykk 5 ganger på brun mikrobryter med 2 sekunders mellomrom etter at batteriet er montert. Dette må gjøres for å få det 
+nye batteriet i drift. Lyser ikke Ledlys på fremsiden av sensor har ikke sensor kontakt med batteriet. Du må da flytte litt på 
+batteriet.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Monter sensorpå plass igjen slik den sto.<br />
+<br />
+</div>
+<div align="left" dir="ltr">Det er viktig at det markerte området vender mot</div>
+<div align="left" dir="ltr">magnet.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Hvis gult varsellys på panel har sluttet å lyse sitter detektor skikkelig på plass.</div>
+<div align="left" dir="ltr"><br />
+Vær obs på at fjæren på baksiden må stå skikkelig i klem mot vindus -eller dørkarmen.</div>
+<div align="left" dir="ltr"><br />
+<br />
+2.<br />
+<br />
+</div>
+<div align="left" dir="ltr">Les ut gammel feil</div>
+<div align="left" dir="ltr"><br />
+Trykk kode og ok på panel.</div>
+<div align="left" dir="ltr"><br />
+Trykk ok på”systemfeil&quot;</div>
+<div align="left" dir="ltr"><br />
+Trykk rund pil</div>
+<div align="left" dir="ltr"><br />
+Trykk ok.</div>
+]]>
+        </explanation>
+        <causes_solved size="3">
+          <cause_solved id="10041" prob="1.0000000000"/>
+          <cause_solved id="10305" prob="0.6500000000"/>
+          <cause_solved id="10174" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="7" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1761346138-7550-19322-A134CFB292966DD9" id="10062" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="61" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt batterier i røykdetektor.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">1. Batteribytte i røykdetektor</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Det er særdeles viktig at denne prosedyren følges.</div>
+<div align="left" dir="ltr">Hvis ikke vil ikke sensor sende OK-batterimelding til sentral.</div>
+<div align="left" dir="ltr"><br />
+Sjekk at alarmen er avslått.</div>
+<div align="left" dir="ltr">Ta ned røykdedetektoren fra taket ved å vri detektoren ca en centimeter til venstre til du hører et klikk - og den løsner fra 
+monteringsbraketten.</div>
+<div align="left" dir="ltr">Ta ut batteriene trykk på testknapp til LED ikke lenger lyser. Dette gjør vi for å lade ut eventuelle spenninger i røykdetektorens 
+elektronikk.</div>
+<div align="left" dir="ltr">    <br />
+Sett inn de nye batteriene.</div>
+<div align="left" dir="ltr">Når alle batteriene er satt i riktig vil røykdetektoren indikere dette med et to-tone signal. Deretter vil LED-lys blinke hvert 
+sekund i 8-22 minutter før den med ett nytt to-tone signal indikerer at den er ferdig kalibrert. NB: Ikke trykk på testknappen 
+mens røykdetektorenkalibrerer seg.</div>
+<div align="left" dir="ltr">    <br />
+Plasser detektoren på monteringsbraketten, og vri den en centimeter til høyre til du hører et klikk - og den sitter fast. Du 
+trenger ikke vente til detektoren er ferdig kalibrert før du plasserer den på festet igjen.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">2. Slett feilmelding i alarmpanelet ( ikke brl )</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">    Tast kode og trykk ok på alarmpanelet</div>
+<div align="left" dir="ltr">    Trykk ok på systemfeil (NB - står det ikke systemfeil er alt i orden, og du trenger ikke gå videre)</div>
+<div align="left" dir="ltr">    Trykk pil ned til det står slutt</div>
+<div align="left" dir="ltr">    Trykk tilbake/angre</div>
+<div align="left" dir="ltr">    Trykk ok</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">  </div>
+<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <causes_solved size="3">
+          <cause_solved id="10037" prob="1.0000000000"/>
+          <cause_solved id="10170" prob="1.0000000000"/>
+          <cause_solved id="10307" prob="0.6500000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="8" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="229245299-64299-18285-83CE64926851C8CA" id="10063" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="62" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt batterier i vanndetektor.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><img src="HTS_1.PNG" width="664" height="708" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="3">
+          <cause_solved id="10039" prob="1.0000000000"/>
+          <cause_solved id="10306" prob="0.6500000000"/>
+          <cause_solved id="10176" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="17" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1599362506-25738-16564-9A6F9EF86537F91" id="10116" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="113" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="11" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt strømforsyning]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Strømforsyning kan være defekt og må byttes. Kunde kan få utlevert ny 
+strømforsyning på kundemottaket eller få en tilsendt.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Husk å informere om eventuelle fraktkostnader dersom det skal sendes.</div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10126" prob="0.8790000000"/>
+          <cause_solved id="10118" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="10" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1734306056-63131-17344-A681DE2A60BFFC47" id="10109" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="104" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="19" type="0" workaround="0">
+        <name>
+          <![CDATA[Eskaler til Service og Support]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Saken kan ikke løses av kundebehandler og må eskaleres til Service &amp; Support.</div>
+]]>
+        </explanation>
+        <causes_solved size="11">
+          <cause_solved id="10046" prob="1.0000000000"/>
+          <cause_solved id="10047" prob="1.0000000000"/>
+          <cause_solved id="10151" prob="1.0000000000"/>
+          <cause_solved id="10081" prob="1.0000000000"/>
+          <cause_solved id="10090" prob="1.0000000000"/>
+          <cause_solved id="10084" prob="1.0000000000"/>
+          <cause_solved id="10156" prob="1.0000000000"/>
+          <cause_solved id="10180" prob="1.0000000000"/>
+          <cause_solved id="10087" prob="1.0000000000"/>
+          <cause_solved id="10178" prob="1.0000000000"/>
+          <cause_solved id="10179" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="9" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1790722654-29569-17695-83E615FE67BAA77" id="10101" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="100" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="9" type="0" workaround="0">
+        <name>
+          <![CDATA[Fest bevegelsesdetektor etter instrukser.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Ta av plastomslag i toppen av det nye batteriet og pass på å sette inn batteriet</div>
+<div align="left" dir="ltr">riktig(+\-).</div>
+<div align="left" dir="ltr"><br />
+Trykk 5 ganger på bryter\ledlys med 2 sekunders mellomrom etter at batteriet er montert - dette må gjøres for å få det nye</div>
+<div align="left" dir="ltr">batteriet i drift. Lyser ikke Led-lyset har ikke sensor kontakt med batteriet. Prøv evt. å justere batteriet.</div>
+<div align="left" dir="ltr"><br />
+Skru på plass skruen i bunn av sensor, og sett den tilbake på festet. Har gult</div>
+<div align="left" dir="ltr">varsellys på alarmpanel sluttet å lyse er</div>
+<div align="left" dir="ltr">sensor satt riktig på plass. NB: Fjæren på</div>
+<div align="left" dir="ltr">baksiden av bevegelsessensoren må stå</div>
+<div align="left" dir="ltr">i klem mot festet.</div>
+]]>
+        </explanation>
+        <causes_solved size="5">
+          <cause_solved id="10025" prob="1.0000000000"/>
+          <cause_solved id="10302" prob="1.0000000000"/>
+          <cause_solved id="10310" prob="1.0000000000"/>
+          <cause_solved id="10080" prob="1.0000000000"/>
+          <cause_solved id="10171" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="12" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2686519724-643-17458-9AC48F497AF9DC" id="10111" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="106" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="9" type="0" workaround="0">
+        <name>
+          <![CDATA[Fest magnetkontakt etter instrukser.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Ta ut det gamle batteriet, trykk på brun mikrobryter i 5 sekunder. <br />
+<br />
+Dette gjør vi for å lade ut eventuelle spenninger i magnetkontaktens elektronikk.</div>
+<div align="left" dir="ltr"><br />
+Ta av plastomslag og sett inn det nye batteriet riktig (+\-). <br />
+<br />
+Trykk 5 ganger på brun mikrobryter med 2 sekunders mellomrom etter at batteriet er montert. Dette må gjøres for å få det 
+nye batteriet i drift. Lyser ikke Ledlys på fremsiden av sensor har ikke sensor kontakt med batteriet. Du må da flytte litt på 
+batteriet.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Monter sensorpå plass igjen slik den sto.<br />
+<br />
+</div>
+<div align="left" dir="ltr">Det er viktig at det markerte området vender mot</div>
+<div align="left" dir="ltr">magnet.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Hvis gult varsellys på panel har sluttet å lyse sitter detektor skikkelig på plass.</div>
+<div align="left" dir="ltr"><br />
+Vær obs på at fjæren på baksiden må stå skikkelig i klem mot vindus -eller dørkarmen.</div>
+<div align="left" dir="ltr"><br />
+<br />
+</div>
+<div align="left" dir="ltr">Les ut gammel feil</div>
+<div align="left" dir="ltr"><br />
+Trykk kode og ok på panel.</div>
+<div align="left" dir="ltr"><br />
+Trykk ok på”systemfeil&quot;</div>
+<div align="left" dir="ltr"><br />
+Trykk rund pil</div>
+<br />
+Trykk ok.<br />
+<br />
+Hvis magneten ikke er inntil senderen, vil detektoren være i alarmtilstand. Detektoren varsler ifra til sentralen om den er i 
+alarmtilstand eller hvile. 
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.71mm; margin-bottom:1.71mm;">Senderenheten er merket med to streker øverst på venstre side, denne pilen må vende mot magneten for at detektoren skal 
+virke. <br />
+Det er viktig at det markerte området vender mot magnet.<br />
+Hvis gult varsellys på alarmpanel har sluttet å lyse er magnetkontakt festet<br />
+riktig. Vær obs på at fjæren på baksiden må stå i klem mot vindus- eller dørkarmen.</p>
+<div align="left" dir="ltr">  </div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="5">
+          <cause_solved id="10028" prob="1.0000000000"/>
+          <cause_solved id="10312" prob="1.0000000000"/>
+          <cause_solved id="10305" prob="1.0000000000"/>
+          <cause_solved id="10083" prob="1.0000000000"/>
+          <cause_solved id="10173" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="13" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2872191857-56493-17221-9D5A6F4478C4183" id="10112" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="107" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="9" type="0" workaround="0">
+        <name>
+          <![CDATA[Fest røykdetektor etter instrukser.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Montasje:<br />
+<br />
+Sett inn 4 stk “AAA” batterier. <br />
+Før batteriene blir satt inn er det viktig at detektoren har oppnådd den samme temperatur som rommet den skal monteres i.  <br />
+<br />
+Etter at batteriene er satt inn vil detektoren starte kalibreringsprosessen (LED blinker hvert sekund). <br />
+Når kalibreringsprosessen er fullført vil detektoren indikere dette med et to-tone signal og LED stopper å blinke hvert sekund 
+(8 &ndash; 22 minutter). <br />
+<br />
+<b>NB: Ikke trykk på testknapp under kalibrering. </b><br />
+<br />
+Sett alarmsentralen i programmeringsmodus ved å gå inn i menyen: ”Enheter +/- ” og velg menyen: ”Legg til enheter”. <br />
+<br />
+Trykk på Testknappen på enheten. Testsignalet blir sendt til alarmpanelet som viser i displayet at den har mottatt signal fra 
+Røyk detektoren.<br />
+<br />
+Programmer Røyk detektoren på alarmpanelet. <br />
+<br />
+Monter braketten og fest detektoren </div>
+<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <causes_solved size="5">
+          <cause_solved id="10024" prob="1.0000000000"/>
+          <cause_solved id="10311" prob="1.0000000000"/>
+          <cause_solved id="10307" prob="1.0000000000"/>
+          <cause_solved id="10086" prob="1.0000000000"/>
+          <cause_solved id="10169" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="15" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="4012649216-60678-20130-819553EC2B91845C" id="10114" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="109" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="9" type="0" workaround="0">
+        <name>
+          <![CDATA[Fest vanndetektor etter instrukser.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><img src="HTS_1.PNG" width="664" height="708" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="5">
+          <cause_solved id="10026" prob="1.0000000000"/>
+          <cause_solved id="10306" prob="1.0000000000"/>
+          <cause_solved id="10315" prob="1.0000000000"/>
+          <cause_solved id="10175" prob="1.0000000000"/>
+          <cause_solved id="10089" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="21" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3002234732-337-17834-9ECDDEC3A849DF2E" id="10198" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="196" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="2" type="0" workaround="0">
+        <name>
+          <![CDATA[HS er down/down not connected]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10200" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="19" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1647261522-31894-17846-BB303C37AA7DC1DC" id="10124" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="120" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Kontroller at kundens panel og sim kort står aktive i M2M.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kontroller kundeforholdet i M2M. Er kunden aktivert?</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10121" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="3" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1265681337-15294-16930-B6EDEC7288CA0B7" id="10350" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="349" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Kontroller at strømkabel er koblet til kontrollenhet.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kontroller at strømkabelen til panelet ikke er koblet fra. Sjekk begge ender av strømkabel.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10126" prob="0.6320000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="29" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1787683696-13743-17846-B648F85CAFD8F9A2" id="10158" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="154" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Korriger avvik på kundeforhold]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Rett opp i avvikene på kundeforhold.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10157" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="28" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1172739096-38255-19571-B92382ADD736693" id="10155" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="151" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Korriger fysisk kabling.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kontroller kundens kabling. </div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10160" prob="1.0000000000"/>
+          <cause_solved id="10154" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="51" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1753705226-36672-18254-B73970FD75AE6887" id="10340" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="339" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Korriger telefonnummere i avvikslisten.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunden må møte opp på kundemottak og registrere nytt telefonnummer i listen.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10339" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="25" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1126235402-18238-20255-9860DE7F3C6FBA31" id="10145" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="141" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="9" type="0" workaround="0">
+        <name>
+          <![CDATA[Kunden må komme til kundemottak for å få utlevert ny kode eller sende henvendelse via min side.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunden må komme til kundemottak med legitimasjon for å få utlevert ny kode. Kunden kan også opprette en henvendelse på min 
+side og få tilsendt ny kode.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10149" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="20" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1830668858-51096-17997-8350529F3F8E562B" id="10125" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="121" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Restart panelet.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Utfør en restart av panelet i M2M. Dette kan løse interne tekniske feil.</div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10121" prob="1.0000000000"/>
+          <cause_solved id="10122" prob="0.5110000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="35" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1883250710-27930-20468-89C162BED039B29B" id="10181" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="180" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Slå på alarm.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Be kunden slå på alarmen. Dette bekreftes ved at kunden leser av panelet, eller status på panel i M2M.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10177" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="11" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="516992299-51434-17504-9024ECF8581DB7" id="10110" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="105" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="19" type="0" workaround="0">
+        <name>
+          <![CDATA[Vurder montør.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Vurder behovet for å sende ut montør til kunden.</div>
+]]>
+        </explanation>
+        <causes_solved size="12">
+          <cause_solved id="10122" prob="1.0000000000"/>
+          <cause_solved id="10119" prob="1.0000000000"/>
+          <cause_solved id="10160" prob="1.0000000000"/>
+          <cause_solved id="10153" prob="1.0000000000"/>
+          <cause_solved id="10161" prob="1.0000000000"/>
+          <cause_solved id="10082" prob="1.0000000000"/>
+          <cause_solved id="10162" prob="1.0000000000"/>
+          <cause_solved id="10091" prob="1.0000000000"/>
+          <cause_solved id="10085" prob="1.0000000000"/>
+          <cause_solved id="10095" prob="1.0000000000"/>
+          <cause_solved id="0" prob="1.0000000000"/>
+          <cause_solved id="10088" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="22">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="14" downtime="0" end_question="0" evidenceStep="0" first="0" guid="3219138376-26496-18147-B258DF417BC8581" id="10253" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="413" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Beskriv utløst alarm]]>
+        </name>
+        <state_names size="3">
+          <state_name name="Falsk alarm"/>
+          <state_name name="Utløst alarm uten lyd"/>
+          <state_name name="Utløst alarm, ikke varslet."/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="3">
+          <prob_dist c_id="10052">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10179">
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10435">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="40" downtime="0" end_question="0" evidenceStep="0" first="0" guid="408044526-13167-19096-AA34FD5F46D759A6" id="10227" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="5" phoneCodeID="226" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Er alle detektorer registrert i M2M?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Kontroller utstyrslisten i M2M. Er alle sensorer aktivert?</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="4">
+          <prob_dist c_id="10081">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10090">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10084">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10087">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.0000000000"/>
+          <prob value="1.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="31" downtime="0" end_question="0" evidenceStep="0" first="0" guid="3863990270-63572-18798-8DE166C58961FD38" id="10281" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="280" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Er fjernkontrollen aktivert i M2M?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Kontroller utstyrlisten i M2M. Er fjernkontrollen aktivert?</div>
+]]>
+        </explanation>
+        <only_after_questions size="1">
+          <only_after_question id="10230" nstates="0" state="0"/>
+        </only_after_questions>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10138">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="36" downtime="0" end_question="0" evidenceStep="0" first="0" guid="2768310053-20841-19511-9189CC172C30AD7F" id="10188" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="187" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Er kundens alarm påslått?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10177">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="47" downtime="0" end_question="0" evidenceStep="0" first="0" guid="1207006306-56374-18854-BC6081296F273990" id="10284" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="4" phoneCodeID="283" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Er kundens hjemmesentral up/up connected?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Sjekk kundens portstatus i Provisioning. Er status Up/Up connected?</div>
+]]>
+        </explanation>
+        <only_after_questions size="1">
+          <only_after_question id="10003" nstates="0" state="0"/>
+        </only_after_questions>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10200">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="30" downtime="0" end_question="0" evidenceStep="0" first="0" guid="2707966346-18088-17226-83BB9963C7846564" id="10159" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="155" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="5" type="2" type2="2">
+        <name>
+          <![CDATA[Finnes det avvik i kundeforhold?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10157">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="37" downtime="0" end_question="0" evidenceStep="0" first="0" guid="48179186-21680-18223-AE1B796788C12BA" id="10196" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="3" phoneCodeID="200" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Gjelder det nyoppkobling, eller har det fungert tidligere?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Nyoppkoblet kunde."/>
+          <state_name name="Det har fungert tidligere."/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10157">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="39" downtime="0" end_question="0" evidenceStep="0" first="0" guid="1728121236-15639-19272-81192095971A835F" id="10208" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="208" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="5" type="2" type2="2">
+        <name>
+          <![CDATA[Gjelder dette BRL eller privat kunde?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Privat"/>
+          <state_name name="BRL"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Gjelder dette privat kunde eller borettslag kunde?</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="3">
+          <prob_dist c_id="10121">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10122">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10178">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="50" downtime="0" end_question="0" evidenceStep="0" first="0" guid="2288183696-26086-16789-AFE41C66BB17BC8F" id="10335" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="334" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Har kunden dekning på sin mobiltelefon?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Kontroller dekning på kundens mobil. Dersom kunden ikke har dekning på mobilen kan det også være tilfelle at alarmpanelet ikke har dekning.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="6">
+          <prob_dist c_id="10121">
+            <probs value="0.2000000000"/>
+            <probs value="0.8000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10122">
+            <probs value="0.2000000000"/>
+            <probs value="0.8000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10180">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10177">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10178">
+            <probs value="0.3000000119"/>
+            <probs value="0.6999999881"/>
+          </prob_dist>
+          <prob_dist c_id="10179">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="38" downtime="0" end_question="0" evidenceStep="0" first="0" guid="2369096123-47795-20284-AEBB943695ABD22" id="10230" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="398" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva slags problemer opplever kunden med aktivering?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Defekt fjernkontroll"/>
+          <state_name name="Problemer med kode"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="1">
+          <only_after_question id="10003" nstates="0" state="4"/>
+        </only_after_questions>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="5">
+          <prob_dist c_id="10140">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10142">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10151">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10138">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10149">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="16" downtime="0" end_question="0" evidenceStep="0" first="0" guid="333805071-18969-17079-B7AE2AAE49E46EEF" id="10242" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="242" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="4" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva slags problemer opplever kunden med alarmpanel?]]>
+        </name>
+        <state_names size="4">
+          <state_name name="Får ikke endret innstillinger"/>
+          <state_name name="Batteri frakoblet"/>
+          <state_name name="Mangler kontakt med panelet"/>
+          <state_name name="Problemer med tastaturet"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="1">
+          <only_after_question id="10003" nstates="0" state="0"/>
+        </only_after_questions>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="8">
+          <prob_dist c_id="10200">
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10160">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10161">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10153">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10162">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10154">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10156">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10157">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="46" downtime="0" end_question="0" evidenceStep="0" first="0" guid="407888646-23655-16468-882F11823F345BA5" id="10263" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="263" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva slags problemer opplever kunden med batteri?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Har byttet batteri, får samme feilmelding."/>
+          <state_name name="Varsel om lavt batteri"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="1">
+          <only_after_question id="10003" nstates="0" state="5"/>
+        </only_after_questions>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="8">
+          <prob_dist c_id="10170">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10171">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10172">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10173">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10174">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10175">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10176">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10169">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="56" downtime="0" end_question="0" evidenceStep="0" first="0" guid="2811958203-41528-19827-A59E3F1946DEBCAF" id="10395" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="400" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva slags problemer opplever kunden med kode?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Utlevert kode fungerer ikke"/>
+          <state_name name="Kunden har glemt pin koden."/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="1">
+          <only_after_question id="10230" nstates="0" state="1"/>
+        </only_after_questions>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="2">
+          <prob_dist c_id="10151">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10149">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="1" downtime="0" end_question="0" evidenceStep="0" first="0" guid="3679529557-41763-17489-AC49509FCE8449" id="10233" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="233" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="6" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva slags problemer opplever kunden med systemfeil?]]>
+        </name>
+        <state_names size="6">
+          <state_name name="Alarm-Systemfeil med gult lys-Lavt batteri fjernkontroll "/>
+          <state_name name="Alarm-Systemfeil med gult lys-Lavt batterinivå kontrollenhet"/>
+          <state_name name="Alarm-Systemfeil med gult lys-220v feil"/>
+          <state_name name="Alarm-Systemfeil med gult lys-GSM feil"/>
+          <state_name name="Alarm-Systemfeil med gult lys-Sabotasje"/>
+          <state_name name="Alarm-Systemfeil med gult lys-Sensor Overvåkningsfeil"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="1">
+          <only_after_question id="10003" nstates="0" state="1"/>
+        </only_after_questions>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="12">
+          <prob_dist c_id="10042">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10043">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10044">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10045">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10310">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10302">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10311">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10312">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10305">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10306">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10315">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10307">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="2" downtime="0" end_question="0" evidenceStep="0" first="0" guid="890359009-52828-16519-B143DFFD62C16B20" id="10012" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="4" phoneCodeID="12" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="4" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva viser lampestatus?]]>
+        </name>
+        <state_names size="4">
+          <state_name name="Grønn Blank Grønn "/>
+          <state_name name="Grønn Gul Grønn "/>
+          <state_name name="Grønn Gul Blank "/>
+          <state_name name="Grønn Gul Gul "/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="17">
+          <prob_dist c_id="10120">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10121">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10122">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10118">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10126">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10119">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10080">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10160">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10153">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10082">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10154">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10083">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10091">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10085">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10086">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10088">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10089">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="48" downtime="0" end_question="0" evidenceStep="0" first="0" guid="2372909237-46027-20185-B782DE48CA35ED72" id="10289" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="461" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="4" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilken detektor har kunden overvåknings feil på?]]>
+        </name>
+        <state_names size="4">
+          <state_name name="Bevegelsesdetektor"/>
+          <state_name name="Magnetkontakt"/>
+          <state_name name="Røykdetektor"/>
+          <state_name name="Vanndetektor"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="1">
+          <only_after_question id="10233" nstates="0" state="5"/>
+        </only_after_questions>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="4">
+          <prob_dist c_id="10310">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10311">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10312">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10315">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="26" downtime="0" end_question="0" evidenceStep="0" first="0" guid="2662947347-3541-19913-8125B0FB1D2D30A1" id="10071" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="2" phoneCodeID="465" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="5" time="4" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilken detektor opplever kunden problemer med?]]>
+        </name>
+        <state_names size="5">
+          <state_name name="Bevegelsesdetektor"/>
+          <state_name name="Magnetkontakt"/>
+          <state_name name="Røykdetektor"/>
+          <state_name name="Vanndetektor"/>
+          <state_name name="Annet"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="17">
+          <prob_dist c_id="10040">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10024">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10041">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10025">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10026">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10028">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10037">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10038">
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+          </prob_dist>
+          <prob_dist c_id="10039">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10170">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10171">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10172">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10173">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10174">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10175">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10176">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10169">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="49" downtime="0" end_question="0" evidenceStep="0" first="0" guid="2563203683-2927-16914-88B19B81EE3E1991" id="10320" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="458" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="4" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilken detektor opplever kunden sensorsabotasje på?]]>
+        </name>
+        <state_names size="4">
+          <state_name name="Bevegelsesdetektor"/>
+          <state_name name="Magnetkontakt"/>
+          <state_name name="Røykdetektor"/>
+          <state_name name="Vanndetektor"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="1">
+          <only_after_question id="10233" nstates="0" state="4"/>
+        </only_after_questions>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="4">
+          <prob_dist c_id="10302">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10305">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10306">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10307">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="34" downtime="0" end_question="0" evidenceStep="0" first="0" guid="2998942781-16371-19028-96EE4756D19DAFC" id="10237" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="456" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="4" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilken sensor?]]>
+        </name>
+        <state_names size="4">
+          <state_name name="Problemer med bevegelsesdetektor"/>
+          <state_name name="Problemer med Magnetkontakt"/>
+          <state_name name="Problemer med Røykdetektor"/>
+          <state_name name="Problemer med Vanndetektor"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="1">
+          <only_after_question id="10003" nstates="0" state="2"/>
+        </only_after_questions>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="12">
+          <prob_dist c_id="10080">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10081">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10090">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10082">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10091">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10083">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10084">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10085">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10086">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10087">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10088">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10089">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="41" downtime="0" end_question="0" evidenceStep="0" first="1" guid="269204930-60004-19209-812C5077A2765D" id="10003" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="446" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="6" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Kundens problem?]]>
+        </name>
+        <state_names size="6">
+          <state_name name="Alarmpanel"/>
+          <state_name name="Systemfeil med gult lys"/>
+          <state_name name="Feil på sensor uten lys"/>
+          <state_name name="Utløst alarm"/>
+          <state_name name="Aktivering"/>
+          <state_name name="Utfordringer med batteribytte"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="8">
+          <prob_dist c_id="10005">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10008">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10009">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10053">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10054">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10048">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10010">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="32" downtime="0" end_question="0" evidenceStep="0" first="0" guid="3341661868-55115-19341-9EDBC4113C345D" id="10347" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="346" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="6" type="2" type2="2">
+        <name>
+          <![CDATA[Ligger det aktive feilmeldinger i M2M?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Kontroller at det ikke ligger en feilmelding i M2M som forteller om kundens problem.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10345">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="23" downtime="0" end_question="0" evidenceStep="0" first="0" guid="4149555402-38061-18057-83F5149F57F15F86" id="10341" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="340" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Ligger telefonnummeret i varslingslisten?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Kontroller varslingslisten. Ligger telefonnummeret der?</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10339">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="69380353-23847-18599-98729CDCC539BBE2" keywords="" modelPicturePath="C:\Users\oyvindr\Dropbox\Guider\PILOT\Alarm\Alarm - Overkategorier\Alarm - Lavt batteri" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="498">
+    <tstepcategories size="12">
+      <stepcategory id="10064" setTStepIDs="4" szCatName="Lavt batteri">
+        <TStepID value="10059"/>
+        <TStepID value="10061"/>
+        <TStepID value="10062"/>
+        <TStepID value="10063"/>
+      </stepcategory>
+      <stepcategory id="10076" setTStepIDs="7" szCatName="Felles">
+        <TStepID value="10109"/>
+        <TStepID value="10110"/>
+        <TStepID value="10124"/>
+        <TStepID value="10125"/>
+        <TStepID value="10198"/>
+        <TStepID value="10340"/>
+        <TStepID value="10350"/>
+      </stepcategory>
+      <stepcategory id="10105" setTStepIDs="1" szCatName="Bevegelsesdetektor.">
+        <TStepID value="10101"/>
+      </stepcategory>
+      <stepcategory id="10104" setTStepIDs="1" szCatName="Magnetkontakt">
+        <TStepID value="10111"/>
+      </stepcategory>
+      <stepcategory id="10106" setTStepIDs="1" szCatName="Røykdetektor">
+        <TStepID value="10112"/>
+      </stepcategory>
+      <stepcategory id="10108" setTStepIDs="1" szCatName="Vanndetektor.">
+        <TStepID value="10114"/>
+      </stepcategory>
+      <stepcategory id="10117" setTStepIDs="2" szCatName="Strømfeil">
+        <TStepID value="10116"/>
+        <TStepID value="10123"/>
+      </stepcategory>
+      <stepcategory id="10139" setTStepIDs="3" szCatName="Fjernkontroll">
+        <TStepID value="10134"/>
+        <TStepID value="10143"/>
+        <TStepID value="10152"/>
+      </stepcategory>
+      <stepcategory id="10144" setTStepIDs="1" szCatName="Feil på utstyr">
+        <TStepID value="10155"/>
+      </stepcategory>
+      <stepcategory id="10146" setTStepIDs="1" szCatName="PIN">
+        <TStepID value="10145"/>
+      </stepcategory>
+      <stepcategory id="10163" setTStepIDs="1" szCatName="Falsk alarm">
+        <TStepID value="10181"/>
+      </stepcategory>
+      <stepcategory id="10197" setTStepIDs="22" szCatName="Questions">
+        <TStepID value="10003"/>
+        <TStepID value="10012"/>
+        <TStepID value="10071"/>
+        <TStepID value="10158"/>
+        <TStepID value="10159"/>
+        <TStepID value="10188"/>
+        <TStepID value="10196"/>
+        <TStepID value="10208"/>
+        <TStepID value="10227"/>
+        <TStepID value="10230"/>
+        <TStepID value="10233"/>
+        <TStepID value="10237"/>
+        <TStepID value="10242"/>
+        <TStepID value="10253"/>
+        <TStepID value="10263"/>
+        <TStepID value="10281"/>
+        <TStepID value="10284"/>
+        <TStepID value="10289"/>
+        <TStepID value="10320"/>
+        <TStepID value="10335"/>
+        <TStepID value="10341"/>
+        <TStepID value="10347"/>
+      </stepcategory>
+    </tstepcategories>
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

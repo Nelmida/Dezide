@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[Mobilt bredbånd]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="9">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3137085395-64781-17316-B482F93854CC55B" id="10017" match_level="0" not_customer_use="0" phoneCodeID="16" prob="0.0977299334" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Avvik i kontrakt]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2010719180-9981-17421-9CDFA9225761307" id="10018" match_level="0" not_customer_use="0" phoneCodeID="17" prob="0.0988280268" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Avvik i prov]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1086165036-61080-18212-8142512E529CEB71" id="10003" match_level="0" not_customer_use="0" phoneCodeID="2" prob="0.2240101899" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt SIM]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2500669534-28632-20166-AA9A2F10B3314CB8" id="10006" match_level="0" not_customer_use="0" phoneCodeID="5" prob="0.1021222965" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt pc]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3675146597-29818-17720-95C4AEE0A0B95C66" id="10013" match_level="0" not_customer_use="0" phoneCodeID="12" prob="0.1380000019" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Dårlig dekning]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4208625796-1506-18514-98F45B7E8BC8BA72" id="10004" match_level="0" not_customer_use="0" phoneCodeID="3" prob="0.0735719734" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil SIM]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1580962298-47931-20303-81673B955F1B27F7" id="10005" match_level="0" not_customer_use="0" phoneCodeID="4" prob="0.2240101899" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil på modem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2960792246-58782-16631-AF4CB93995E2EE63" id="10014" match_level="0" not_customer_use="0" parent_id="10013" phoneCodeID="13" prob="1.0000000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Lav hastighet]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3758910544-13197-18873-83B8F05495EA43C3" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0417273881" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;">Eskaler til Service &amp; Support:<br />
+<br />
+<br />
+<b>01.</b> Problembeskrivelse<b><br />
+</b><b>02.</b> Telefonnummer?<b><br />
+</b><b>03.</b> <a href="hjelp.php?oppslagID=646&amp;spmID=2"><u>SIM-ID?</u></a><b><br />
+</b><b>04.</b> Tilleggsinformasjon<b><br />
+</b><b>05. </b>Kontaktinformasjon<b><br />
+</b><b>06. </b>Partner<br />
+<b>07. </b>Node </p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;">  </p>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="5">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="1" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3312411189-26915-16641-90A6CA919AF27E35" id="10007" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="6" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="8" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt sim kort]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Feil som oppstår i forbindelse med mobilt bredbånd ligger ofte på SIM kort. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Sender dere SIM-kort i posten, eller kan kunden komme innom?</div>
+<div align="left" dir="ltr">Bestill nytt SIM-kort til kunden og informer kunden om leveringstid.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Merk at dersom kunde er i utlandet, så sender vi ikke simkort ut av 
+landet. Da vil det være bedre at feilsøket eskaleres til service og 
+support hvor de kan se på alternativ løsning på problematikken 
+kunden opplever.</b></div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10004" prob="1.0000000000"/>
+          <cause_solved id="10003" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="483689223-44082-17619-A0B852EBDE5784C" id="10009" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="8" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="10" type="0" workaround="0">
+        <name>
+          <![CDATA[Prøv en annen PC]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">For å utelukke at problemet ligger på kundens PC bør kunden prøve ut tjenesten med annen datamaskin.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10006" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="6" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="4018925630-54919-20444-9C6A55956668B76A" id="10019" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="18" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Sjekk at kunden har aktiv kontrakt på mobilt bredbånd]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kontroller kundens bb-kontrakt. Mobilt bredbånd skal stå aktivt.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10017" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="7" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3598313302-17966-17617-88B8987F3F22E6BE" id="10020" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="19" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Sjekk at kundens tjeneste er aktiv i prov]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Sjekk status på tjenesten i provisioning. Tjenesten skal stå som aktiv.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10018" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="4" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3295187824-42926-17879-9D2F6B701054C6C5" id="10012" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="11" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Trekk strøm ut av modem i ett minutt]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Ofte løses tilkoblingsproblemer og lignende ved å gjøre modem strømløst i 60 sekunder. Dette må utføres for å utelukke at feilen 
+ligger på modem.</div>
+]]>
+        </explanation>
+        <causes_solved size="3">
+          <cause_solved id="10005" prob="1.0000000000"/>
+          <cause_solved id="10014" prob="0.2470000000"/>
+          <cause_solved id="0" prob="0.0180000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="3">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="5" downtime="0" end_question="0" evidenceStep="0" first="1" guid="4129326948-6943-20131-A141C685363BD265" id="10015" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="1" phoneCodeID="14" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Har tjenesten fungert tidligere?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Yes"/>
+          <state_name name="No"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Er dette førstegangsbruk, eller har kunden benyttet tjenesten tidligere?</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="8">
+          <prob_dist c_id="10004">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10005">
+            <probs value="0.7777777723"/>
+            <probs value="0.2222222277"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10014">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10017">
+            <probs value="0.2000000000"/>
+            <probs value="0.8000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10018">
+            <probs value="0.2000000000"/>
+            <probs value="0.8000000000"/>
+          </prob_dist>
+          <prob_dist c_id="0">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="8" downtime="0" end_question="0" evidenceStep="0" first="1" guid="3039517910-59315-17132-8C74FAB8B5924581" id="10021" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="2" phoneCodeID="21" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva viser kundens dekningsbarometer?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="God dekning 3-5 streker"/>
+          <state_name name="Dårlig dekning 1-3 streker"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"> Har modemet god eller dårlig dekning?</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="3">
+          <prob_dist c_id="10013">
+            <probs value="0.1000000037"/>
+            <probs value="0.8999999963"/>
+          </prob_dist>
+          <prob_dist c_id="10014">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="0">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="3" downtime="0" end_question="1" end_state="1" evidenceStep="0" first="0" guid="2529696908-49936-16663-B9E64141C2876049" id="10010" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="9" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="1">
+        <name>
+          <![CDATA[Samsvarer kundens SIM ID med SIM ID som er registrert i våre systemer?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Yes"/>
+          <state_name name="No"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Dersom kundens SIM ID ikke samsvarer med SIM ID fra leverandør betyr det at kunden har fått feil SIM. Dette MÅ sjekkes ved førstegangsbruk.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10004">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.8970000000"/>
+          <prob value="0.1030000000"/>
+        </prob_given_none>
+        <end_msg>
+          <![CDATA[<div align="left" dir="ltr">Kunden har fått utlevert feil SIM.</div>
+]]>
+        </end_msg>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="3244005232-61424-18708-A27F85C8E7109C" keywords="" modelPicturePath="C:\Users\pettere\Documents\Dropbox\Guider\Opplaering" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="35">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[TV - VOD]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="8">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3489208798-55713-19825-913DAF32D366489" id="10125" match_level="0" not_customer_use="0" phoneCodeID="124" prob="0.0340000011" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Dekoder støtter ikke HD]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="380735092-241-18113-AAA9A67FB5761AA6" id="10068" match_level="0" not_customer_use="0" phoneCodeID="67" prob="0.3010000053" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil portalinstillinger]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3226396347-32748-20392-897E5DC7532C9DC" id="10101" match_level="0" not_customer_use="0" phoneCodeID="100" prob="0.0329999997" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil type dekoder]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2278073308-6410-19741-8DACBCC15D9EC89" id="10083" match_level="0" not_customer_use="0" phoneCodeID="82" prob="0.0480000021" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Hakking på TV]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="239460320-45695-18029-9973D21AE9A78433" id="10100" match_level="0" not_customer_use="0" phoneCodeID="99" prob="0.0320000006" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Ikke HDMI]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4085232447-30927-16540-A7ECAAC0774583F" id="10012" match_level="0" not_customer_use="0" phoneCodeID="11" prob="0.4529999946" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Lang oppetid dekoder]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2340779287-13065-19054-8581A33179401E5C" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0100000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3961836113-26550-19095-BB94649ECEAC1356" id="10064" match_level="0" not_customer_use="0" phoneCodeID="63" prob="0.0889999966" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Sesjonsfeil]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="8">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="4" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1147103887-13732-17342-A3CA151B997E932A" id="10010" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="9" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="10" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde forsøke med en omstart av dekoderen.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunden må restarte sin dekoder ved å trekke ut strømkabelen i 10-20 
+sekunder. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">En omstart av TV-dekoder løser veldig ofte interne feil i dekoderen.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Husk at dette også kan gjøres via prov. </div>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:3.48mm;">I produktlisten klikker du der det står &quot;TV&quot; under instillinger, scroll nederst på 
+siden så finner du kundens dekoder(e). Kryss av og klikk &quot;Reboot&quot;</p>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10012" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="1" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="923766410-61375-18654-82927042D0D65E5C" id="10063" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="62" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="2" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde gå ut av filmleie portalen og så gå tilbake og forsøke avspilling av film.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Be kunden gå ut av VOD portal (Rød knapp). Deretter tilbake til VOD portal 
+(Gul knapp).</div>
+<div align="left" dir="ltr">Lei filmen på nytt.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Kunden trenger ikke være bekymret over dobbeltfakturering, filmen er 
+tilgjengelig i 24 timer eller leietidspunkt.</div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10064" prob="0.8430000000"/>
+          <cause_solved id="0" prob="0.3360000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="6" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="182112899-33678-20398-AEE97C9C7FB0694" id="10078" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="77" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Har kunde leid en film men en annen spilles av?]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dersom kunde har leid en film og en annen spilles av må du som 
+kundebehandler notere ned følgende informasjon:</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Hvilken film?</div>
+<div align="left" dir="ltr">Hvilke kvalitet(SV/HD/3D)?</div>
+<div align="left" dir="ltr">Tidspunkt for filmleie?</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10064" prob="0.7440000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="11" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="430938116-13199-17838-9848D7B7AE71CA12" id="10126" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="125" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="1" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Informer kunde om at Kreatel dekodere ikke støtter HD visning.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kreatel dekodere støtter ikke HD, og en får derfor ikke sett HD filmer på disse 
+dekoderne.  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10125" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="12" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2248208818-62156-18417-873263FA3DC1B616" id="10128" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="127" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="20" type="0" workaround="0">
+        <name>
+          <![CDATA[Noter ned hvilken film kunde har leid, dato/tidspunkt for leie og dekoders mac-adresse i fritekstfelt]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Noter ned alt her i fritekstfelt.  Dette MÅ være med for at Sos kan lokalisere feil og evt. kreditere film.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="0" prob="0.3410000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1115780405-10824-19620-BF4CA9F8CDE1FB0" id="10066" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="65" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="4" type="0" workaround="0">
+        <name>
+          <![CDATA[Om kunde har mulighet, fungerer avspilling av filmen på andre dekodere?]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dersom kunden har mer enn en dekoder vil vi vite om filmen fungerer på den 
+andre dekoderen, kunden blir bare fakturert 1 gang.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Filmen er tilgjengelig på alle dekodere tilknyttet samme hjemmesentral. 
+Kunden bør prøve å leie filmen på annen dekoder hvis de har dette.</div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10064" prob="0.6680000000"/>
+          <cause_solved id="0" prob="0.0450000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" childmodel="TV hakking" childnetfile="..\..\TV\Hakking\TV Hakking.net" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="9" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1324268297-5694-19359-B2EAC180315F5414" id="10086" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="85" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="1" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[TV hakking]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10083" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="5" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2749821840-4655-18176-AE484418B7BA9E8C" id="10067" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="66" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="12" type="0" workaround="0">
+        <name>
+          <![CDATA[Veiled kunde i kontrollering av språkinnstillinger.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunden må trykke &quot;<b>Portal</b>&quot; på fjernkontrollen</div>
+<div align="left" dir="ltr">Så pil høyre, da blir menyen til høyre markert.</div>
+<div align="left" dir="ltr">Pil oppover er korteste veien til &quot;<b>Innstillinger</b>&quot;, trykk OK</div>
+<div align="left" dir="ltr">Bruk piltastene for å velge &quot;<b>Språk</b>&quot;</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Portal -> Instillinger -> Språk</b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Sjekk at kunden har</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Lydspråk primær: Norsk</div>
+<div align="left" dir="ltr">Lydspråk sekundær: Engelsk</div>
+<div align="left" dir="ltr">Undertekster primær: Norsk</div>
+<div align="left" dir="ltr">Undertekster sekundær: Engelsk</div>
+<div align="left" dir="ltr">Undertekster: PÅ</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10068" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="4">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="8" downtime="0" end_question="0" evidenceStep="0" first="0" guid="2561140343-62334-17543-A772D7CE4976E319" id="10084" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="83" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Dersom kunde nevner hakking på filmleie, hakker vanlige TV-kanaler i tillegg?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Bare filmleie"/>
+          <state_name name="TV-kanaler i tillegg"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">I de tilfellene hakking er like ille på direktesendinger som på filmleie, så er 
+problemet gjerne på dekoder/Hjemmesentral/kabling/fiber, evt andre steder 
+i infrastrukturen.  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10083">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="3" downtime="0" end_question="0" evidenceStep="0" first="1" guid="2934380104-33661-18650-AC88AC6489A36E4B" id="10098" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="98" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva slags film leier kunde ?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="SD"/>
+          <state_name name="HD"/>
+          <state_name name="3D"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  <img src="$PICTURE_PATH\Hvaslagsfilmleierkunde.JPG" width="506" height="242" border="0" alt="graphic"/></div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="5">
+          <prob_dist c_id="10012">
+            <probs value="0.3333000000"/>
+            <probs value="0.3333000000"/>
+            <probs value="0.3333000000"/>
+          </prob_dist>
+          <prob_dist c_id="10100">
+            <probs value="0.0000000000"/>
+            <probs value="0.7090000000"/>
+            <probs value="0.2910000000"/>
+          </prob_dist>
+          <prob_dist c_id="10101">
+            <probs value="0.0671000000"/>
+            <probs value="0.5295000000"/>
+            <probs value="0.4034000000"/>
+          </prob_dist>
+          <prob_dist c_id="10064">
+            <probs value="0.5960000000"/>
+            <probs value="0.2020000000"/>
+            <probs value="0.2020000000"/>
+          </prob_dist>
+          <prob_dist c_id="10068">
+            <probs value="0.1251000000"/>
+            <probs value="0.7497000000"/>
+            <probs value="0.1251000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="7" downtime="0" end_question="0" evidenceStep="0" first="0" guid="739829230-336-20056-B736B8FADFE9BE9D" id="10069" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="69" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="5" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva slags problem opplever kunden?]]>
+        </name>
+        <state_names size="5">
+          <state_name name="Feil språk"/>
+          <state_name name="Feil undertekst/ikke undertekst"/>
+          <state_name name="Hakking"/>
+          <state_name name="Feil film"/>
+          <state_name name="Film starter ikke"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="4">
+          <prob_dist c_id="10012">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10064">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.4054000000"/>
+            <probs value="0.5946000000"/>
+          </prob_dist>
+          <prob_dist c_id="10083">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10068">
+            <probs value="0.5870000000"/>
+            <probs value="0.4130000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="10" downtime="0" end_question="0" evidenceStep="0" first="1" guid="756284691-20117-19697-A1C55C66ECC8926E" id="10079" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="1" phoneCodeID="79" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="10" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilke dekoder opplever kunden problemet på?]]>
+        </name>
+        <state_names size="10">
+          <state_name name="Kreatel 1510"/>
+          <state_name name="Kreatel 1710"/>
+          <state_name name="Motorola 1003"/>
+          <state_name name="Motorola 1853"/>
+          <state_name name="Motorola 1910"/>
+          <state_name name="Motorola 1960"/>
+          <state_name name="Motorola 1963"/>
+          <state_name name="ADB iCan 2720"/>
+          <state_name name="ADB iCan 2810"/>
+          <state_name name="ADB iCan 5812"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <prob_dists size="4">
+          <prob_dist c_id="10012">
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10125">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10064">
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10068">
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+            <probs value="0.1000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.1000000000"/>
+          <prob value="0.1000000000"/>
+          <prob value="0.1000000000"/>
+          <prob value="0.1000000000"/>
+          <prob value="0.1000000000"/>
+          <prob value="0.1000000000"/>
+          <prob value="0.1000000000"/>
+          <prob value="0.1000000000"/>
+          <prob value="0.1000000000"/>
+          <prob value="0.1000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="297989283-48486-17363-9836B3391A5AE0D2" keywords="" modelPicturePath="C:\Users\mata\Desktop\dezide\Fritekst-prosjekt\TV\VOD" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="130">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

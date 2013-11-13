@@ -1,0 +1,23 @@
+Bredbåndstelefoni - Mottar ikke samtaler:
+
+Copy/paste fra Kan ikke ringe ut? :)
+
+
+
+Hvordan lyser tilhørende problemport seg?
+-mangler valget "lyser ikke"
+
+Mangler kunden telefonnummer? 
+og 
+Står telefoni aktivt i kundens kontrakt?
+-Burde vært sjekket tidligere i feilsøket(først?), lav cost og utelukker noe videre feilsøk.  
+-Burde være samme spørsmål som ovenfor, unødvendig med disse to som separate spørsmål.
+
+Jeg ville lagt med en lampe-status til:
+-Lampe lyser fast.
+
+Indikerer ofte at telefonitjenesten har gått i "heng", og løser seg om en rebooter HS eller bytter telefoniapparat om reboot ikke hjalp.  
+
+
+
+-Mats

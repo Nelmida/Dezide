@@ -1,0 +1,23 @@
+Ser denne er klin lik Internett Abuse (copy/paste fra Anita sin?)
+Mener den dekker causes her, så ikke noe å si på det.
+
+Internett Abuse:
+En av troubleshooting steps blir ikke tatt med i feilsøk( Trekk ut nettverkskabel/Deaktiver trådløst nettverk), men ser ut som det er glemt å slettes fra feilsøket i og med det ikke har causes koblet til og et annet med nesten lik ordlyd er lagt til.
+
+Første spørsmålet som dukker opp henger ikke helt i hop med svaralternativene ;)
+-Spørsmålet er konkret og kan eliminere causes, men må da ha svar som gir KS valgmuligheter utifra spørsmålet.  Kunde blir angrepet/Kunde er angriper burde holde som svarmuligheter.
+-Svaralternativene er greie å ha med for å utelukke hvilke typer Abuse som feilsøket dreier seg om, men krever et eget spørsmål med annen formulering.  
+Botnet/phishing/spam/virus er gjerne Infeksjon.
+
+-Feilsøket mangler informasjon som KS kan gi kunde utifra hvilket type abuse som NorCert har meldt oss.  F.eks DOS angrep vil gi en helt annen vinkling på problemstilling som kunde har enn hva BotNet infeksjon ville gitt.
+Denne informasjonen er som regel gull verdt for kunde når de blir henvist til PC-support.
+
+De forskjellige infeksjoner/angrep burde kanskje være sub-causes til Angrep og Infeksjon som er listet opp.  Handlinger bør da endre seg ut ifra om kunde er angriper eller under angrep, og hvilke steps kunde må foreta seg for å løse problemet.
+
+En case kan være:
+Kunde ringer: Er angriper -> Gjelder DoS-angrep -> Informer kunde om at DoS angrep må stoppes eller så vil interntilgang bli stengt, og henvis til PC-Hjelp om kunde ikke er kyndig nok.
+
+Utover dette så mangler det explanations flere steder, Henvis til PC support burde kanskje være etter Dezide har hentet inn hvilken type abuse saken gjelder.
+
+
+-Mats

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[TV - Problemer med Tekst-TV]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="4">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2364013203-47480-17423-8399A07EC1941285" id="10030" match_level="0" not_customer_use="0" phoneCodeID="29" prob="0.1111111127" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Fullt minne dekoder]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1845257811-30518-16734-87DB7BBED83A2CF6" id="10006" match_level="0" not_customer_use="0" phoneCodeID="5" prob="0.2888888884" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kanal har ikke tekst TV]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4155782270-5686-17285-82B364B58D242D7F" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0222222220" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4062139066-63465-16997-8792D0955887D1FD" id="10021" match_level="0" not_customer_use="0" phoneCodeID="20" prob="0.5777777769" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Problemer med bruk av fjernkontroll]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="6">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="7" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3492791762-41698-18696-A7ACD18C6B7C4167" id="10032" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="31" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="15" type="0" workaround="0">
+        <name>
+          <![CDATA[Factory reset]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>ADB 5812WX</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:4.70mm; margin-bottom:4.70mm;">Ta ut strømmen på dekoderen. <br />
+Trykk og hold &quot;Meny&quot;-knappen foran i displayet på dekoder<br />
+Sett inn strømmen mens kunden holder &quot;Meny&quot;-knappen inne.<br />
+Bokstavene C-L og U-L samt B-L vil vises i display. Du vil nå få &quot;altibox, 
+koble på, koble av&quot; bildet mens dekoder booter opp.<br />
+<br />
+</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>ADB 2810W</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:4.70mm; margin-bottom:4.70mm;">Ta strømmen på dekoderen tre ganger.<br />
+Se på displayet, ta ut strøm, sett i strøm igjen, se at det blinker en gang i 
+displayet og ta ut strømmen igjen.<br />
+Gjør dette 3 ganger så trigges factrory reset. </p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:4.70mm; margin-bottom:4.70mm;">Kunden vil få ett tv bilde som indikerer en oppdateringsprosess. Dekoder vil 
+ikke komme til blå meny med oppstartsprikkene(eller til vanlig lasting av 
+portalen), da er ikke factory reset korrekt utført. Det kan hende dere må gi 
+det et par forsøk.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>ADB 2720W(X)</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:4.70mm; margin-bottom:4.70mm;">Factory reset utføres på 2720 med &quot;Reset&quot; på baksiden av dekoder, holdes 
+inne 20 sek, eller til bildet forsvinner. </p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Motorola 1910/60/1003/1963/1853</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:4.70mm; margin-bottom:4.70mm;">Hold inne &quot;Menu&quot; tasten på Altibox fjernkontroll under oppstarten.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;">Velg &quot;<b>System</b>&quot; deretter &quot;<b>Factory reset&quot;.</b> </p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:3.47mm;"><img src="$PICTURE_PATH\factoryreset.jpg" width="1024" height="768" border="0" alt="graphic"/></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.36mm; margin-bottom:4.73mm;"> </p>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10030" prob="1.0000000000"/>
+          <cause_solved id="0" prob="0.9000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="6" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="303584645-4376-18257-9459803BAE7B3479" id="10020" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="19" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Forklare bruk av fjernkontroll]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Knappen <b>TV </b>benyttes til å gå ut fra tekst tv.</div>
+<div align="left" dir="ltr">Knappen <b>Text </b>benyttes for å aktivere tekst tv på valgt kanal.</div>
+<div align="left" dir="ltr">Start/pause benyttes for å fryse automatisk sidehopp</div>
+<div align="left" dir="ltr">Navigasjon piler opp/ned (hjulet) benyttes for sidehopp ned/opp.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">I de tilfeller der kunden ønsker norsk undertekst på NRK, taster kunden 777 i 
+tekst tv. Denne deaktiveres igjen ved å trykke knappen <b>TV.</b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Det er bedre hastighet på tekst tv oppslag hvis man benytter scart tilkobling og 
+tv fjernkontroll.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10021" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="1" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2596783978-63104-19946-8340F4E4DC119AA1" id="10033" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="32" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Noter hvilken kanal det gjelder, i fritekstfelt]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10006" prob="0.1000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1696681060-10279-20323-9024E22A4D30FD21" id="10034" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="33" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Noter ned mac adresse på problemdekoder i fritekstfelt]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="0" prob="0.1000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="4" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3631319301-58311-19239-9AD92E60ED8CB545" id="10031" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="30" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Restarte dekoder]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunden må restarte sin dekoder ved å trekke ut strømkabelen i 10-20 
+sekunder. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">En omstart av TV-dekoder løser veldig ofte interne feil i dekoderen.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Husk at dette også kan gjøres via prov. </div>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:3.52mm;line-height: 115%; ">I produktlisten klikker du der det står &quot;TV&quot; under instillinger, scroll nederst på 
+siden så finner du kundens dekoder(e). Kryss av og klikk &quot;Reboot&quot;</p>
+<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10030" prob="0.9000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="3" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1587354190-46687-17796-8053F163E21EC72D" id="10009" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="8" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Skifte kanal]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Disse kanalene har tekst tv:</div>
+<div align="left" dir="ltr">NRK1</div>
+<div align="left" dir="ltr">NRK2</div>
+<div align="left" dir="ltr">TV2 kanalene</div>
+<div align="left" dir="ltr">TV3</div>
+<div align="left" dir="ltr">Eurosport</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Prøv også skifte fra HD til SD kanal.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10006" prob="0.9000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="2">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="5" downtime="0" end_question="0" evidenceStep="0" first="1" guid="2958885608-48313-18531-80FA14341B90EA" id="10024" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="1" phoneCodeID="25" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Benytter kunden HDMI eller SCART tilkobling til TV?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="HDMI"/>
+          <state_name name="SCART"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;">HDMI-protokollen støtter ikke tekst-TV. Derfor må fjernkontrollen til 
+<b>dekoderen </b>benyttes for å bruke tekst-TV ved bruk av <b>HDMI</b>-signaler. Dersom 
+det benyttes analog tilkobling (SCART), kan <b>også TVens fjernkontroll 
+brukes til tekst-TV.</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.36mm; margin-bottom:4.73mm;">  </p>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="2">
+          <prob_dist c_id="10021">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="0" displayID="8" downtime="0" end_question="0" evidenceStep="0" first="0" guid="4223631317-63459-17061-8BB4BC69DD9EFE1F" id="10035" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="34" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilke kvalitet på kanaler gjelder problemet for?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="HD"/>
+          <state_name name="SD"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <prob_dists size="3">
+          <prob_dist c_id="10021">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10030">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="36939078-52409-16496-AB29CE616998FDE" keywords="" modelPicturePath="C:\Users\pettere\Documents\Dropbox\Guider\Opplaering" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="35">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

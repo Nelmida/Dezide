@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[TV Hakking]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="13">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2635482899-54623-18512-9C6639143B5BCA0" id="10179" match_level="0" not_customer_use="0" phoneCodeID="178" prob="0.1989999980" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Annet utstyr tilkoblet TV Porter i HS]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Hvis kunde har PC utstyr eller annet i TV porter, kan det påvirke TV tjenesten 
+og i værste fall faktisk forstyrre TV signaler for flere kunder på node.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">De fleste kunder har enkle billige switcher, og kan således ikke koble TV + 
+Internett i switch og kabling derifra mot TV og Internettport i HS.</div>]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1965370058-39521-17795-B6DD68F8B3B0AE92" id="10023" match_level="0" not_customer_use="0" phoneCodeID="22" prob="0.0509999995" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt TV port på hjemmesentralen.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3284705121-38-17495-9D40E2C815E4A030" id="10005" match_level="0" not_customer_use="0" phoneCodeID="4" prob="0.0150000001" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt bilde-kabel mellom TV og TV-dekoder.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4223916904-5299-19161-88F5313D8746ABF" id="10208" match_level="0" not_customer_use="0" phoneCodeID="207" prob="0.0320000008" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt dekoder]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1977533557-181-19903-852522F675A196EA" id="10004" match_level="0" not_customer_use="0" phoneCodeID="3" prob="0.0450000004" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt nettverkskabel]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2184415902-38299-20203-A01BE63FD392EEE" id="10268" match_level="0" not_customer_use="0" phoneCodeID="267" prob="0.0759999997" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Dekoder trenger SWcleanup]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3748758408-7958-19466-A6521116836D5CE9" id="10291" match_level="0" not_customer_use="0" phoneCodeID="290" prob="0.0209999992" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil på andre tjenester også]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="190630249-37829-19880-AA137A5A8E1F2523" id="10190" match_level="0" not_customer_use="0" phoneCodeID="189" prob="0.0490000014" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil på fiber/Hjemmesentral]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="296802235-53548-18813-8D51D2A1AFAA3038" id="10218" match_level="0" not_customer_use="0" phoneCodeID="217" prob="0.0650000006" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil på internkabling]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4176468092-47614-18834-A298E08220BD90DC" id="10009" match_level="0" not_customer_use="0" phoneCodeID="8" prob="0.0150000001" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil på kundes eget utstyr]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Her må dekoder kobles direkte i TV, utenom receiver etc.</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1713603191-34374-19266-B661737C6E79718" id="10063" match_level="0" not_customer_use="0" phoneCodeID="62" prob="0.2460000060" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[For lang oppetid på dekoder]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2026380852-57156-20109-B1AC6A0A4804D6E" id="10065" match_level="0" not_customer_use="0" phoneCodeID="64" prob="0.1779999940" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[For lang oppetid på hjemmesentralen.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3513849143-42033-19152-86A7DA6DD0EDCFC7" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0080000002" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="14">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2742369105-39989-17129-B4616697493D6E31" id="10015" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="14" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="26" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde bytte bildekabel mellom TV og dekoder.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunden må prøve en annen bildekabel mellom dekoder og TV. Dette må 
+utføres for å avdekke om feilen ligger i kablingen eller internt i dekoder.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">På de aller fleste dekoderne kan kunden velge mellom HDMI og SCART. 
+Kunden bør kun ha 1 kabel koblet mellom TV og dekoder, spesielt under 
+oppstart. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Å bytte fra HDMI til SCART vil kunne avdekke problemer med HDMI-utgang på 
+dekoder, eller HDMI-inngang på TV-apparatet. Det kan være lurt å forsøke en 
+annen HDMI-inngang dersom TV'en til kunden har flere.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10005" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="15" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="182561865-7458-18243-B47F343F95F4C6B9" id="10066" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="65" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="20" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde restarte hjemmesentralen.]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Restart hjemmesentralen:</b><br />
+<br />
+Kunden er nødt til å restarte hjemmesentralen før feilsøket kan fortsette. 
+Dersom problemet oppstår internt i hjemmesentralen vil en omstart ofte 
+kunne løse problemet. </p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.32mm; margin-bottom:4.70mm;">Be kunden trekke ut strømkabelen i 30 sekunder, og sette den tilbake igjen. </p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.30mm; margin-bottom:4.68mm;">  </p>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10065" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="14" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2985398530-55192-19055-A1D09399D642850" id="10064" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="63" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="15" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde ta en restart av dekoderen.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunden må restarte sin dekoder ved å trekke ut strømkabelen i 10-20 
+sekunder. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">En omstart av TV-dekoder løser veldig ofte interne feil i dekoderen.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Husk at dette også kan gjøres via prov. </div>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:3.45mm;">I produktlisten klikker du der det står &quot;TV&quot; under instillinger, scroll nederst på 
+siden så finner du kundens dekoder(e). Kryss av og klikk &quot;Reboot&quot;.</p>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10063" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="16" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2918640104-48974-18266-AED0AFDA40F85232" id="10219" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="218" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="22" type="0" workaround="0">
+        <name>
+          <![CDATA[Hakker det fortsatt dersom dekoderen er koblet direkte til Hjemmesentralen?]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Har kunden koblet ut alt eksternt utstyr og koblet seg direkte til 
+hjemmesentralen med nettverkskabel?<br />
+<br />
+<b>Direktekobling av Altibox utstyr, og utkobling av eksternt utstyr må 
+utføres slik at Altibox kan identifisere problemet. Altibox kan ikke 
+feilsøke produkter fra andre leverandører, så alt eksternt utstyr må 
+kobles ut før feilsøket kan fortsette. <br />
+<br />
+Veldig mange misforstår &quot;direktekobling&quot;. Informer gjerne kunden om 
+at veggpunkter ikke kan benyttes, heller ikke eksterne routere, 
+switcher, musikkanlegg og lignende. 1 &quot;heltrukken&quot; Kategori 5e 
+nettverkskabel må benyttes. Dersom kunden ikke kobler seg direkte 
+til HS vil feilen ta lenger tid å finne, og rette opp i. Det kan også 
+forekomme gebyr ved utsendelse av montør dersom kunden ikke 
+følger feilsøkingsrutinene, og det viser seg at feilen ligger på 
+kundens utstyr.</b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">NB! Har du sjekket Partnernet for kjente feil med hakking?</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10218" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10215" nstates="0" state="0"/>
+        </not_after_questions>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="3" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1750429110-55567-17003-96B01427218BE46" id="10180" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="179" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="8" type="0" workaround="0">
+        <name>
+          <![CDATA[Koble dekoder direkte i hjemmesentralen.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Hvis kunde har PC utstyr eller annet i TV porter, kan det påvirke TV tjenesten 
+og i verste fall faktisk forstyrre TV signaler for flere kunder på node.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">De fleste kunder har standard switcher som ikke håndterer f.eks. kobling i 
+både TV og Internett port i hjemmesentralen, for så å strekke videre til TV og 
+PC.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Til kunden <i>kan </i>du si: Vi tester det vi kan for å finne ut akkurat hvor feilen er, 
+ellers klarer vi ikke å rette feilen. Det kan virke merkelig at ustyr som ligger 
+stille skal slutte å virke, men vi opplever innimellom at det er tilfellet. Hvis 
+feilen fortsatt er der når vi har kablet direkte, så vet vi at det IKKE er kabling 
+eller utstyr.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10179" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="6" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1096965958-664-18322-931E54B22C1439F5" id="10020" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="19" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="30" type="0" workaround="0">
+        <name>
+          <![CDATA[Koble vekk eget utstyr]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Med eget utstyr mener vi stereoanlegg slik som receivere og liknende.  Kunde 
+bør (må) teste en direkte kabling mellom dekoder og TV-apparat før denne 
+saken eskaleres.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10009" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" childmodel="Midlertidig feil (linkes mot BB-ustabilitet)" childnetfile="..\..\Bredbaand\Ustabilitet\Bredbaand - Ustabilitet.net" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="18" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="564642229-23706-19121-A7BBD98CD68B769F" id="10292" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="291" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="1" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Midlertidig feil (linkes mot BB-ustabilitet)]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">OPB!</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Her skulle du som kundebehandler ha blitt automatisk blitt oversendt til 
+Bredbånd - Ustabilitet, men noe galt har vist oppstått som gjør at du leser 
+denne setningen!</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10291" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="20" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="851702556-211-18437-A893A26C12996B2" id="10297" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="296" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Noter i fritekstfelt hvilken dekoder (type/mac) som kunde har problemer med.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kopier inn mac adresse på dekoder(e) som kunde har problemer med i fritekstfelt</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="0" prob="0.5000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="19" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2470977251-7209-16519-B1B26EF014152EF" id="10295" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="294" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Noter i fritekstfelt når hakking oppstod, så nøyaktig tidspunkt som mulig]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Få med så nøyaktig tidspunkt som mulig, slik at Service&amp;Support har mulighet til å finne frem i logger dersom de er tilgjengelige.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="0" prob="0.5000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="9" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="256763904-2533-20476-9D6AE5E9DB4BD0" id="10024" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="23" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="16" type="0" workaround="0">
+        <name>
+          <![CDATA[Test en annen TV-port på hjemmesentralen]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Bytt port på HS:</b><br />
+<br />
+For å identifisere om porten på hjemmesentralen er defekt må vi få kunden til 
+å koble seg til en annen port. Dersom kundens enhet nå får kontakt tyder det 
+på at tidligere benyttet port er defekt. Kunden kan også koble en annen enhet 
+til problem-porten for å avdekke om problemet ligger i port eller på 
+PC/dekoder/Telefon. </p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.30mm; margin-bottom:4.68mm;">Dersom kunden får kontakt med en annen enhet i samme port ligger feilen på 
+PC/dekoder/Telefon, eller i kablingen, dersom denne ikke er forsøkt byttet i 
+forkant.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.29mm; margin-bottom:4.66mm;">  </p>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10023" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="4" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1282936673-23481-19586-AD386E52602C5188" id="10017" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="16" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="50" type="0" workaround="0">
+        <name>
+          <![CDATA[Test ny nettverkskabel mellom hjemmesentralen og tv-dekoderen]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Bytte nettverkskabel:</b><br />
+<br />
+Kunden er nødt til å prøve en annen nettverkskabel mellom TV-dekoder og 
+hjemmesentralen. Dette for å identifisere om problemet ligger i kablingen. 
+Dette må utføres for å kunne utelukke at feilen ligger på kundens utstyr. <br />
+<br />
+Ofte er det problemer i kablingen som forårsaker &quot;Dette&quot; problemet, kunden 
+må prøve med en annen kabel. Dersom kunden ikke har mulighet til dette må 
+kunden informeres om ett evt. gebyr ved utesendelse av montør.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.32mm; margin-bottom:4.70mm;">Kunden kan benytte Cat5 eller Cat6, eller han/hun kan spørre etter 
+nettverkskabel i egnet butikk (Elkjøp, Clas Ohlson, Biltema)</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.27mm; margin-bottom:4.64mm;"><br />
+</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.27mm; margin-bottom:4.64mm;">  </p>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10004" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="10" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="376191684-40848-18678-8EAEA24D26153BED" id="10269" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="268" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="10" type="0" workaround="0">
+        <name>
+          <![CDATA[Utfør SWcleanup på kundens dekoder.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Utfør disccleanup på kundens dekoder. Dette må utføres da det mest 
+sannsynlig har oppstått ett problem på dekoderens harddisk.<br />
+<br />
+1: Gå inn i Provisioning.<br />
+2: Trykk på TV under innstillinger.<br />
+3: Se nederst i vinduet og trykk på &quot;Slett PVR innhold&quot;. <br />
+4: Trykk &quot;lagre&quot;.<br />
+5: Be kunden restarte dekoder ved å trekke strømkabelen ut i 10 sekunder.</div>
+<div align="left" dir="ltr">6: Følg oppstarten til kunden får en brennende peis på skjermen.<br />
+7: Trykk på TV under innstillinger.<br />
+8: Se nederst i vinduet og trykk på &quot;Reset&quot;.<br />
+9: Trykk &quot;Lagre&quot;<br />
+10: Be kunden restarte dekoder ved å trekke strømkabelen ut i 10 sekunder.<br />
+<br />
+Dekoderen skal nå starte opp som normalt, og PVR innhold er slettet fra 
+harddisken.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10268" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="12" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="579609784-58655-19481-BB7BD6E0C1DAC68A" id="10209" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="208" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="60" type="0" workaround="0">
+        <name>
+          <![CDATA[Vurder behovet for bytte av dekoder]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom mulig bør kunde forsøke å kryssbytte dekoder med en annen i 
+husstanden.  Dersom kunde får testet &quot;problemdekoder&quot; på en annen TV i 
+husstanden og feil fortsetter, men de andre dekoderne fungerer fint der, så 
+anbefales det å bytte dekoderen.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Motsatt blir det om kunde opplever feilen med en annen dekoder på samme 
+kabling, er sannsynligheten stor for at dekoderen er i orden.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10208" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="11" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3949377051-59129-19392-9617BB3B689F5B24" id="10191" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="190" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="500" type="0" workaround="0">
+        <name>
+          <![CDATA[Vurder montør for bytte av Hjemmesentral]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Vurder utsendelse av montør for feilsøk av fiber, eller eskaler til Altibox.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10190" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="6">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="1" downtime="0" end_question="0" evidenceStep="0" first="1" guid="182802595-41548-19312-833A2FBFF6A12F52" id="10215" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="3" phoneCodeID="263" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Har kunde koblet dekoder direkte i Hjemmesentral?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Direktekobling av Altibox utstyr, og utkobling av eksternt utstyr skal utføres slik 
+at Altibox kan identifisere problemet. Altibox kan ikke feilsøke produkter fra 
+andre leverandører, så alt eksternt utstyr bør kobles ut før feilsøket kan 
+fortsette. <br />
+<br />
+Veldig mange misforstår &quot;direktekobling&quot;. Informer gjerne kunden om at 
+veggpunkter ikke kan benyttes, heller ikke eksterne routere, switcher, 
+musikkanlegg og lignende. Dersom kunden ikke kobler seg direkte til HS vil 
+feilen ta lenger tid å finne, og rette opp i. Det kan også forekomme gebyr ved 
+utsendelse av montør dersom kunden ikke følger feilsøkingsrutinene, og det 
+viser seg at feilen ligger på kundens utstyr.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="4">
+          <prob_dist c_id="10009">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10218">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10179">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10268">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="1.0000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="5" downtime="0" end_question="0" evidenceStep="0" first="0" guid="2312574037-31427-16702-BCE871CA2AD9C541" id="10266" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="265" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Har kunden Motorola modell 1960 eller 1963?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dersom det ikke står nevnt i Provisioning hvilken dekoder kunde har, vil det stå 
+på en klistrelapp på undersiden av dekoder.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">1960 og 1963 heter henholdsvis  VIP-1960/VIP-1963  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10268">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="8" downtime="0" end_question="0" evidenceStep="0" first="1" guid="3529899890-34511-17918-AA79C08CA79C94A" id="10073" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="1" phoneCodeID="80" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvordan ser TV-Kvalitetsfordeling ut?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="Helt fin på problemdekoder"/>
+          <state_name name="Kun utfall på problemdekoder"/>
+          <state_name name="Synkrone utfall mot flere eller alle dekodere"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Gå til LP-instillinger i Prov</div>
+<div align="left" dir="ltr">Under mac-adressen(e) til kundens dekoder finner du to linker:</div>
+<div align="left" dir="ltr"><b><u>TV-Kvalitetsfordeling</u></b> og <b><u>Vod-Kvalitetsfordeling</u></b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Slik skal TV-Kvalitetsfordeling (agamalogg) se ut dersom alt er ok:</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\hvordanseragamaut1.jpg" width="496" height="257" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom vi har loggført problemer hos kunden i våre systemer skal 
+agamalogg se slik ut:</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\hvordanseragamaut2.jpg" width="971" height="281" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="10">
+          <prob_dist c_id="10004">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10005">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10023">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10063">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10208">
+            <probs value="0.0691000000"/>
+            <probs value="0.8619000000"/>
+            <probs value="0.0691000000"/>
+          </prob_dist>
+          <prob_dist c_id="10065">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10218">
+            <probs value="0.0891000000"/>
+            <probs value="0.6416000000"/>
+            <probs value="0.2693000000"/>
+          </prob_dist>
+          <prob_dist c_id="10190">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10179">
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10268">
+            <probs value="0.3333333333"/>
+            <probs value="0.3333333333"/>
+            <probs value="0.3333333333"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.3333000000"/>
+          <prob value="0.3333000000"/>
+          <prob value="0.3333000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="13" downtime="0" end_question="0" evidenceStep="0" first="1" guid="2773188623-8217-19812-89967BF7F36EC86D" id="10136" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="2" phoneCodeID="143" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="4" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvordan ser portstatus i Prov ut?]]>
+        </name>
+        <state_names size="4">
+          <state_name name="Avvik fra Full Duplex"/>
+          <state_name name="Mye opptalte feil, CRC"/>
+          <state_name name="Veldig mange VLAN91"/>
+          <state_name name="Status viser Full Duplex, riktig antall VLAN91 og ingen/lite opptalte feil"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Her må vi se at linja er satt til FULL DUPLEX og det er minimalt med utfall. 
+Det kan være greit å sjekke om telleverket er blitt resatt noen gang.</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\hvordanserportstatusut1.jpg" width="474" height="428" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Her bør vi også sjekke at kunde har riktig antall VLAN91 i henhold til 
+tilkoblede dekodere (trådløs AiB vil vise 1 ekstra VLAN 91 pr mottaker):</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\hvordanserportstatusut2.jpg" width="464" height="239" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="5">
+          <prob_dist c_id="10004">
+            <probs value="0.0471000000"/>
+            <probs value="0.0471000000"/>
+            <probs value="0.0471000000"/>
+            <probs value="0.8587000000"/>
+          </prob_dist>
+          <prob_dist c_id="10023">
+            <probs value="0.0501000000"/>
+            <probs value="0.0501000000"/>
+            <probs value="0.0501000000"/>
+            <probs value="0.8497000000"/>
+          </prob_dist>
+          <prob_dist c_id="10190">
+            <probs value="0.4930000000"/>
+            <probs value="0.5070000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10179">
+            <probs value="0.0070000000"/>
+            <probs value="0.0070000000"/>
+            <probs value="0.7257000000"/>
+            <probs value="0.2603000000"/>
+          </prob_dist>
+          <prob_dist c_id="10268">
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.2500000000"/>
+          <prob value="0.2500000000"/>
+          <prob value="0.2500000000"/>
+          <prob value="0.2500000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="17" downtime="0" end_question="0" evidenceStep="0" first="0" guid="1226471886-59253-18884-98C0F8E4F53DEA3" id="10290" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="289" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Opplever kunde problemer med andre tjenester?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dersom kunde opplever (liknende) problemer med andre tjenester, som f.eks 
+ustabilitet på internett og telefoni vil du bli videresendt til et feilsøk som 
+omhandler hele leveransen.  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10291">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="7" downtime="0" end_question="0" evidenceStep="0" first="1" guid="1292794528-14562-20310-BAD7D98E612BFC12" id="10071" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="78" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Oppleves hakkingen som sporadisk eller konstant?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Sporadisk Hakking"/>
+          <state_name name="Konstant hakking/frys)"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dersom kunden opplever hakking i korte perioder 1-2 min om gangen så er 
+det typisk sporadisk hakking.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom det hakker hele tiden er hakkingen konstant.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="7">
+          <prob_dist c_id="10004">
+            <probs value="0.1610000000"/>
+            <probs value="0.8390000000"/>
+          </prob_dist>
+          <prob_dist c_id="10005">
+            <probs value="0.1480000000"/>
+            <probs value="0.8520000000"/>
+          </prob_dist>
+          <prob_dist c_id="10023">
+            <probs value="0.1660000000"/>
+            <probs value="0.8340000000"/>
+          </prob_dist>
+          <prob_dist c_id="10063">
+            <probs value="0.1570000000"/>
+            <probs value="0.8430000000"/>
+          </prob_dist>
+          <prob_dist c_id="10065">
+            <probs value="0.1520000000"/>
+            <probs value="0.8480000000"/>
+          </prob_dist>
+          <prob_dist c_id="10190">
+            <probs value="0.8480000000"/>
+            <probs value="0.1520000000"/>
+          </prob_dist>
+          <prob_dist c_id="10268">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="3373186798-7126-19166-BBFB6FC743B6E3C3" keywords="" modelPicturePath="C:\Users\pettere\Documents\Dropbox\Guider\PILOT\TV\Oppstart" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="298">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

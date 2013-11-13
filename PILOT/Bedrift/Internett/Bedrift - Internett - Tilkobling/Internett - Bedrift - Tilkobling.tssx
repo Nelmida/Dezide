@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[Internett - Bedrift - Tilkobling]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="8">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1792660301-9654-20411-982338AD2F26518" id="10010" match_level="0" not_customer_use="0" phoneCodeID="9" prob="0.0783582114" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Brannmur/Antivirus på kundeutstyr]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Brannmur på kundeutstyr kan ofte sperre for generell internetttrafikk om den 
+er feilkonfigurert</div>
+<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1814404172-54578-18242-B070FB23C25DD2C" id="10007" match_level="0" not_customer_use="0" phoneCodeID="6" prob="0.1106965127" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt kabel mellom CPE og kundeutstyr]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Gjelder gjerne brudd på kabel</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1828527090-51020-19088-ABD2C2C66DCEA093" id="10005" match_level="0" not_customer_use="0" phoneCodeID="4" prob="0.1281094551" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Eksternt utstyr/ikke direktekoblet]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Vi supporterer ikke eksternutstyr, så her må kunde koble utenom.</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3376503446-49688-18292-AA71EA4334223F8F" id="10006" match_level="0" not_customer_use="0" phoneCodeID="5" prob="0.1977611893" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil port på CPE]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunde har f.eks koblet til TV port istedenfor PC port.</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2591407682-62054-17766-88A3A0D8F09D38E3" id="10011" match_level="0" not_customer_use="0" phoneCodeID="10" prob="0.2748756267" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[IP innstillinger på kundes router/PC mangler/er ikke satt opp riktig]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dersom kunde ikke har fått satt opp riktig IP oppsett på eget utstyr vil ikke 
+VLAN 21xx dukke opp under mac adress table.</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="371196712-22055-19879-822ECEC9FDFA4FE8" id="10009" match_level="0" not_customer_use="0" phoneCodeID="8" prob="0.1144278584" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Mangler aktivt switchport vlan på port]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Port har ikke aktivt produkt</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3895783457-32158-19605-A0882530F371AB17" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0174129350" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4014854216-38047-17166-A1F5658DE71A316" id="10008" match_level="0" not_customer_use="0" phoneCodeID="7" prob="0.0783582114" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Sentral mangler link]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Port er down</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="7">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="1" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2030070192-14002-19151-BA9C7D351F41A85" id="10012" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="11" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde forsøke med restart av eget utstyr]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Feilkonfigurert brannmur/antivirus på kundes PC/MAC kan i enkelte tilfeller 
+være årsak til at kunde ikke kommer på nett.   Disse bør da deaktiveres av 
+kunde for å utelukke at det er her feilen ligger.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10010" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="3" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3885911956-20576-19870-B4C6EBC2D92E554B" id="10014" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="13" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="17" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde koble direkte for å utelukke feil på eget utstyr]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Vi kan kun feilsøke på utstyr levert av Altibox, og for å fortsette feilsøk må 
+dette utføres.  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10005" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="4" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="4217259189-33100-19763-84F12CA59578D38B" id="10015" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="14" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde koble til riktig Internettport på CPE]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b>Zyxel:</b></div>
+<div align="left" dir="ltr">Nettverkskabel fra kundes utstyr må tilkobles PORT1 bak på Zyxelsentralen.</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\ZyxelPCport.jpg" width="933" height="148" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>RG(Allied):</b></div>
+<div align="left" dir="ltr">Kobles da til LAN1   (i visse tilfeller kan LAN2 være aktiv, se Siebellogger)</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\RGPCPORT.jpg" width="648" height="501" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><b>Cisco:</b></div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\CISCOme3400PCPORT.jpg" width="824" height="268" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><b>CPL3:</b>   </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10006" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3381660951-59392-16648-BEE5D15E606A1D51" id="10013" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="12" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="50" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt nettverkskabel mellom CPE og kundeutstyr]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Ved mistanke om feil på nettverkskabel mellom kundes PC og sentral bør en 
+teste en ny/annen kabel.  Kabeltype må være av type Kategori 5e eller 
+Kategori 6, og ikke krysset.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10007" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="5" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="887764003-33487-20252-AC1E3197F28B9DB3" id="10016" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="15" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="10" type="0" workaround="0">
+        <name>
+          <![CDATA[Sjekk at kunde har satt opp riktig IP innstillinger på eget utstyr]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Såfremt kunde har Tilpasset Leveranse (sjekk Siebel) så skal kundes tildelte IP oppsett ligge i kommentarfelt på produktet i 
+Siebel.   Dobbeltsjekk med kunde at de har benyttet dette oppsettet.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom kunde har Standard Leveranse (mangler produktkode for Tilpasset Leveranse), så skal utstyr settes opp til å motta 
+alle IP info automatisk.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom vlanet mangler i MAC-adress table bør det sjekkes på config-delen av nodeporten om faktisk vlanet er lagt på porten. 
+Dette står i portstatus:</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Eksempelvis:</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">interface FastEthernet3/5</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">switchport private-vlan trunk allowed vlan 2120</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Hvis det mangler her, så vil ingenting kunden gjør bety noe, siden vlanet ikke eksisterer. Dette kan være en leveransemangel, 
+eller at noe har skjedd med portconfigen på noden ved en feil.</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10011" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="7" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="482694944-63492-17515-9CA39E6AC3677E2" id="10018" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="17" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Sjekk at produkter er aktive i Siebel]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kontroller at kunde har riktige produkter aktive i Siebel  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10009" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="10" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3678284642-56441-18218-9B329659D313934D" id="10036" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="35" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="10" type="0" workaround="0">
+        <name>
+          <![CDATA[Utfør feilsøk Bedrift - Alt Nede]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Her tenker jeg en link mot separat feilsøk</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10008" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="5">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="9" downtime="0" end_question="0" evidenceStep="0" first="1" guid="737922089-62570-17482-913B1462CE9458F6" id="10028" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="28" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Har kunde standard eller tilpasset leveranse?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Standard"/>
+          <state_name name="Tilpasset Leveranse"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Sjekk om kunde har produktkode for Tilpasset Leveranse i Siebelkontrakt.</div>
+<div align="left" dir="ltr">Ved tilpasset leveranse har kunde fått tildelt et IP oppsett fra partner, og er 
+notert i kommentarfelt på Internettprodukt i Siebelkontrakt.</div>
+<div align="left" dir="ltr">Dersom Tilpasset Leveranse-kode mangler, skal kunde ha Standard Leveranse 
+og IP levert fra DHCP server</div>
+<div align="left" dir="ltr">  </div>
+<ul style="margin-top: 0mm; margin-bottom: 0mm; list-style-type: disk; ">
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">Tilpasset Leveranse skal ha VLAN registrert i Prov, og sentral skal stå 
+i Bridget modus. </li>
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">Standard Leveranse skal mangle registrert VLAN i Prov, men avhengig 
+av type Standard Leveranse skal sentral stå i Bridge/Routermode: </li>
+<ol style="margin-top: 0mm; margin-bottom: 0mm; ">
+<li style="margin-left: -8pt; margin-right: 0pt; padding-left: 0pt; ">Standard med Brannmur:  Bridge deaktivert </li>
+<li style="margin-left: -8pt; margin-right: 0pt; padding-left: 0pt; ">Standard uten Brannmur: Bridge aktivert </li>
+</ol>
+</ul>
+<div align="left" dir="ltr"> </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10011">
+            <probs value="0.2560000000"/>
+            <probs value="0.7440000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.7350000000"/>
+          <prob value="0.2650000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="11" downtime="0" end_question="0" evidenceStep="0" first="0" guid="3223069774-35519-16676-8758D37FBB9D281" id="10100" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="99" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="0" type2="0">
+        <name>
+          <![CDATA[Hvilken CPE har kunden?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Yes"/>
+          <state_name name="No"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="12" downtime="0" end_question="0" evidenceStep="0" first="0" guid="3871714696-23375-17413-96C7206266CAFAA7" id="10101" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="100" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="0" type2="0">
+        <name>
+          <![CDATA[Hvilken løsning benytter kunden seg av?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Yes"/>
+          <state_name name="No"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="6" downtime="0" end_question="0" evidenceStep="0" first="0" guid="481798982-51322-17468-BCE5BD633CE1482A" id="10051" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="57" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="4" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Standard Leveranse: Hvordan ser portstatus ut?]]>
+        </name>
+        <state_names size="4">
+          <state_name name="Mangler VLAN 92/102 under MAC adress-table"/>
+          <state_name name="Mangler aktivt switchport på VLAN 92/102"/>
+          <state_name name="Portstatus viser aktivt produkt, og ser kundes utstyr (uten Brannmur) eller sentralen(med brannmur) under VLAN 92/102"/>
+          <state_name name="Port er Down"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Uten Brannmur: Dersom kunde får utstyrs-MAC opp ved VLAN 92102 under 
+MAC address- table så skal kunde i utgangspunktet være tilkoblet riktig.  </div>
+<div align="left" dir="ltr">Med Brannmur: Sentralen sin MAC adresse skal dukke opp under vlan 92/</div>
+<div align="left" dir="ltr">102</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Er man usikker på hvilket utstyr som dukker opp, kan en sjekke produsent av 
+MAC adresser på denne siden: http://aruljohn.com/mac.pl  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10028" nstates="0" state="1"/>
+        </not_after_questions>
+        <fix_questions size="0"/>
+        <prob_dists size="7">
+          <prob_dist c_id="10005">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10007">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10008">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10009">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10010">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10011">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.2500000000"/>
+          <prob value="0.2500000000"/>
+          <prob value="0.2500000000"/>
+          <prob value="0.2500000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="8" downtime="0" end_question="0" evidenceStep="0" first="0" guid="1804087976-4567-18563-984A5C66F855B989" id="10022" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="37" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="4" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Tilpasset Leveranse: Hvordan ser portstatus ut?]]>
+        </name>
+        <state_names size="4">
+          <state_name name="Mangler VLAN 21xx under MAC adress table"/>
+          <state_name name="Mangler aktiv switchport på 21xx"/>
+          <state_name name="Portstatus viser aktivt produkt, og tilkoblet utstyr under VLAN 21xx"/>
+          <state_name name="Port er Down"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dersom kunde får utstyrs-MAC opp ved VLAN 21xx under MAC address- 
+table så skal kunde i utgangspunktet være tilkoblet riktig.  </div>
+<div align="left" dir="ltr">Er man usikker på hvilket utstyr som dukker opp, kan en sjekke produsent 
+av MAC adresser på denne siden: http://aruljohn.com/mac.pl</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\portstatus.jpg" width="411" height="476" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"> </div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10028" nstates="0" state="0"/>
+        </not_after_questions>
+        <fix_questions size="0"/>
+        <prob_dists size="6">
+          <prob_dist c_id="10005">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10007">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10008">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10009">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10011">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.2500000000"/>
+          <prob value="0.2500000000"/>
+          <prob value="0.2500000000"/>
+          <prob value="0.2500000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="2142542327-31250-19429-AEE689274022F3" keywords="" modelPicturePath="C:\Users\pettere\Documents\Dropbox\Guider\PILOT\Mobil\Abonnement" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="102">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[TV - Uprovosert restart av dekoder]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="6">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3544212408-11145-19439-902847AAE8392498" id="10005" match_level="0" not_customer_use="0" phoneCodeID="4" prob="0.2129999952" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt dekoder ADB]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4277341063-55004-18917-97A1BAB3DF1BBA3" id="10035" match_level="0" not_customer_use="0" phoneCodeID="34" prob="0.0110000004" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt dekoder Kreatel]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="453641802-65108-20089-B8F32844AC78713A" id="10028" match_level="0" not_customer_use="0" phoneCodeID="27" prob="0.2620000111" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt dekoder Motorola]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3021248464-50116-16743-927D926831C2EF9" id="10003" match_level="0" not_customer_use="0" phoneCodeID="2" prob="0.1480000038" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt harddisk ADB]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3996699938-51940-20103-AC69454A5E25178" id="10023" match_level="0" not_customer_use="0" phoneCodeID="22" prob="0.3559999894" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt harddisk Motorola]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="855788048-54169-20045-A827B485DB675F" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0100000001" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">testing testing uno dos tres</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="5">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="3" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="474449783-2376-16559-9BAB8993313BC34F" id="10013" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="12" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="6" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde bytte dekoder.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="5">
+          <cause_solved id="10005" prob="1.0000000000"/>
+          <cause_solved id="10023" prob="1.0000000000"/>
+          <cause_solved id="10035" prob="1.0000000000"/>
+          <cause_solved id="10028" prob="1.0000000000"/>
+          <cause_solved id="10003" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[Dekoder bør byttes]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="1" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2478718223-58597-20226-808296AE8D7243FE" id="10008" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="7" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="2" type="0" workaround="0">
+        <name>
+          <![CDATA[Legg inn ny software på dekoderen.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Feil med harddisken er ofte årsak til denne type feil.</div>
+<div align="left" dir="ltr"><b>Informere kunden om at alle opptak vil bli fjernet etter denne 
+prosedyren!</b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b>Dersom kunde ikke ønsker å utføre dette nå, må feilsøket pauses 
+og genereres inn i Siebel frem til kunde ringer opp igjen.</b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Trykk <b>TV</b></div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\LeggInnNySoftwarePaaDekoderen1.PNG" width="442" height="93" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr">Nederst finner man &quot;<b>Alternative Boot Server:&quot;</b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Klikk &quot;<b>Slett PVR Innhold</b>&quot;</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\LeggInnNySoftwarePaaDekoderen2.PNG" width="439" height="108" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr">Klikk &quot;<b>Lagre&quot;</b></div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\LeggInnNySoftwarePaaDekoderen3.PNG" width="441" height="114" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr">Reboot dekoder fra prov eller kunden kan også gjøre det selv:</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Sletting er utført når peisbildet kommer frem.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Trykk &quot;<b>Reset&quot; -> Lagre</b></div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\LeggInnNySoftwarePaaDekoderen4.PNG" width="1481" height="217" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr">Restart dekoder.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10023" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="6" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="236873089-6921-16608-9BCC8A55C4A116CB" id="10048" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="47" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Noter ned macadresse på problemdekoder i fritekstfelt]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="0" prob="0.1000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1513186073-19697-16405-BD7FA8808A5F6F1E" id="10012" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="11" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Veiled kunde på factory reset av ADB dekoderen.]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Kunde kan risikere å miste opptak.</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Dersom kunde ikke ønsker å utføre dette nå, må feilsøket pauses 
+og genereres inn i Siebel frem til kunde ringer opp igjen.</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>ADB 5812WX</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;">Ta ut strømmen på dekoderen. <br />
+Trykk og hold &quot;Meny&quot;-knappen foran i displayet på dekoder<br />
+Sett inn strømmen mens kunden holder &quot;Meny&quot;-knappen inne.<br />
+Bokstavene C-L og U-L samt B-L vil vises i display. Du vil nå få &quot;Altibox, 
+koble på, koble av&quot; bildet mens dekoder booter opp.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;"><br />
+</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>ADB 2810W</b></p>
+<br />
+Utføres ved og ta strøm tre ganger. Se på displayet, ta ut strøm, sett i 
+strøm igjen, se at det blinker en gang i displayet og ta ut strømmen igjen.<br />
+Gjør dette 3 ganger så trigges factrory reset. 
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;">Kunden vil få ett tv bilde som indikerer en oppdateringsprosess. Dekoder vil 
+ikke komme til blå meny med oppstartsprikkene(eller til vanlig lasting av 
+portalen), da er ikke factory reset korrekt utført. Prosessen kan ta noe 
+prøving feiling.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;"><br />
+</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>ADB 2720W(X)</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.57mm; margin-bottom:1.57mm;">Factory reset utføres på 2720 med f.eks. en kulepennspiss i &quot;Reset&quot; på 
+baksiden av dekoder, holdes inne 20 sek, eller til bildet forsvinner. </p>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10005" prob="1.0000000000"/>
+          <cause_solved id="10003" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="5" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2743562799-50596-19802-8AD390CAA3D4ACB0" id="10027" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="26" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="4" type="0" workaround="0">
+        <name>
+          <![CDATA[Veiled kunde på factory reset av Motorola dekoderen.]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Dersom kunde ikke ønsker å utføre dette nå, må feilsøket pauses 
+og genereres inn i Siebel frem til kunde ringer opp igjen.</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><b>Motorola 1910/60/1003/1963/1853</b></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.58mm; margin-bottom:1.58mm;">Hold inne &quot;Menu&quot; tasten på Altibox fjernkontroll under oppstarten.</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:1.58mm; margin-bottom:1.58mm;"><br />
+</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;">Velg &quot;<b>System</b>&quot; deretter &quot;<b>Factory reset&quot;.</b> 
+<img src="$PICTURE_PATH\VeiledkundepaafactoryresetavMotoroladekoderen.jpg" width="1024" height="768" border="0" alt="graphic"/></p>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10023" prob="1.0000000000"/>
+          <cause_solved id="10028" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="3">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="7" downtime="0" end_question="0" evidenceStep="0" first="1" guid="920268908-25002-20054-B0F9CFFBE596198" id="10042" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="2" phoneCodeID="42" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="5" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva gjør kunde i forkant av dekoder-reboot?]]>
+        </name>
+        <state_names size="5">
+          <state_name name="Foretar seg ingenting, ser på en TV sending"/>
+          <state_name name="&quot;Zapper&quot; mellom kanaler"/>
+          <state_name name="Navigerer i TV guide"/>
+          <state_name name="Ser på opptak"/>
+          <state_name name="Annet, spesifiser i fritekstfelt"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Forsøk å identifiser hva kunde gjør rett i forkant av uprovosert reboot av 
+dekoder.  Dersom ingen av valgalternativene passer, noter i fritekstfelt hva 
+kunde gjør/ikke gjør.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="6">
+          <prob_dist c_id="10005">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10023">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10035">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10028">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="0">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="4" downtime="0" end_question="0" evidenceStep="0" first="1" guid="2937731129-45888-20401-A619633F59804F51" id="10024" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="1" phoneCodeID="32" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilken type dekoder gjelder problemet?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="Motorola"/>
+          <state_name name="ADB"/>
+          <state_name name="Kreatel (grå dekoder)"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Se hvilke dekodere kunden ligger inne med under LP-instillinger i prov.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="5">
+          <prob_dist c_id="10005">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10023">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10035">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10028">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="8" downtime="0" end_question="0" evidenceStep="0" first="1" guid="533433748-27921-19935-BAD12FD08E57E01E" id="10046" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="4" phoneCodeID="46" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="5" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvor ofte oppstår dette?]]>
+        </name>
+        <state_names size="5">
+          <state_name name="Flere ganger pr dag"/>
+          <state_name name="Daglig"/>
+          <state_name name="Ukentlig"/>
+          <state_name name="Færre enn ukentlig"/>
+          <state_name name="annet, noter i fritekstfelt"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="6">
+          <prob_dist c_id="10005">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10023">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10035">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10028">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="0">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="3783188265-10380-18616-A8A8F01473A76879" keywords="" modelPicturePath="" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="48">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

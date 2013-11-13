@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[Internett - Ustabilitet]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="11">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3934124441-45583-19078-8FD9FC9657C7C786" id="10004" match_level="0" not_customer_use="0" phoneCodeID="3" prob="0.0469999989" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Defekt port på hjemmesentralen.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Porten på hjemmesentralen er defekt. Send montør.</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1423450719-24822-16697-BB8A6B70ADA3D97" id="10137" match_level="0" not_customer_use="0" phoneCodeID="136" prob="0.0419999988" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil på HS/Fibertilførsel]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2884359270-10050-17245-9471D3D1E0F880A6" id="10116" match_level="0" not_customer_use="0" phoneCodeID="115" prob="0.1000000017" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Forstyrrelser på WiFi]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3114498220-34343-17688-B950746E6643C45C" id="10122" match_level="0" not_customer_use="0" phoneCodeID="121" prob="0.0409999997" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Høy oppetid]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2781140668-17681-19840-A7E521F081E55287" id="10118" match_level="0" not_customer_use="0" phoneCodeID="117" prob="0.0690000021" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Ikke oppdatert firmware HS]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1990909491-21641-20031-8FEBBE7D253968D" id="10174" match_level="0" not_customer_use="0" phoneCodeID="173" prob="0.0229999999" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kunde er koblet på annen ISP]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="5452626-14549-19431-AAFF3FCEA31C6B8D" id="10003" match_level="0" not_customer_use="0" phoneCodeID="2" prob="0.1989999995" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Manglende kontakt gjennom nettverkskabel.]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3961128823-43172-18040-BE6FED72216674C6" id="10117" match_level="0" not_customer_use="0" phoneCodeID="116" prob="0.0519999990" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Mangler støtte for kryptering]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="68282086-16472-19339-99C21CFB648E2F65" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0100000002" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3353702839-5547-18974-9DC6BA2D749F5360" id="10154" match_level="0" not_customer_use="0" phoneCodeID="153" prob="0.0340000015" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Problem på flere tjenester]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4155594836-49917-17764-9330D4F14BC030A7" id="10006" match_level="0" not_customer_use="0" phoneCodeID="5" prob="0.3829999988" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Problemer med kundens utstyr.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Problemet ligger internt på kundens PC.</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="9">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="21" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2820378129-18409-20037-B1E85F8ADCCEA27F" id="10175" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="174" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde koble til et Altibox nett]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunde er ikke koblet til et Altibox Nettverk og opplever således ustabilitet på en 
+linje som vi ikke kan supportere eller har ansvar for.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Be kunde koble seg til sin Altibox Hjemmesentral.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10174" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="7" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="686506421-55984-20172-82A8FF87DFD6C20" id="10064" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="63" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde sjekke sin problem pc/enhet for feil.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dersom kunden har nettbrett og iPhone som fungerer så er det en indikasjon 
+på at det ikke er linjen som er problemet.</div>
+<div align="left" dir="ltr">Dersom det bare er den ene pc'en som har problemer, indikerer det igjen at 
+det er pc'en som har problemet. </div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10004" prob="0.4930000000"/>
+          <cause_solved id="10006" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3643413540-59757-17294-82EA269AFB0789B" id="10009" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="8" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="2" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt nettverkskabel mellom HS og PC]]>
+        </name>
+        <explanation>
+          <![CDATA[<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:3.36mm;">Kunden må bytte nettverkskabel slik at vi kan utelukke at feilen ligger i 
+kablingen. Ofte er det svak kontakt i nettverkskabel som kan forårsake at 
+internett oppleves som ustabilt.</p>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10003" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="13" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3233585496-40629-18261-95252BAE03804" id="10138" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="137" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="50" type="0" workaround="0">
+        <name>
+          <![CDATA[Eskaler sak/vurder montøroppdrag]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">I de tilfeller der det er error på portstatus øker under feilsøket er det 
+hensiktsmessig å sende montør med en gang.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Dersom error/utfall ikke øker bør saken eskaleres til Altibox Service og 
+Support slik at de kan sette overvåkning av trafikk mot Hjemmesentral om 
+nødvendig.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10137" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="10" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2282699838-57823-20023-B356E32514984AFC" id="10120" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="119" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Forsøk med en factory reset av hjemmesentralen]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b>Sett inn en binders evt liknende i </b><b><u>20 sekunder</u></b><b> inn i reset-hullet på 
+sentralen.</b></div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10118" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="5" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2995609645-60736-16424-819BD25DBCEB707A" id="10121" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="120" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Forsøk med å endre kryptering]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  <img src="$PICTURE_PATH\wifisettings.jpg" width="541" height="796" border="0" alt="graphic"/></div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10117" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="9" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3255133281-44158-17585-A0DCFD47BC5A9037" id="10119" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="118" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Løser det problemet dersom det byttes kanal på WiFi?]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"> <img src="$PICTURE_PATH\wifisettings.jpg" width="541" height="796" border="0" alt="graphic"/> </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10116" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="3" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="265368372-21785-16432-91B750182F9A894D" id="10010" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="9" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Restart hjemmesentralen]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Restart av hjemmesentralen kan rette opp i småfeil under oppstart.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Trekk ut kontakten, påse at alle lamper slukker på hjemmesentralen, sjekk 
+gjerne at HS går down/down i Prov.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10122" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="19" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3629580046-27500-20164-BC90DE724DEB5D1C" id="10155" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="154" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Utfør feilsøk BB-Ustabilitet]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10154" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="12">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="12" downtime="0" end_question="0" evidenceStep="0" first="1" guid="946981597-26817-20292-8930153F702C1A49" id="10135" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="6" phoneCodeID="135" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Er det talt opp feil på porten til kunde, og øker disse under feilsøk?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+          <state_name name="Ja, men feil øker ikke"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Det er svært viktig å få med om utfall på port øker under feilsøket, trykk F5 på portstatusbilde ved jevne mellomrom under feilsøket for å sjekke dette.  test gjerne 
+en siste gang før du avslutter feilsøket, og endre svaralternativ her om det skjer.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Under ser du et eksempel hvor det er talt opp null feil:</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\taltoppfeilpaaport.png" width="403" height="367" border="0" alt="graphic"/></div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10156" nstates="2" state="-2">
+            <state value="1"/>
+            <state value="2"/>
+          </not_after_question>
+        </not_after_questions>
+        <prob_dists size="1">
+          <prob_dist c_id="10137">
+            <probs value="0.4820000000"/>
+            <probs value="0.0360000000"/>
+            <probs value="0.4820000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.0981000000"/>
+          <prob value="0.8038000000"/>
+          <prob value="0.0981000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="0" displayID="17" downtime="0" end_question="0" evidenceStep="0" first="0" guid="1439040329-53895-16589-BC57484D5CD1E46" id="10149" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="149" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Fungerer Internett tilfredstillende på en annen PC/enhet?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+          <state_name name="Kunde har kun 1 PC/enhet"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Dersom kunde har en annen enhet må vi få med om linja fungerer tilfresstillende på denne. Kun trådløse enheter 
+gir oss ingen svar her, så de er irrellevante.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10156" nstates="2" state="-2">
+            <state value="1"/>
+            <state value="2"/>
+          </not_after_question>
+        </not_after_questions>
+        <prob_dists size="1">
+          <prob_dist c_id="10006">
+            <probs value="0.4845000000"/>
+            <probs value="0.0310000000"/>
+            <probs value="0.4845000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.0180000000"/>
+          <prob value="0.9640000000"/>
+          <prob value="0.0180000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="0" displayID="20" downtime="0" end_question="0" evidenceStep="0" first="1" guid="2181043721-25981-19513-BE5373C1E9F05E36" id="10156" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="156" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Gjelder tjensten kun Internett, eller flere/alle tjenester?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="Kun Internett"/>
+          <state_name name="Flere tjenester"/>
+          <state_name name="Alle tjenster"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Gjelder ustabiliteten flere tjenester øker sjansen for at dette er et Bredbåndsproblem, og ikke kun Internett-tilkobling som er ustabil.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="10154">
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.9960000000"/>
+          <prob value="0.0020000000"/>
+          <prob value="0.0020000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="1" downtime="0" end_question="0" evidenceStep="0" first="1" guid="896916753-12154-18454-9A97BA70D93CCFBE" id="10013" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="2" phoneCodeID="12" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Har kunden koblet ut alt eksternt utstyr og koblet seg direkte til hjemmesentralen med nettverkskabel?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">I og med at dette feilsøket gjelder ustabilitet er det viktig at vi informerer kunden om følgende:<br />
+<br />
+Kunden må koble seg direkte på hjemmesentralen med sin datamaskin. Dette for å utelukke at problemet ligger på 
+eksternt utstyr, og for å identifisere hvor problemet ligger. <br />
+<br />
+Da vi ikke noen spesifikk feil vi ser etter er kunden nødt til å følge våre rutiner, slik at vi raskest mulig identifisere og 
+rette feilen.<br />
+<br />
+<br />
+<br />
+<b><u>OBS:</u></b><br />
+<b>Dersom kunden ikke har mulighet til å utføre overnevnte rutiner: Informer om evt. gebyr ved 
+utesendelse av montør.</b></div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10156" nstates="2" state="-2">
+            <state value="1"/>
+            <state value="2"/>
+          </not_after_question>
+        </not_after_questions>
+        <prob_dists size="1">
+          <prob_dist c_id="10006">
+            <probs value="0.2000000000"/>
+            <probs value="0.8000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="14" downtime="0" end_question="0" evidenceStep="0" first="1" guid="2287875524-4496-19893-B72F92A32421C3EE" id="10141" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="8" phoneCodeID="141" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva slags IP adresse får kunde på sin enhet via /ipconfig?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="Intern IP"/>
+          <state_name name="Windows-generert IP"/>
+          <state_name name="Annen"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Be kunde lese opp hvilken IP adresse han/hun får.</div>
+<div align="left" dir="ltr">  </div>
+<ul style="margin-top: 0mm; margin-bottom: 0mm; list-style-type: disk; ">
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">Valget &quot;Intern IP&quot; vil starte med 192.168.10.x dersom kunde får IP 
+fra vår Hjemmesentral. Kontroller dette mot DHCP range i ISP 
+innstillinger i Prov, kunde kan ha endret dette slik at tallet 10 er byttet 
+med noe annet. Får kunde noe helt annet er kunde sannsynligvis koblet 
+mot egen router, velg da &quot;Annen&quot;. </li>
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">&quot;Windows Generert IP&quot; vil starte med 169.x.x.x.  Dette er en 
+generisk-adresse og betyr rett og slett at Windows har gitt opp å få 
+kontakt eller at det er noe feil med kundes konfigurasjon. Kunde vil ikke 
+få Internett eller lokalt nett til å fungere med en slik adresse.  </li>
+</ul>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Her vises hvordan kunde kan få opp IP adressen:  </div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\hvaslagsipviaipconfig.png" width="538" height="358" border="0" alt="graphic"/></div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10156" nstates="2" state="-2">
+            <state value="1"/>
+            <state value="2"/>
+          </not_after_question>
+        </not_after_questions>
+        <prob_dists size="1">
+          <prob_dist c_id="10006">
+            <probs value="0.3333333333"/>
+            <probs value="0.3333333333"/>
+            <probs value="0.3333333333"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="15" downtime="0" end_question="0" evidenceStep="0" first="1" guid="2206550858-21656-17617-A6F9F76D53F7F72" id="10143" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="7" phoneCodeID="143" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva slags IP får kunde eksternt? Bruk minip.no]]>
+        </name>
+        <state_names size="3">
+          <state_name name="IP lik den registrert i Prov"/>
+          <state_name name="Annen Altibox IP (kan kontrolleres via whois.org)"/>
+          <state_name name="IP fra annen ISP (Internettleverandør)"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Bruk nettsiden www.whois.org for å undersøke om dette er en Altibox IP-adresse om du er usikker.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10156" nstates="2" state="-2">
+            <state value="1"/>
+            <state value="2"/>
+          </not_after_question>
+        </not_after_questions>
+        <prob_dists size="2">
+          <prob_dist c_id="10174">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="0">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+          <prob value="0.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="0" displayID="18" downtime="0" end_question="0" evidenceStep="0" first="1" guid="3777402238-22555-18875-AFCDE7B1C03B917D" id="10151" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="151" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="7" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva slags type Hjemmesentral har kunde?]]>
+        </name>
+        <state_names size="7">
+          <state_name name="CPL2"/>
+          <state_name name="CPL3"/>
+          <state_name name="CPL4"/>
+          <state_name name="CPL5"/>
+          <state_name name="CPL7"/>
+          <state_name name="Tilgin"/>
+          <state_name name="Zyxel"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Få med hva slags Hjemmesentral kunde har.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">'AGW'   er en forkortelse for 'Access Gateway' og er ikke en type sentral. Som regel er det en CPL3 eller CPL2</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10156" nstates="2" state="-2">
+            <state value="1"/>
+            <state value="2"/>
+          </not_after_question>
+        </not_after_questions>
+        <prob_dists size="8">
+          <prob_dist c_id="10004">
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+          </prob_dist>
+          <prob_dist c_id="10122">
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+          </prob_dist>
+          <prob_dist c_id="10116">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10117">
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+          </prob_dist>
+          <prob_dist c_id="10118">
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+          </prob_dist>
+          <prob_dist c_id="10137">
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+            <probs value="0.1428571429"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.1428571429"/>
+          <prob value="0.1428571429"/>
+          <prob value="0.1428571429"/>
+          <prob value="0.1428571429"/>
+          <prob value="0.1428571429"/>
+          <prob value="0.1428571429"/>
+          <prob value="0.1428571429"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="4" downtime="0" end_question="0" evidenceStep="0" first="1" guid="3927098293-21622-17373-9093183D0729E38" id="10129" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="3" phoneCodeID="129" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="4" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva slags ustabilitet opplever kunde?]]>
+        </name>
+        <state_names size="4">
+          <state_name name="Mister kablet nett ofte"/>
+          <state_name name="Mister trådløst"/>
+          <state_name name="Opplever hastighetsendringer"/>
+          <state_name name="annet"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Få med hva slags type ustabilitet kunde opplever.  Dersom du velger &quot;Annet&quot;, så spesifiser i fritekstfelt hva kunde spesifikt opplever.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10156" nstates="2" state="-2">
+            <state value="1"/>
+            <state value="2"/>
+          </not_after_question>
+        </not_after_questions>
+        <prob_dists size="7">
+          <prob_dist c_id="10004">
+            <probs value="0.3333000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.3333000000"/>
+            <probs value="0.3333000000"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+          </prob_dist>
+          <prob_dist c_id="10122">
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+          </prob_dist>
+          <prob_dist c_id="10116">
+            <probs value="0.0000000000"/>
+            <probs value="0.3333000000"/>
+            <probs value="0.3333000000"/>
+            <probs value="0.3333000000"/>
+          </prob_dist>
+          <prob_dist c_id="10117">
+            <probs value="0.0000000000"/>
+            <probs value="0.3333000000"/>
+            <probs value="0.3333000000"/>
+            <probs value="0.3333000000"/>
+          </prob_dist>
+          <prob_dist c_id="10118">
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+            <probs value="0.2500000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="0.3333000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.3333000000"/>
+            <probs value="0.3333000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.2500000000"/>
+          <prob value="0.2500000000"/>
+          <prob value="0.2500000000"/>
+          <prob value="0.2500000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="16" downtime="0" end_question="0" evidenceStep="0" first="1" guid="3647023433-32322-19644-B79BC8C0B11E196A" id="10145" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="9" phoneCodeID="145" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="6" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvor ofte har kunde problemer?]]>
+        </name>
+        <state_names size="6">
+          <state_name name="Flere ganger daglig"/>
+          <state_name name="1-2 ganger daglig"/>
+          <state_name name="Flere ganger i uken"/>
+          <state_name name="ukentlig"/>
+          <state_name name="sjeldnere enn ukentlig"/>
+          <state_name name="Nesten aldri, merket først idag"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Velg hvilket alternativ som passer kundens frekvens av problem best mulig.  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="2">
+          <not_after_question id="10143" nstates="0" state="2"/>
+          <not_after_question id="10156" nstates="2" state="-2">
+            <state value="1"/>
+            <state value="2"/>
+          </not_after_question>
+        </not_after_questions>
+        <prob_dists size="6">
+          <prob_dist c_id="10004">
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+          </prob_dist>
+          <prob_dist c_id="10122">
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+          </prob_dist>
+          <prob_dist c_id="10116">
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+          </prob_dist>
+          <prob_dist c_id="10118">
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+          </prob_dist>
+          <prob_dist c_id="10137">
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="8" downtime="0" end_question="0" evidenceStep="0" first="1" guid="258645169-31790-17173-AA803FEB1BBEDF3" id="10115" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="114" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvordan er kunden tilkoblet for internett?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Kablet tilkobling"/>
+          <state_name name="Trådløs tilkobling"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Her kan det også avdekkes om dersom kunde benytter seg av eget utstyr. Dersom kunde har CPL2/CPL3 
+hjemmesentral og er trådløs tilkoblet er dette klar melding om at kunde er koblet via eget utstyr som kan utgjøre en 
+stor faktor for problemet kunden opplever.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10156" nstates="2" state="-2">
+            <state value="1"/>
+            <state value="2"/>
+          </not_after_question>
+        </not_after_questions>
+        <prob_dists size="7">
+          <prob_dist c_id="10004">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10122">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10116">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10117">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10118">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="11" downtime="0" end_question="0" evidenceStep="0" first="1" guid="2086736348-55233-20272-8970A3391BF96BC7" id="10132" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="5" phoneCodeID="132" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="5" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Når la kunde merke til ustabiliteten?]]>
+        </name>
+        <state_names size="5">
+          <state_name name="idag"/>
+          <state_name name="igår"/>
+          <state_name name="par dager siden"/>
+          <state_name name="forrige uke"/>
+          <state_name name="tidligere"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Velg det alternativet som passer kunden best.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10156" nstates="2" state="-2">
+            <state value="1"/>
+            <state value="2"/>
+          </not_after_question>
+        </not_after_questions>
+        <prob_dists size="7">
+          <prob_dist c_id="10004">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10122">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10116">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10117">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10118">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+          <prob value="0.2000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="6" downtime="0" end_question="0" evidenceStep="0" first="1" guid="877936569-43729-17603-A528F9B3474299D4" id="10046" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="1" phoneCodeID="45" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Oppleves ustabiliteten som sporadisk eller konstant?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Sporadisk"/>
+          <state_name name="Konstant"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">For at du skal kunne svare konstant her, så må problemet være tilstede hver gang og hele tiden som kunden 
+forsøker å være på nett.  </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Viktig at man også presiserer for kunden at han må være koblet direkte. Dersom kunde opplever ustabilitet på 
+trådløst må kunde sjekke om nettverket er ustabilt ved direkte kobling.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10156" nstates="2" state="-2">
+            <state value="1"/>
+            <state value="2"/>
+          </not_after_question>
+        </not_after_questions>
+        <prob_dists size="3">
+          <prob_dist c_id="10004">
+            <probs value="0.0099999997"/>
+            <probs value="0.9900000003"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="0.2000000024"/>
+            <probs value="0.7999999976"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="724515800-33572-19637-A8647FBF70CF17AE" keywords="" modelPicturePath="C:\Users\mata\Desktop\dezide\Testdezide\Internett\Internett - Ustabilitet" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="188">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

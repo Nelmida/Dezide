@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[Internett-Selfcare 2]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="7">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2926420324-21039-18970-BA63D29902BED1F" id="10003" match_level="0" not_customer_use="0" phoneCodeID="2" prob="0.0930000026" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Driftsfeil]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Sjekk Partnernett for eventuelle driftsmelding om tjenesten. Dersom kunde er berørt av dette må kunde informertes i.h.t 
+driftsmelding. Sak avsluttes.</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3068983205-23026-20250-A6E9D6DA6B52ED8F" id="10005" match_level="0" not_customer_use="0" phoneCodeID="4" prob="0.2639999980" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil info om lokasjon]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="484334981-54666-18135-A8D177719B01A78" id="10063" match_level="0" not_customer_use="0" phoneCodeID="62" prob="0.1469999981" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Får ikke lagt inn DMZ/ Port forwarding]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">uwygkxcjvbk</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="897755301-29659-16392-9E83FE374835A141" id="10004" match_level="0" not_customer_use="0" phoneCodeID="3" prob="0.2629999941" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Får ikke logget inn]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4194184023-44961-18093-B54E5550732EC048" id="10012" match_level="0" not_customer_use="0" phoneCodeID="11" prob="0.1660000050" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Får ikke opprettet ny bruker]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1692429110-56190-17618-AD863B7A351C86F6" id="10052" match_level="0" not_customer_use="0" phoneCodeID="51" prob="0.0480000022" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kunde taster feil]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4273963913-55369-16768-B6F3ACC28289C3D2" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0189999999" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="6">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="5" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3600941415-59400-18265-86706B1A7F71AD8" id="10073" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="72" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunden kontrollere påloggingsinformasjonen.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Pass på at kunden taster korrekt brukernavn og passord. Pass også på at det 
+ikke er ett mellomrom etter e-post adressen og passordet.</div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10004" prob="0.5290000000"/>
+          <cause_solved id="10052" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="3" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="561357923-32994-19835-93F943B446DC621B" id="10008" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="7" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Forsøk å logge inn fra kundesenter på kundens konto]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Enten kunden sliter med å logge på eller opprette bruker - forsøk å taste 
+for kunden. Dersom kundens konto er sperret fordi kunden har prøvd for 
+mange ganger, vent til sperring timer ut, eller klikk glemt passord.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b><u>Dersom login allerede er opprettet sjekker du brukernavn i Siebel.</u></b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\Forsoek aa logge inn fra ks paa kundens konto.png" width="1168" height="379" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b><u>Du kan endre login ved å gå inn i kundens sider via Prov.</u></b></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\Forsoek aa logge inn fra ks op kundens konto.png" width="1046" height="320" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Her kan du endre både brukernavn og passord for kunden. </div>
+<div align="left" dir="ltr">Klikk Mine Sider, og linken som heter Endre kontaktopplysninger.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\Forsikre deg om at info i Selfcare er korrekt.png" width="977" height="755" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10004" prob="1.0000000000"/>
+          <cause_solved id="10052" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" childmodel="Gå til feilsøk for DMZ / portforwarding" childnetfile="Internett-Selfcare-Portforwarding.net" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="915716656-60178-16977-B86130B6A873B146" id="10062" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="61" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="1" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Gå til feilsøk for DMZ / portforwarding]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10052" prob="0.4980000000"/>
+          <cause_solved id="10063" prob="0.7530000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="1" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2151704720-232-17277-997691AA4E4FE657" id="10006" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="5" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="10" type="0" workaround="0">
+        <name>
+          <![CDATA[Sjekk at lokasjon i Prov og Siebel er korrekt]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b><u>Kortversjonen:</u></b></div>
+<div align="left" dir="ltr">Riktig lokasjon - Uten tildato - Se Lokalitet(er)</div>
+<div align="left" dir="ltr">Aktive produkter/kontrakt i Siebel</div>
+<div align="left" dir="ltr">Postnummer/sted korrekt</div>
+<div align="left" dir="ltr">Kontaktperson både juridisk/primær</div>
+<div align="left" dir="ltr">Kontaktperson bare en gang</div>
+<div align="left" dir="ltr">Kundenummer matcher Bruker-ID</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Detaljert versjon:</div>
+<ol style="margin-top: 0mm; margin-bottom: 0mm; ">
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">Lokasjon må være uten tildato under Lokaliteter.<br />
+<img src="$PICTURE_PATH\Sjekk_at_lokasjon_i_Prov_og_Siebel_er_korrekt-tildato.jpg" width="462" height="106" border="0" alt="graphic"/></li>
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">Kun lokasjon(er) med aktiv kontrakt skal stå uten tildato. Sjekk at 
+kontrakten er aktiv. </li>
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">Sjekk at kunde ligger inne med <b>riktig </b>lokasjon (ta evt strømmen 
+på HS og sjekk at den går down/down hvis du er usikker) </li>
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">Postnummer/sted skal står riktig felt, uten mellomrom og andre 
+tegn. <br />
+<img src="$PICTURE_PATH\Sjekk_at_lokasjon_i_Prov_og_Siebel_er_korrekt-mellomrompostnr.jpg" width="766" height="302" border="0" alt="graphic"/></li>
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">Postnummer/sted må FINNES i Norge </li>
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">Påse at kontaktperson er både juridisk og primærkontakt <br />
+<img src="$PICTURE_PATH\Sjekk_at_lokasjon_i_Prov_og_Siebel_er_korrekt-kontaktperson.jpg" width="596" height="46" border="0" alt="graphic"/></li>
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">Påse at kontaktperson kun ligger en gang. </li>
+<li style="margin-left: -13pt; margin-right: 0pt; padding-left: 0pt; ">Sjekk at kundenummer og Bruker-ID matcher. </li>
+</ol>
+<div align="left" dir="ltr"> <img src="$PICTURE_PATH\Sjekk_at_lokasjon_i_Prov_og_Siebel_er_korrekt-kid_og_brukerid.jpg" width="1083" height="313" border="0" alt="graphic"/></div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10012" prob="0.7440000000"/>
+          <cause_solved id="10005" prob="0.7400000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="6" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2833906030-47878-17462-A01A9F3442E856" id="10074" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="73" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Sjekk driftsmeldinger. Finner du kundens problem i oversikten?]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Søk på kundens problem på Driftsmeldinger på Partnernett og se om du finner 
+relevant feil der før du vurderer å eskalere saken.  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10003" prob="0.5000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="7" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1298332796-58252-19238-8A662BA8DF8A8241" id="10092" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="91" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Test med annen epostadresse]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Be kunde prøve å opprette ny bruker med annen epostadresse. Oppgi hvilken 
+som kunde tester med og som feiler  (logg i Siebel).</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10012" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="2">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="4" downtime="0" end_question="0" evidenceStep="0" first="1" guid="1453816137-18764-19605-A08CC3D89E2A5EA7" id="10009" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="69" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva er kundens problem?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="Får ikke opprettet brukernavn (1 gangs pålogging)"/>
+          <state_name name="Får ikke logget inn"/>
+          <state_name name="Får ikke lagt inn DMZ / port forwarding"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="6">
+          <prob_dist c_id="10004">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10012">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10005">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10052">
+            <probs value="0.6036000000"/>
+            <probs value="0.2603000000"/>
+            <probs value="0.1361000000"/>
+          </prob_dist>
+          <prob_dist c_id="10063">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="0.4865000000"/>
+            <probs value="0.4865000000"/>
+            <probs value="0.0270000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="8" downtime="0" end_question="0" evidenceStep="0" first="1" guid="3082639724-34064-20307-846B6A9FB5A51C2E" id="10094" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="1" phoneCodeID="108" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="6" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilke tjenester mangler kunde?]]>
+        </name>
+        <state_names size="6">
+          <state_name name="Internett"/>
+          <state_name name="TV"/>
+          <state_name name="Bredbåndstelefoni"/>
+          <state_name name="Memory"/>
+          <state_name name="Chill"/>
+          <state_name name="Mangler ingen tjenester"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  Dersom kunde mangler tjenester i Selfcare(Mine Sider), velg riktig tjeneste 
+kunde mangler.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Bruk &quot;Mangler ingen tjenester&quot;, dersom kunde ikke mangler noe.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="0">
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+            <probs value="0.1666666667"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+          <prob value="0.1666666667"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="2114505306-33027-16635-AE1482E1B27CA8F5" keywords="" modelPicturePath="C:\Users\mata\Desktop\dezide\Fritekst-prosjekt\Internett\Internett - Selfcare" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="109">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

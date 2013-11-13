@@ -1,0 +1,5 @@
+- Må endre i formuleringer. "hjelper dette" osv i slutt av handlinger blir redundant.
+
+- Bør fjerne action "eskaler til altibox" da dette blir handling på slutt av feilsøket når dezide ikke har en løsning som virket.
+
+-

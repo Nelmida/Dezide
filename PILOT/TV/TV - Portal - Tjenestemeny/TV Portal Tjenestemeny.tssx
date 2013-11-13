@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[TV Portal Tjenestemeny]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="13">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2056043197-4609-18930-B7DD5734249B4DA3" id="10018" match_level="0" not_customer_use="0" phoneCodeID="17" prob="0.3330000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Abonnementsutfordringer]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2142771404-60233-16721-B168DE9C877B97" id="10026" match_level="0" not_customer_use="0" parent_id="10025" phoneCodeID="25" prob="0.5409999925" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Dekoder har for lang oppetid]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2864722999-59953-19067-A96D5142A9CD7387" id="10029" match_level="0" not_customer_use="0" parent_id="10025" phoneCodeID="28" prob="0.4200000060" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Dekoder har ikke hentet abonnementsendringer automatisk]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="666261296-13093-18087-AF3312C6EDEAC768" id="10039" match_level="0" not_customer_use="0" parent_id="10025" phoneCodeID="38" prob="0.0390000015" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Dekoder henter ikke inn tjeneste]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2541949153-22699-20168-8F6B3DFB99B5E0AE" id="10086" match_level="0" not_customer_use="0" parent_id="10023" phoneCodeID="85" prob="0.0869999989" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Eksterntjenesten er nede]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4014444032-41911-19771-9B44E3A2C4BE1C7B" id="10024" match_level="0" not_customer_use="0" parent_id="10023" phoneCodeID="23" prob="0.5900000056" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kunde mangler brukerkonto]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1773558654-16529-17944-A38E92ED0627186" id="10023" match_level="0" not_customer_use="0" phoneCodeID="22" prob="0.3330000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Kundefeil/Eksternfeil]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3904496743-11750-19498-8ED8658F19FCCB9" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0010000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="4266603145-31106-17237-98581BAE78E3C5BC" id="10062" match_level="0" not_customer_use="0" parent_id="10023" phoneCodeID="61" prob="0.3229999955" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Problem med brukerkonto]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2444936222-27072-16503-95721B80850A816" id="10019" match_level="0" not_customer_use="0" parent_id="10018" phoneCodeID="18" prob="0.3729999995" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Produkt mangler i Siebel]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2088133981-33706-16688-AE97B0C01A99EA2A" id="10021" match_level="0" not_customer_use="0" parent_id="10018" phoneCodeID="20" prob="0.4680000013" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Produkt mangler startdato i Siebel]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3956294262-60614-16905-A7D7F0E1B4A4588A" id="10020" match_level="0" not_customer_use="0" parent_id="10018" phoneCodeID="19" prob="0.1589999992" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Provisioning mangler aktiv produkt på tjenesten]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3512580100-39506-19375-B6DD7986F46837D2" id="10025" match_level="0" not_customer_use="0" phoneCodeID="24" prob="0.3330000000" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Softwarefeil]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="7">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="11" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="427079950-14216-19350-AFEA43B7A15E2A5" id="10064" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="63" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="25" type="0" workaround="0">
+        <name>
+          <![CDATA[Be kunde kontakte innholdsleverandør.]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b><u>BEAT:</u></b></div>
+<div align="left" dir="ltr">E-post: support@beat.no</div>
+<div align="left" dir="ltr">Tlf: 45 671 516 (mobiltakst)</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b><u>TV2 Sumo:</u></b></div>
+<div align="left" dir="ltr">For problem med bruker eller innhold:</div>
+<div align="left" dir="ltr">http://webtvsupport.tv2.no/</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">TV2 har ikke direktenummer for support.</div>
+<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10062" prob="1.0000000000"/>
+          <cause_solved id="10086" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="1">
+          <not_after_question id="10016" nstates="0" state="1"/>
+        </not_after_questions>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="10" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1914537866-64295-20378-A7C890931432A924" id="10041" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="40" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="30" type="0" workaround="0">
+        <name>
+          <![CDATA[Bytt dekoder]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Bytt dekoder for kunde etter gjeldene rutiner.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10039" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="12" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1904104400-64609-20267-A0DE3C3F4222EAA" id="10104" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="103" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Dersom Program on Demand, noter ned hvilket program som mangler, og mac adresse på dekoder]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10086" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="7" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1874167329-18614-17224-94D0F76FE138C32" id="10036" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="35" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="15" type="0" workaround="0">
+        <name>
+          <![CDATA[Hjelp kunde med å aktivere bruker]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dobbeltsjekk med kunde at de har opprettet bruker korrekt:</div>
+<div align="left" dir="ltr"><b><u><br />
+</u></b></div>
+<div align="left" dir="ltr"><b><u>Beat:</u></b></div>
+<div align="left" dir="ltr">Kunde <u>må</u> bestille via beat.no eller via TV Portal for å få aktivt brukerkonto.</div>
+<div align="left" dir="ltr">En brukerkonto kan kun brukes på 1 dekoder av gangen, og kan ikke ha sperre 
+for Teletorgstjenester på sin mobilnr som ønskes benyttet.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b><u>TV2 Sumo:</u></b>  </div>
+<div align="left" dir="ltr">Bestilles via tv2sumo.no eller via TV2-menyen under Tjenester i TV Portalen.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10024" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="5" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2110569051-40630-18516-A7CA4A535D5512D" id="10034" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="33" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="2" type="0" workaround="0">
+        <name>
+          <![CDATA[Push tjeneste fra Siebel]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">For å pushe tjenesten aktiv fra siebel til prov kan man legge inn en bokstav 
+f.eks i kommentarfelt på produktlinje, og trykke CTRL+ S for å lagre denne 
+endringen.  Fjern bokstaven igjen og trykk CTRL + S, så skal produktet 
+forsøkes å sendes Provisioning på nytt.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10020" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="8" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1125964675-10164-17703-99FDE3CD6A6F482" id="10037" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="36" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="20" type="0" workaround="0">
+        <name>
+          <![CDATA[Restart dekoder]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunden må restarte sin dekoder ved å trekke ut strømkabelen i 10-20 
+sekunder. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">En omstart av TV-dekoder løser veldig ofte interne feil i dekoderen.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Husk at dette også kan gjøres via prov. </div>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:0.00mm; margin-bottom:3.52mm;line-height: 115%; ">I produktlisten klikker du der det står &quot;TV&quot; under instillinger, scroll nederst på 
+siden så finner du kundens dekoder(e). Kryss av og klikk &quot;Reboot&quot;</p>
+<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10026" prob="1.0000000000"/>
+          <cause_solved id="10029" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="3" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="882649355-14987-18333-A2AFA854C534175" id="10032" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="31" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Skaff aktivt produkt i Siebel]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b><u>Fotballportal: </u></b> </div>
+<div align="left" dir="ltr">Produkt legges inn direkte, men kan også gjøres via TV portal.</div>
+<div align="left" dir="ltr">Fra-dato kan settes her om det mangler.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><i><u>Beat:</u></i></div>
+<div align="left" dir="ltr"><i>Kunde </i><i><u>må</u></i><i> bestille via beat.no eller via TV Portal for å få aktivt produkt i Siebel</i></div>
+<div align="left" dir="ltr"><i>Produktet eller fra-dato skal ikke legges inn manuelt.</i></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><i><u>TV2 Sumo:</u></i><i>  </i></div>
+<div align="left" dir="ltr"><i>Trenger ikke aktivt produkt, men må da bestilles via tv2sumo.no.  Kunde kan 
+da bruke samme bruker i TV Portalen som på Web.</i></div>
+<div align="left" dir="ltr"><i>Dersom det bestilles via TV portalen vår vil det bli opprettet en produktlinje i 
+Siebel.  Produktet må ha fra-dato, og kan settes av kundebehandler.</i></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Etter produkt med fra-dato er lagt inn, vil tjenesten bli aktiv iløpet av kort tid.</div>
+]]>
+        </explanation>
+        <causes_solved size="2">
+          <cause_solved id="10021" prob="1.0000000000"/>
+          <cause_solved id="10019" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="5">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="6" downtime="0" end_question="0" evidenceStep="0" first="1" guid="2081373305-25635-20242-AED6BD46C9178679" id="10102" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="6" phoneCodeID="102" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Dersom kunde har problemer med Beat, noter ned hvilket mobilnummer kunde benytter som konto i fritekstfelt.]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Kunde har ikke problemer med Beat"/>
+          <state_name name="Kunde har problemer med Beat, mobilnummer er notert i fritekstfelt"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="9">
+          <prob_dist c_id="10020">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10021">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10024">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10026">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10019">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10029">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10062">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10039">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10086">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5000000000"/>
+          <prob value="0.5000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="9" downtime="0" end_question="0" evidenceStep="0" first="1" guid="3106272404-5156-17217-9882D9DEB3F549B" id="10047" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="2" phoneCodeID="79" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="2" type="2" type2="2">
+        <name>
+          <![CDATA[Fungerer tjenesten på en annen dekoder?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+          <state_name name="Kunde har kun 1 dekoder"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dersom kunden har flere dekodere er det svært nyttig å teste om det fungerer 
+på en annen dekoder.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="9">
+          <prob_dist c_id="10020">
+            <probs value="0.0000000000"/>
+            <probs value="0.4900000000"/>
+            <probs value="0.5100000000"/>
+          </prob_dist>
+          <prob_dist c_id="10021">
+            <probs value="0.0000000000"/>
+            <probs value="0.4980000000"/>
+            <probs value="0.5020000000"/>
+          </prob_dist>
+          <prob_dist c_id="10024">
+            <probs value="0.0000000000"/>
+            <probs value="0.5020000000"/>
+            <probs value="0.4980000000"/>
+          </prob_dist>
+          <prob_dist c_id="10026">
+            <probs value="0.5000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10019">
+            <probs value="0.0000000000"/>
+            <probs value="0.4980000000"/>
+            <probs value="0.5020000000"/>
+          </prob_dist>
+          <prob_dist c_id="10029">
+            <probs value="0.5000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10062">
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10039">
+            <probs value="0.5000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10086">
+            <probs value="0.0000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.3333000000"/>
+          <prob value="0.3333000000"/>
+          <prob value="0.3333000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="1" downtime="0" end_question="0" evidenceStep="0" first="0" guid="304503462-52605-19793-983F9E6AAB5CFAFA" id="10071" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="71" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Har kunde behov for en ekstern brukerkonto til å bruke tjenesten?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b><u>Beat:</u></b></div>
+<div align="left" dir="ltr">Kunde <u>må</u> bestille via beat.no eller via TV Portal for å få aktivt brukerkonto.</div>
+<div align="left" dir="ltr">En brukerkonto kan kun brukes på 1 dekoder av gangen, og kan ikke ha sperre 
+for Teletorgstjenester på sin mobilnr som ønskes benyttet.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><b><u>TV2 Sumo:</u></b>  </div>
+<div align="left" dir="ltr">Bestilles via tv2sumo.no eller via TV2-menyen under Tjenester i TV Portalen.  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="2">
+          <prob_dist c_id="10024">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10062">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.0000000000"/>
+          <prob value="1.0000000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="2" downtime="0" end_question="0" evidenceStep="0" first="1" guid="3638812585-49237-19587-85E9FA7C839B8E23" id="10016" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="27" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva slags type tjeneste har kunde problemer med?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="Tjeneste med abonnementskrav"/>
+          <state_name name="Tjeneste uten abonnementskrav"/>
+          <state_name name="Innstillingsmeny"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Her skiller vi ut om kunde har problem med en tjeneste som Altibox ikke har 
+teknisk driftsansvar for, eller omvendt.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="9">
+          <prob_dist c_id="10020">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10021">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10024">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10026">
+            <probs value="0.4214000000"/>
+            <probs value="0.4214000000"/>
+            <probs value="0.1572000000"/>
+          </prob_dist>
+          <prob_dist c_id="10019">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10029">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10062">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10039">
+            <probs value="0.4620000000"/>
+            <probs value="0.4620000000"/>
+            <probs value="0.0760000000"/>
+          </prob_dist>
+          <prob_dist c_id="10086">
+            <probs value="0.5000000000"/>
+            <probs value="0.5000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.0721000000"/>
+          <prob value="0.1151000000"/>
+          <prob value="0.8128000000"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="4" downtime="0" end_question="0" evidenceStep="0" first="0" guid="1273132624-21984-17228-AD975E46A98127EF" id="10096" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="99" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="7" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hvilket problem har kunde med abonnementstjenesten?]]>
+        </name>
+        <state_names size="7">
+          <state_name name="Får ikke logget inn på portal, login via internett er ok"/>
+          <state_name name="Sort skjerm etter login"/>
+          <state_name name="Lyd fungerer ikke etter login, ok via web/internett"/>
+          <state_name name="Mottar ikke login-sms"/>
+          <state_name name="Enkelte sanger mangler lyd(Beat)"/>
+          <state_name name="Kunde får ikke opprettet konto"/>
+          <state_name name="Annet (spesifiser i fritekstfelt)"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="9">
+          <prob_dist c_id="10020">
+            <probs value="0.3333333333"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.3333333333"/>
+            <probs value="0.3333333333"/>
+          </prob_dist>
+          <prob_dist c_id="10021">
+            <probs value="0.3333333333"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.3333333333"/>
+            <probs value="0.3333333333"/>
+          </prob_dist>
+          <prob_dist c_id="10024">
+            <probs value="0.3333333333"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.3333333333"/>
+            <probs value="0.3333333333"/>
+          </prob_dist>
+          <prob_dist c_id="10026">
+            <probs value="0.0337500000"/>
+            <probs value="0.3581250000"/>
+            <probs value="0.3581250000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.2500000000"/>
+          </prob_dist>
+          <prob_dist c_id="10019">
+            <probs value="0.3333333333"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.3333333333"/>
+            <probs value="0.3333333333"/>
+          </prob_dist>
+          <prob_dist c_id="10029">
+            <probs value="0.5509600000"/>
+            <probs value="0.1705600000"/>
+            <probs value="0.0248000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0536800000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10062">
+            <probs value="0.4970250000"/>
+            <probs value="0.0878250000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.1651500000"/>
+            <probs value="0.2500000000"/>
+          </prob_dist>
+          <prob_dist c_id="10039">
+            <probs value="0.4900000000"/>
+            <probs value="0.1766666667"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.3333333333"/>
+          </prob_dist>
+          <prob_dist c_id="10086">
+            <probs value="0.2664000000"/>
+            <probs value="0.2664000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0672000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.2000000000"/>
+            <probs value="0.2000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.0163714286"/>
+          <prob value="0.0163714286"/>
+          <prob value="0.0163714286"/>
+          <prob value="0.0163714286"/>
+          <prob value="0.7753714286"/>
+          <prob value="0.0163714286"/>
+          <prob value="0.1428714286"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="3166418526-37694-16422-8B799F37472ACF47" keywords="" modelPicturePath="C:\Users\pettere\Documents\Dropbox\Guider\PILOT\TV\Oppstart" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="104">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

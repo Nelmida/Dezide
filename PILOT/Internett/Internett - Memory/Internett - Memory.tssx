@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="1" version="50">
+
+  <name>
+    <![CDATA[Internett - Memory]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1.0000000000" costofcallservice="0" m_leav="0" m_switch="0" min_eff="1.0000000000" minimumprob="0.0000000000" suggest_actions_threshold="0.0000000000" use_all_questions_first="0" use_as_classifier="0" willingness="0.5000000000">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="9"/>
+      <costfactor weight="10"/>
+      <costfactor weight="10"/>
+      <costfactor weight="5"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="10">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="106856857-19713-17414-9835C65F243AB54A" id="10006" match_level="0" not_customer_use="0" phoneCodeID="5" prob="0.0888790146" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Benyttet spesialtegn i fil/mappe]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3350458017-3037-17406-AC484CFC234E6F51" id="10007" match_level="0" not_customer_use="0" phoneCodeID="6" prob="0.1377624685" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Blokkert av brannmur/virusscanner/pop-up]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2198142985-35628-19901-B95D882032A5A77F" id="10003" match_level="0" not_customer_use="0" phoneCodeID="2" prob="0.1544272837" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil brukernavn]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2954705517-40360-19162-A264C6984AC0B465" id="10004" match_level="0" not_customer_use="0" phoneCodeID="3" prob="0.1377624685" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Feil passord]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3024116140-4606-17086-A973F941454B48E7" id="10018" match_level="0" not_customer_use="0" phoneCodeID="17" prob="0.1033218566" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Får ikke vist bilder på TV]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="1983828877-30139-18414-8441623E7C158018" id="10014" match_level="0" not_customer_use="0" phoneCodeID="13" prob="0.0898789052" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Mangler Java]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">&nbsp;&nbsp;</div>
+]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3398321386-20102-20288-AA7FAE4D2EFA8E68" id="10022" match_level="0" not_customer_use="0" phoneCodeID="21" prob="0.0611043226" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Memory gjenkjenner ikke bilder med endelsen .tiff og .tif]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b>Det er et problem med at memory ikke gjenkjenner disse endelsene som bilder. </b></div>
+<div align="left" dir="ltr"><b>Bilder av denne typen vil bli lagt inn under dokumenter i stedet.</b></div>]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3134171344-56408-18946-BC10C04C9BE579FD" id="10023" match_level="0" not_customer_use="0" phoneCodeID="22" prob="0.0611043226" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Navigering i søkemapper fungerer ikke]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr"><b>Hvis en i Memory går til &quot;Mine Filer&quot; --> &quot;Søkemapper&quot; --> &quot;Bilder&quot;, får en ikke bla til neste side uansett om en 
+bruker &quot;neste&quot; knappen eller prøve å trykke på side 2, side 4 eller side x manuelt.</b></div>
+<div align="left" dir="ltr"><b><br />
+</b></div>
+<div align="left" dir="ltr"><b>Workaround: ikke bruk søkemapper, men bla deg fram til mappen manuelt under mine filer.</b></div>]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3344583938-10605-18286-9834A66029C39035" id="10005" match_level="0" not_customer_use="0" phoneCodeID="4" prob="0.1544272837" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Nettleser]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3497151638-1287-19997-BBF37B541E3742F" id="0" match_level="0" not_customer_use="0" phoneCodeID="1" prob="0.0113320742" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="9">
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="2" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3112871193-64057-19025-8E35EA681293AEDE" id="10009" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="8" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="3" type="0" workaround="0">
+        <name>
+          <![CDATA[Deaktiver brannmur, virusscanner og pop-up blokkere]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Be kunde deaktivere brannmur / antivirus på egen PC for å se om det hjelper.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Ikonet finnes som oftest nede i høyre hjørne ved klokka, noen ganger under 
+&quot;Skjulte ikoner&quot;. Høyreklikk og velg deaktiver. Husk å be kunden aktivere igjen 
+når dere er ferdig med å feilsøke.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10007" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="8" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3878283091-40634-18687-8DD63DAE77BDB78" id="10019" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="18" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Fjern mappe fra tv og legge inn mappe på nytt]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Fjern mappen fra iPad/TV og legg den til på nytt. Sjekk at den inneholder 
+filene som skal vises.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Klikk den grønne knappen &quot;Fotogalleri&quot; på venstre side i skjermen.</div>
+<div align="left" dir="ltr">Velg albumet du viser på TV.</div>
+<div align="left" dir="ltr">Velg &quot;Slett album&quot;</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Klikk på den grønne knappen igjen, nå heter den &quot;Mine filer&quot;</div>
+<div align="left" dir="ltr">Velg bilder du vil vise på TV ved å merke dem med hake.</div>
+<div align="left" dir="ltr">Klikk på &quot;Vis på TV/iPad</div>
+<div align="left" dir="ltr">Du får nå opp et nytt vindu hvor du blir bedt om å gi mappen et navn, det er 
+greit å giden et lett gjenkjennelig navn, som f.eks TV.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Gå så til Mine sider på fjernsynet for å se om bildene har kommet frem.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10018" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="1" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2398976857-21737-17909-B552C82D4AE51D1" id="10008" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="7" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Fjern spesialtegn i fil/mappe]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Info !!</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Foreløpig kjent som en driftsfeil:</div>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.37mm; margin-bottom:4.75mm;"><i>Hvis en i Memory går til &quot;Mine Filer&quot; --> &quot;Søkemapper&quot; --> &quot;Bilder&quot;, får en 
+ikke bla til neste side uansett om en bruker &quot;neste&quot; knappen eller prøve å 
+trykke på side 2, side 4 eller side x manuelt. <br />
+<br />
+Workaround: Ikke bruk søkemapper, men bla deg fram til mappen manuelt 
+under mine filer. </i></p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.23mm; margin-bottom:4.61mm;">Tips: Sjekk driftsmeldinger på Partnernett!</p>
+<p style="margin-left:0mm; margin-right:0mm; text-indent:0mm; margin-top:2.23mm; margin-bottom:4.61mm;">Alt: Endre navn på mapper som inneholder spesialtegn (f.eks | #&quot;% etc) til et 
+gyldig navn.</p>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10006" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="10" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3817308498-42781-20014-A5C266A5BA5969ED" id="10058" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="57" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="1" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Informer om problem med bildeformat]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Det er et problem med at memory ikke gjenkjenner disse endelsene som 
+bilder. Bilder av denne typen vil bli lagt inn under dokumenter isteden.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\memory_filformat.JPG" width="659" height="203" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Forøvrig bør man alltid sjekke for kjente feil på Partnernett slik at kunde kan 
+informeres dersom kundens problem kan relateres til driftsmelding.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10022" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="9" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="1168062683-19144-18100-A745D20966B22DF" id="10025" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="24" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="1" supermodel="0" terminal_action="1" time="1" type="0" workaround="0">
+        <name>
+          <![CDATA[Informer om problem ved søking]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Hvis en i Memory går til &quot;Mine Filer&quot; --> &quot;Søkemapper&quot; --> &quot;Bilder&quot;, får en 
+ikke bla til neste side uansett om en bruker &quot;neste&quot; knappen eller prøve å 
+trykke på side 2, side 4 eller side x manuelt. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Workaround: Ikke bruk søkemapper, men bla deg fram til mappen manuelt 
+under mine filer.</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10023" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="6" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3164957804-44386-19508-86D49881D8737BE3" id="10015" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="14" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Installer Java]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Dersom kunde får denne (eller lignende melding) må han oppgradere til 
+siste versjon av Java - gå til www.java.com<br />
+<br />
+</div>
+<div align="left" dir="ltr">Be kunden oppdatere OG verifisere java versjon. </div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\java_update.jpg" width="320" height="144" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Neste bilde:</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\java_verify.JPG" width="597" height="274" border="0" alt="graphic"/><br />
+<br />
+</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">  </div>
+<div align="left" dir="ltr">  </div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10014" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="5" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="3756170171-26554-19124-87AE7C3FE7995A8" id="10012" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="11" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="5" type="0" workaround="0">
+        <name>
+          <![CDATA[Prøv ny nettleser]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Ofte er problemer tilknyttet Memory forårsaket av problemer med innstillingen 
+av nettleser. Vi må derfor forsøke med en eller flere alternative nettlesere.</div>
+<div align="left" dir="ltr">Feks:</div>
+<div align="left" dir="ltr">- Firefox (http://www.mozilla.com)</div>
+<div align="left" dir="ltr">- Opera (http://www.opera.com)</div>
+<div align="left" dir="ltr">- Chrome (http://www.google.com/chrome)</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10005" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="3" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2444765404-54203-16407-8E6BE035E9F6353B" id="10010" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="9" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="2" type="0" workaround="0">
+        <name>
+          <![CDATA[Skriv inn riktig brukernavn]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Brukernavnet finner du under innstillinger på &quot;SAFE_STORAGE&quot; i prov.</div>
+<div align="left" dir="ltr"><img src="$PICTURE_PATH\vispatvipad.jpg" width="642" height="502" border="0" alt="graphic"/></div>
+<div align="left" dir="ltr">Alternativt finner kunde det ved å logge inn på Min Side - Internett. Her kan 
+han endre passord om han vil.</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Etter innlogging klikker kunden på &quot;Mine sider&quot; under navnet sitt. Så på 
+&quot;Internett&quot; i listen til venstre. Deretter kan kunden klikke &quot;Memory&quot;</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10003" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="1" cannot_be_deferred="0" cause_prob_threshold="0.0000000000" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="4" downtime="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="2030508803-42815-19264-84162E93ED379671" id="10011" idle_time="0" inaccuracy="0" insult="0" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" money="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" phoneCodeID="10" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0.0000000000" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" reverse="0" risk="0" singleAnswerStep="0" supermodel="0" terminal_action="0" time="2" type="0" workaround="0">
+        <name>
+          <![CDATA[Skriv inn riktig passord]]>
+        </name>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Kunde kan endre dette selv ved å trykke &quot;Endre passord&quot; fra selfcare (min 
+Side)</div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Etter innlogging klikker kunden på &quot;Mine sider&quot; under navnet sitt. Så på 
+&quot;Internett&quot; i listen til venstre. Deretter kan kunden klikke &quot;Memory&quot;</div>
+]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="10004" prob="1.0000000000"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="2">
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="12" downtime="0" end_question="0" evidenceStep="0" first="1" guid="2163903209-46881-18669-A5298FF18C33BFAD" id="10107" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="2" phoneCodeID="106" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="2" time="1" type="1" type2="5">
+        <name>
+          <![CDATA[Har Altibox tillatelse til å logge inn på kundens konto?]]>
+        </name>
+        <state_names size="2">
+          <state_name name="Ja"/>
+          <state_name name="Nei"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">Vi må ha tillatelse til å endre passordet og logge inn på kundens konto for å kunne feilsøke videre. </div>
+<div align="left" dir="ltr"><br />
+</div>
+<div align="left" dir="ltr">Det er viktig å minne kunden på å bytte passord når saken er løst!</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <states_probs>
+          <state_prob prob="0.5000000000"/>
+          <state_prob prob="0.5000000000"/>
+        </states_probs>
+        <cause_probs size="0"/>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+      <question and_or="1" cannot_be_deferred="0" dataflow_type="-1" displayID="11" downtime="0" end_question="0" evidenceStep="0" first="0" guid="663515797-28716-17180-99E6DDFC85E17F0" id="10016" idle_time="0" inaccuracy="0" insult="0" irreversible="0" mandatory="0" match_level="0" money="0" not_customer_use="0" number="0" phoneCodeID="45" prob_requirements_fulfilled="1.0000000000" programmatic_data="0" refkeyword="" risk="0" state_names_size="3" time="1" type="2" type2="2">
+        <name>
+          <![CDATA[Hva er kundens problem?]]>
+        </name>
+        <state_names size="3">
+          <state_name name="Problemer med innlogging"/>
+          <state_name name="Problemer med mine bilder på tv"/>
+          <state_name name="Navigere i søkemapper"/>
+        </state_names>
+        <explanation>
+          <![CDATA[<div align="left" dir="ltr">INFO:</div>
+<div align="left" dir="ltr">  </div>
+<div align="left" dir="ltr">Man bør alltid sjekke for kjente feil på Partnernett slik at kunde kan informeres 
+dersom kundens problem kan relateres til driftsmelding.</div>
+]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="9">
+          <prob_dist c_id="10004">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10005">
+            <probs value="0.2870000000"/>
+            <probs value="0.7130000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10014">
+            <probs value="0.2290000017"/>
+            <probs value="0.7709999983"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10022">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10006">
+            <probs value="0.0000000000"/>
+            <probs value="0.0940000000"/>
+            <probs value="0.9060000000"/>
+          </prob_dist>
+          <prob_dist c_id="10007">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10023">
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10018">
+            <probs value="0.0000000000"/>
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+          <prob_dist c_id="10003">
+            <probs value="1.0000000000"/>
+            <probs value="0.0000000000"/>
+            <probs value="0.0000000000"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+          <prob value="0.3333333333"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001000000" adaptation_dOptOutlierDirichlet="0.0000000000" adaptation_dOptPriorDirichlet="0.0000000000" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="3343425550-2722-19166-9F546E51A7E6B6C" keywords="" modelPicturePath="C:\Users\pettere\Documents\Dropbox\Guider\PILOT\TV\Oppstart" modelVersion="1" phoneCodeID="0" phoneCodeIDCounter="110">
+    <fontState font="Tahoma" keepSize="0" options="2" size="100"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

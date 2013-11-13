@@ -1,0 +1,87 @@
+Feilsøket har feil navn, må endres i TSS Properties. 
+
+Siden dette er bedrift, må vi tenke litt annerledes:
+-Husk at Bedrift har andre Policymaps enn Privat, og dersom policymaps mangler så er linja strupet på 100mbit eller 1gig.
+Statusbilde på Gigporter vil se slik ut:
+Full-duplex, 1000Mb/s, link type is auto, media type is 1000Base-2BX10-D
+
+Bedrift Policy-maps:
+2Mb cor-m2-in-p4 cor-m2-out-p4
+4Mb cor-m2-in-p3 cor-m2-out-p3
+6Mb cor-m2-in-p8 cor-m2-out-p8
+10Mb cor-m2-in-p5 cor-m2-out-p5
+15Mb cor-m2-in-p7 cor-m2-out-p7
+25Mb cor-m2-in-p1 cor-m2-out-p1
+30Mb cor-m2-in-p10 cor-m2-out-p10
+50Mb cor-m2-in-p2 cor-m2-out-p2
+100Mb cor-m2-in-p9 cor-m2-out-p9
+
+	Inkludert i feilsøket nå..
+
+-aktivering/deaktivering i Prov behøves ikke, like greit å forholde oss til statusbilde såfremt kunde har nett med 'noe' fart. 
+
+
+-Er det talt opp feil på port, behøver det ikke ha noe å si.  Kan være gammel info, så det er bedre å refreshe status under feilsøket for å se om utfall øker.  I så fall blir det et annet feilsøk. Burde kanskje omgjøre dette til et kontrollspørsmål;  "Dersom opptalte feil, øker dette under feilsøk?"  Kanskje greit med en forklaring til hvilke linjer i portstatus vi ser etter også, fort å se seg blind på den informasjonen som blir spyttet ut i statusbilde :)
+
+Lagt til i explanations
+
+   
+-Kunde må teste direkte i sentral/switch, og kjøre test på speedometer.altibox.no og med TPTEST logg som bør gåes igjennom.  Sjekke om både TCP og UDP resultater avviker fra kundes lovte hastighet, eller om det er kun TCP (indikerer problem med eget utstyr --> sjekk med annen pc). Om det er lik avvik på TCP og UDP og tracelogg viser at kunde er koblet direkte i sentral, flere maskiner er testet med likt resultat på TCP/UDP bør sak eskaleres til Lyse før evt montøroppdrag sendes.
+
+-Sjekk probability på "ekstern router"-cause, bør kanskje settes til 5.0 siden Other problem er satt til 4.0 ? 
+-Ekstern router cause må ha tilhørende action (reboot eller evt bytt? ).
+
+-Usikker om vi behøver å ha cause Defekt HS, eller tenker vi defekt internettport her?  
+
+-Et kontrollspørsmål vi kan ha med er hvilken problemstilling med hastighet kunde har:
+Kunde får ikke hastighet (men er tilsynelatende tilkoblet)  --> indikerer at vi bør teste alt 'basic' med kunde.
+Kunde får vesentlig lavere enn lovet  --> sannsynlig at feil ligger på eget utstyr, sjekk egen router, kabling og test direkte.
+Kunde får lavere hastighet, men er over 90% av lovet hastighet (gjelder særlig 60/60++ pga vanskelig å måle + at noe hastighet går til kontrolltrafikk. Kan være vanskelig for 'meningmann' å vurdere på KS dog).  Over 90% leveranse er også et krav fra PTT mot BB-leverandører.
+Derimot, har kunde 5/5-10/10-15/15 men får max 80-90%  så høres det ut som noe konfigurasjonsfeil et sted, eller igjen eget utstyr.
+
+Har lagt inn en utfyllende forklaring her slik at kundebehandler bør kunne se denne problemstillingen og sjekke det med kunden på tråden..
+
+
+
+-Dersom inn-hastighet er riktig,  men uthastighet er strupet på 5/10 evt eller ca rundt tall er det nok egen router til kunde som er konfigurert feil.
+
+Synes det er litt rart med et spørsmål om innhold i TPTEST logg, før vi har henvist kunde til å produsere en slik rapport for oss å gå igjennom. Bør vi ha et Kontrollspørsmål igjen om kunde har produsert loggen?  Så kan vi avslutte med å informere kunde om at dette må produseres før vi kan gå videre i feilsøket, eller gå videre til spørsmål om innhold i TPTEST-logg.
+
+Har kunde Standard Bedriftsleveranse (Dvs ikke bridget), så er det også muligheter for at det er portforwardingsregler i sentralen som kan påvirke hastighet.
+
+Siden de fleste kunder har 100/100 port, så kan TV være noe av årsak til lavere hastighet. Alt mellom 0-20mbit kan forsvinne her avhengig av hvor mange dekodere som står på og hvilken kvalitet sendingene går i (HD/SD).   Eksempelvis en kunde med 100/100 linje, vil ikke få mer enn max 70/80 om han har 2-3 dekodere som står på og viser HD-sendinger. Dette vil selvfølgelig ikke være en case på noder med gig-porter.
+
+
+
+
+Litt generelt om feilsøket som er laget:
+
+Actions that were never used:
+   Lagre internett produktet og klikk Push/all   
+   Speed test
+   Sjekk for ekstern IP på minip.no
+
+	Korrigert..
+
+Følgende actions mangler link til causes:
+	Speed test
+	sjekk for ekstern IP på minip.no
+	(Q)Hvilken Hjemmesentral har kunden?
+	(Q)Hvilken løsning benytter kunden seg av?
+
+Defekt HS 
+og 
+Problemer på ekstern router 
+har Probability 0
+
+Mangler explanation på følgende troubleshooting steps:
+  Har kunden riktig policy-maps?    
+  Er det talt opp feil i status-vinduet på porten?
+  Hvilken hjemmesentral har kunden?
+  Hvilken løsning benytter kunden seg av?
+  Indikerer TP-testrapport feil på kundens nettverkskort?
+
+
+	Korrigert..
+
+-Mats
